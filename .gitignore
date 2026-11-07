@@ -61,3 +61,7 @@ bot/web/static/replays_app/brand/build-info.json
 
 # Fetched agent/map art (Riot-derived; regenerate with tools/fetch_agent_assets.py)
 bot/web/static/replays_app/assets/
+
+# Local agent instructions (never published)
+AGENTS.md
+agent.md
