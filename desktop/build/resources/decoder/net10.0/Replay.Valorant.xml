@@ -1,0 +1,568 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Replay.Valorant</name>
+    </assembly>
+    <members>
+        <member name="T:Replay.Valorant.Combat.DamageLifeChangeEvent">
+            <summary>A sparse section-life result inside the damage RPC's RepLayout dynamic array.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Combat.DamageLifeChangeEvents">
+            <summary>Decodes separately captured life-change payloads into bounded typed section results.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.AbilityActorDescriptor">
+            <summary>Reusable sparse actor fields. Agent registrations select only fields present in their wire exports.</summary>
+        </member>
+        <member name="M:Replay.Valorant.Descriptors.Agents.AbilityActorDescriptor.#ctor(System.String,System.Collections.Generic.IReadOnlySet{System.String},Replay.Models.Unreal.ERotatorQuantization)">
+            <summary>Reusable sparse actor fields. Agent registrations select only fields present in their wire exports.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.AbilityDescriptorRegistration">
+            <summary>Shared wire registration helpers; ability paths live in each agent's catalog.</summary>
+        </member>
+        <member name="M:Replay.Valorant.Descriptors.Agents.AbilityDescriptorRegistration.PawnActor(System.String,System.String[])">
+            <summary>Actor whose class path names a pawn; its replicated rotation uses short components.</summary>
+        </member>
+        <member name="M:Replay.Valorant.Descriptors.Agents.AbilityDescriptorRegistration.MergeClassNetCaches(System.Collections.Generic.IReadOnlyList{Replay.Models.Descriptors.ClassNetCacheDescriptor})">
+            <summary>Combines cache lists that share a path. Single entries pass through unchanged so their concrete type is kept.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.AbilityObjectParameters">
+            <summary>One object parameter. The exact function and field name are supplied by its registration.</summary>
+        </member>
+        <member name="M:Replay.Valorant.Descriptors.Agents.AbilityObjectParameters.#ctor(System.String,System.String)">
+            <summary>One object parameter. The exact function and field name are supplied by its registration.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.AbilityProjectileDescriptor`1">
+            <summary>Ability projectiles with movement and ownership bound by exported field names.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Aggrobot.AggrobotAgentDescriptor">
+            <summary>
+            Gekko
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.BountyHunter.BountyHunterAgentDescriptor">
+            <summary>
+            Fade
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.BountyHunter.FadeTrailDescriptor">
+            <summary>Observed Terror Trail actor exports. OptionalID is deliberately not interpreted.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Breach.BreachAgentDescriptor">
+            <summary>
+            Breach
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Breach.BreachFaultLineChargeParameters">
+            <summary>Recorded Fault Line SetSizeFromCharge RPC, parameter handle 0.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Cable.CableAgentDescriptor">
+            <summary>
+            Deadlock
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Cable.CableGeometryParameters">
+            <summary>Deadlock's named wall endpoints, spline points and pull-state flag.</summary>
+        </member>
+        <member name="M:Replay.Valorant.Descriptors.Agents.Cable.CableGeometryParameters.#ctor(System.String,System.String)">
+            <summary>Deadlock's named wall endpoints, spline points and pull-state flag.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Cashew.CashewAgentDescriptor">
+            <summary>
+            Tejo
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Clay.ClayActorDescriptor">
+            <summary>Wire layouts observed in 42e03082-2c79-4668-a242-d085760d0b53.vrf.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Clay.ClayAgentDescriptor">
+            <summary>Raze character, including replicated focus-projectile references.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Deadeye.ChamberPresenceDescriptor">
+            <summary>Observed Owner (11) and Instigator (13) on placed Trademark and Rendezvous actors.</summary>
+        </member>
+        <member name="M:Replay.Valorant.Descriptors.Agents.Deadeye.ChamberPresenceDescriptor.#ctor(System.String)">
+            <summary>Observed Owner (11) and Instigator (13) on placed Trademark and Rendezvous actors.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Deadeye.DeadeyeAgentDescriptor">
+            <summary>
+            Chamber
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Grenadier.GrenadierAgentDescriptor">
+            <summary>
+            KAY/O
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Guide.GuideAgentDescriptor">
+            <summary>
+            Skye
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Gumshoe.GumshoeActorDescriptor">
+            <summary>Named wire fields from the 13.06 replay 3f0a3366; no gameplay interpretation.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Gumshoe.GumshoeAgentDescriptor">
+            <summary>
+            Cypher
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Hunter.HunterAgentDescriptor">
+            <summary>
+            Sova
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Hunter.HunterDescriptors">
+            <summary>
+            Sova
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Iris.IrisAgentDescriptor">
+            <summary>
+            Miks
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Killjoy.KilljoyAgentDescriptor">
+            <summary>
+            Killjoy
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Mage.MageAgentDescriptor">
+            <summary>
+            Harbor
+            </summary>
+        </member>
+        <member name="P:Replay.Valorant.Descriptors.Agents.Mage.TidalWave.SplineMovementComponentDescriptor.Trajectory">
+            <summary>Sparse trajectory update; null entries were not replicated in this update.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Nox.NoxAgentDescriptor">
+            <summary>
+            Vyse
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Pandemic.PandemicAgentDescriptor">
+            <summary>
+            Viper
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Pandemic.SnakeBiteDescriptors">
+            <summary>Snake Bite wire exports observed in the 13.06 replay 12438a1c.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Paprika.PaprikaAgentDescriptor">
+            <summary>
+            Hush, including replicated focus-projectile references.
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Paprika.PaprikaRangedUsableComponentDescriptor">
+            <summary>Hush's character component for the ranged usable interaction.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Paprika.PaprikaForceProxyManagerUserDescriptor">
+            <summary>Links an ultimate-affected actor to Hush's force-proxy manager.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Phoenix.PhoenixAgentDescriptor">
+            <summary>
+            Phoenix
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Pine.PineAgentDescriptor">
+            <summary>
+            Veto
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Rift.RiftAgentDescriptor">
+            <summary>
+            Astra
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Sarge.SargeAgentDescriptor">
+            <summary>
+            Brimstone
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Sequoia.SequoiaAgentDescriptor">
+            <summary>
+            Iso
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Sequoia.SequoiaTeleportContextDescriptor">
+            <summary>
+            Iso's arena teleport context. Actor spawn transforms identify the arena and cover placement;
+            this context carries the replicated teleport destination used by the ultimate.
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Smonk.SmonkAgentDescriptor">
+            <summary>
+            Clove
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.SparseAbilityProjectileDescriptor`1">
+            <summary>Sparse projectile updates using the recorded movement and ownership handles 10, 11, and 13.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Sprinter.SprinterAgentDescriptor">
+            <summary>
+            Neon
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Stealth.StealthAgentDescriptor">
+            <summary>
+            Yoru
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Terra.TerraAgentDescriptor">
+            <summary>
+            Waylay
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Terra.WaylayRewindPathPointDescriptor">
+            <summary>One observed world-space point in Waylay Refract's replicated return route.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Thorne.ThorneAgentDescriptor">
+            <summary>
+            Sage
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Vampire.VampireAgentDescriptor">
+            <summary>
+            Reyna
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Wraith.WraithAgentDescriptor">
+            <summary>
+            Omen
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Agents.Wushu.WushuAgentDescriptor">
+            <summary>
+            Jett
+            </summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.ControllablePawnDescriptor">
+            <summary>Pawn fields verified in recorded export groups; remote motion uses RemoteCharacterUpdate.</summary>
+        </member>
+        <member name="M:Replay.Valorant.Descriptors.ControllablePawnDescriptor.#ctor(System.String)">
+            <summary>Pawn fields verified in recorded export groups; remote motion uses RemoteCharacterUpdate.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.DynamicVolume.GroundVolumeClassNetCacheDescriptor">
+            <summary>Native FastArray fragment updates transmitted independently of replicated properties.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.DynamicVolume.GroundVolumeComponentDescriptor">
+            <summary>Wire data only. Fragment lifetimes and geometry belong to the consumer.</summary>
+        </member>
+        <member name="M:Replay.Valorant.Descriptors.DynamicVolume.GroundVolumeComponentDescriptor.ReadFragmentDelta(Replay.Unreal.Parsing.FieldDecodeContext@,Replay.Encoding.Archives.FBitArchive)">
+            <summary>The same native FastArray body also arrives as a standalone FragmentInfo entry.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Patches.CellularPatchNodeGridParameters">
+            <summary>The flattened NewGrid parameter of CellularPatch.NetMulticastUpdateNodeGrid.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.Patches.CellularPatchNode">
+            <summary>PatchNode fields retain the exported handles within the containing function's array.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.PhoenixPresenceDescriptor">
+            <summary>Observed Owner (11) and Instigator (13) on Phoenix fire patches and ultimate anchors.</summary>
+        </member>
+        <member name="M:Replay.Valorant.Descriptors.PhoenixPresenceDescriptor.#ctor(System.String)">
+            <summary>Observed Owner (11) and Instigator (13) on Phoenix fire patches and ultimate anchors.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Descriptors.ReplicatedObjectReference">
+            <summary>A sparse object-reference array element, framed as a nested RepLayout field.</summary>
+        </member>
+        <member name="M:Replay.Valorant.Descriptors.ReplicatedObjectReference.#ctor(System.UInt32,System.String)">
+            <summary>A sparse object-reference array element, framed as a nested RepLayout field.</summary>
+        </member>
+        <member name="P:Replay.Valorant.Flashes.Descriptors.EffectManagerPlayParameters`1.EffectContainerPath">
+            <summary>Wire object name resolved from the GUID cache; null when absent/unresolved.</summary>
+        </member>
+        <member name="F:Replay.Valorant.GameState.AresInventoryDescriptor.Release1308ItemSlotCount">
+            <summary>ItemSlots array length before 13.09.</summary>
+        </member>
+        <member name="F:Replay.Valorant.GameState.AresInventoryDescriptor.Release1309ItemSlotCount">
+            <summary>13.09 appended <see cref="F:Replay.Valorant.Inventory.EAresItemSlot.Unnamed1309"/>, shifting every later handle.</summary>
+        </member>
+        <member name="P:Replay.Valorant.GameState.AresInventoryDescriptor.ItemSlots">
+            <summary>Replicated slot references in EAresItemSlot order; null entries were absent from this update.</summary>
+        </member>
+        <member name="P:Replay.Valorant.GameState.AresRoundResult.WinningTeamMode">
+            <summary>Raw winning-team-mode enum, replicated since 13.09.</summary>
+        </member>
+        <member name="P:Replay.Valorant.GameState.AresRoundResult.TeamResults">
+            <summary>Per-team outcomes, replicated since 13.09.</summary>
+        </member>
+        <member name="T:Replay.Valorant.GameState.AresTeamRoundResult">
+            <summary>Per-team entry of <c>FAresRoundResult.TeamResults</c>, replicated since 13.09.</summary>
+        </member>
+        <member name="M:Replay.Valorant.GameState.AresTeamRoundResult.#ctor(System.UInt32)">
+            <summary>Per-team entry of <c>FAresRoundResult.TeamResults</c>, replicated since 13.09.</summary>
+        </member>
+        <member name="P:Replay.Valorant.GameState.AresTeamRoundResult.TeamOutcome">
+            <summary>Raw outcome enum; observed as 1 for the round winner and 2 for the loser.</summary>
+        </member>
+        <member name="T:Replay.Valorant.GameState.CombatReportArrayUpdate`1">
+            <summary>A RepLayout array length and its sparse element updates; omitted fields remain null.</summary>
+        </member>
+        <member name="M:Replay.Valorant.GameState.CombatReportArrayUpdate`1.#ctor(System.Int32,System.Collections.Generic.IReadOnlyList{`0})">
+            <summary>A RepLayout array length and its sparse element updates; omitted fields remain null.</summary>
+        </member>
+        <member name="T:Replay.Valorant.GameState.AbilityFuelComponentDescriptor">
+            <summary>64-bit fuel and 1-bit drain flag verified in d62adeea (Neon/Skye).</summary>
+        </member>
+        <member name="T:Replay.Valorant.GameState.EquippableGroundPickupDescriptor">
+            <summary>Named pickup fields observed in the 0853f12c and d62adeea replay exports.</summary>
+        </member>
+        <member name="T:Replay.Valorant.GameState.WingmanDescriptor">
+            <summary>Wingman ownership for attribution of plants and defuses.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Inventory.EAresItemSlot">
+            <summary>VALORANT's inventory slots, in their replicated ItemSlots array order.</summary>
+        </member>
+        <member name="F:Replay.Valorant.Inventory.EAresItemSlot.Unnamed1309">
+            <summary>Slot appended in 13.09; its game name is unknown and it stayed empty in every observed replay.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Inventory.GunActorDescriptor">
+            <summary>
+            Cosmetic and ownership fields replicated by every gun actor. Validated against 12.09-13.08 replays: the skin,
+            skin level and chroma assets are set once at spawn and never change, including after the gun is dropped and picked
+            up by another player. Chamber's ability guns replicate no cosmetics and keep their own descriptors.
+            </summary>
+        </member>
+        <member name="M:Replay.Valorant.Inventory.GunActorDescriptor.#ctor(System.String)">
+            <summary>
+            Cosmetic and ownership fields replicated by every gun actor. Validated against 12.09-13.08 replays: the skin,
+            skin level and chroma assets are set once at spawn and never change, including after the gun is dropped and picked
+            up by another player. Chamber's ability guns replicate no cosmetics and keep their own descriptors.
+            </summary>
+        </member>
+        <member name="P:Replay.Valorant.Inventory.GunActorDescriptor.ClassPaths">
+            <summary>Purchasable gun class paths as replicated on the wire. The Guardian uses <c>DMR/DMR</c>, not <c>Dmr/DMR</c>.</summary>
+        </member>
+        <member name="T:Replay.Valorant.Inventory.ItemSlotContentsUpdate">
+            <summary>A sparse MultiContents delta; omitted indices retain their previous contents.</summary>
+        </member>
+        <member name="M:Replay.Valorant.Inventory.ItemSlotContentsUpdate.#ctor(System.Int32,System.Collections.Generic.IReadOnlyList{Replay.Valorant.Inventory.ItemSlotContentUpdate})">
+            <summary>A sparse MultiContents delta; omitted indices retain their previous contents.</summary>
+        </member>
+        <member name="T:Replay.Valorant.MapDoors.MapDoorDescriptor">
+            <summary>Wire fields validated against 13.05/13.06 replay payloads and 12.07 native types. Gameplay lifecycle belongs to the analyser.</summary>
+        </member>
+        <member name="M:Replay.Valorant.MapDoors.MapDoorDescriptor.#ctor(System.String)">
+            <summary>Wire fields validated against 13.05/13.06 replay payloads and 12.07 native types. Gameplay lifecycle belongs to the analyser.</summary>
+        </member>
+        <member name="T:Replay.Valorant.MapDoors.MapDoorRpcParameters">
+            <summary>Exact sparse function parameters; omitted zero parameters retain their native default.</summary>
+        </member>
+        <member name="M:Replay.Valorant.MapDoors.MapDoorRpcParameters.#ctor(System.String)">
+            <summary>Exact sparse function parameters; omitted zero parameters retain their native default.</summary>
+        </member>
+        <member name="T:Replay.Valorant.ValorantReplaySupportStatus">
+            <summary>Indicates whether a replay's recorded versions match the full parser's supported version set.</summary>
+        </member>
+        <member name="F:Replay.Valorant.ValorantReplaySupportStatus.Supported">
+            <summary>Replay and transform versions match those currently supported by the full reader.</summary>
+        </member>
+        <member name="F:Replay.Valorant.ValorantReplaySupportStatus.UnsupportedVersion">
+            <summary>The metadata was readable, but the full reader does not support one or more recorded versions.</summary>
+        </member>
+        <member name="T:Replay.Valorant.ValorantReplayMetadata">
+            <summary>Replay metadata detached from a parse operation.</summary>
+            <remarks>
+            The contained metadata DTOs and collections are consumer-owned mutable objects. They do not reference the input
+            archive or the reader's parsing session. Metadata can be returned for versions that the full reader does not support.
+            </remarks>
+            <param name="ReplayInfo">Replay file information, including declared chunks.</param>
+            <param name="ReplayInfoSerializationMetadata">Serialization details and custom versions from replay info.</param>
+            <param name="ReplayHeader">Decoded replay header.</param>
+            <param name="ReplayVersion">Replay version and branch recorded in the header.</param>
+            <param name="UEVersion">Unreal version values recorded by the replay.</param>
+            <param name="FullParseSupportStatus">Whether the current full reader accepts all required version values.</param>
+            <param name="FullParseUnsupportedReason">Reason full parsing is unsupported, or <see langword="null"/> when supported.</param>
+        </member>
+        <member name="M:Replay.Valorant.ValorantReplayMetadata.#ctor(Replay.Models.Replay.ReplayInfo,Replay.Models.Replay.ReplayInfoSerializationMetadata,Replay.Models.Replay.ReplayHeader,Replay.Models.Replay.ReplayVersion,Replay.Models.Replay.UEVersion,Replay.Valorant.ValorantReplaySupportStatus,System.String)">
+            <summary>Replay metadata detached from a parse operation.</summary>
+            <remarks>
+            The contained metadata DTOs and collections are consumer-owned mutable objects. They do not reference the input
+            archive or the reader's parsing session. Metadata can be returned for versions that the full reader does not support.
+            </remarks>
+            <param name="ReplayInfo">Replay file information, including declared chunks.</param>
+            <param name="ReplayInfoSerializationMetadata">Serialization details and custom versions from replay info.</param>
+            <param name="ReplayHeader">Decoded replay header.</param>
+            <param name="ReplayVersion">Replay version and branch recorded in the header.</param>
+            <param name="UEVersion">Unreal version values recorded by the replay.</param>
+            <param name="FullParseSupportStatus">Whether the current full reader accepts all required version values.</param>
+            <param name="FullParseUnsupportedReason">Reason full parsing is unsupported, or <see langword="null"/> when supported.</param>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayMetadata.ReplayInfo">
+            <summary>Replay file information, including declared chunks.</summary>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayMetadata.ReplayInfoSerializationMetadata">
+            <summary>Serialization details and custom versions from replay info.</summary>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayMetadata.ReplayHeader">
+            <summary>Decoded replay header.</summary>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayMetadata.ReplayVersion">
+            <summary>Replay version and branch recorded in the header.</summary>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayMetadata.UEVersion">
+            <summary>Unreal version values recorded by the replay.</summary>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayMetadata.FullParseSupportStatus">
+            <summary>Whether the current full reader accepts all required version values.</summary>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayMetadata.FullParseUnsupportedReason">
+            <summary>Reason full parsing is unsupported, or <see langword="null"/> when supported.</summary>
+        </member>
+        <member name="T:Replay.Valorant.ValorantReplayReader">
+            <summary>
+            Reads VALORANT replay containers and emits native decoded events understood by this parser version.
+            </summary>
+            <remarks>
+            This is a synchronous, VALORANT-specific reader. Instances support sequential reuse, but not concurrent
+            or reentrant reads. Events are delivered as parsing proceeds and cannot be rolled back if a later parse
+            error occurs. Custom catalog or descriptor mutation during a read is unsupported.
+            </remarks>
+        </member>
+        <member name="M:Replay.Valorant.ValorantReplayReader.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,Replay.Models.Events.IReplayEventSink,Replay.Models.Descriptors.ParseProfile,Replay.Models.Descriptors.DescriptorCatalog)">
+            <summary>
+            Creates a reader using the built-in VALORANT catalog unless a complete replacement catalog is supplied.
+            </summary>
+            <param name="loggerFactory">Optional logger factory. Logging is not required to inspect parse diagnostics.</param>
+            <param name="eventSink">Optional synchronous event sink. When omitted, emitted events are discarded.</param>
+            <param name="parseProfile">Optional field-selection profile. When omitted, <see cref="P:Replay.Models.Descriptors.ParseProfile.Default"/> is used.</param>
+            <param name="descriptorCatalog">
+            Optional complete descriptor catalog replacement. To extend the built-in catalog, start with
+            <see cref="M:Replay.Valorant.Descriptors.ValorantDescriptors.CreateCatalog"/> and add descriptors to it.
+            </param>
+            <remarks>
+            Mutating the supplied parse profile or descriptor catalog while a read is in progress is unsupported.
+            Parse profile selection sets are snapshotted at the beginning of each read.
+            </remarks>
+        </member>
+        <member name="M:Replay.Valorant.ValorantReplayReader.CreateDefault(Microsoft.Extensions.Logging.ILoggerFactory,Replay.Models.Events.IReplayEventSink,Replay.Models.Descriptors.ParseProfile)">
+            <summary>
+            Creates a reader with the same defaults as <see cref="M:Replay.Valorant.ValorantReplayReader.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,Replay.Models.Events.IReplayEventSink,Replay.Models.Descriptors.ParseProfile,Replay.Models.Descriptors.DescriptorCatalog)"/>.
+            </summary>
+            <param name="loggerFactory">Optional logger factory.</param>
+            <param name="eventSink">Optional synchronous event sink.</param>
+            <param name="parseProfile">Optional parse profile; defaults to <see cref="P:Replay.Models.Descriptors.ParseProfile.Default"/>.</param>
+            <returns>A new reader configured with the default VALORANT descriptors and replay-data handler.</returns>
+        </member>
+        <member name="M:Replay.Valorant.ValorantReplayReader.Read(Replay.Encoding.Archives.FBinaryArchive)">
+            <summary>
+            Parses the replay starting at the archive's current position and returns detached metadata and statistics.
+            </summary>
+            <param name="archive">Caller-owned archive positioned at the start of a replay.</param>
+            <returns>A detached snapshot containing metadata, counters, warnings, and export-group summaries.</returns>
+            <remarks>
+            The archive remains open and is left at the position consumed by parsing. The reader does not rewind or
+            dispose it. Events may already have been delivered if this operation later throws. A result indicates
+            successful structural traversal under the reader's policy; it does not promise complete semantic coverage.
+            </remarks>
+            <exception cref="T:System.ArgumentNullException"><paramref name="archive"/> is null.</exception>
+            <exception cref="T:System.InvalidOperationException">This reader is already performing a read.</exception>
+            <exception cref="T:Replay.Models.Errors.ReplayParseException">The replay has unsupported metadata or malformed required data.</exception>
+        </member>
+        <member name="M:Replay.Valorant.ValorantReplayReader.Read(System.IO.Stream)">
+            <summary>
+            Parses the replay bytes remaining in a stream and returns detached metadata and statistics.
+            </summary>
+            <param name="stream">Caller-owned readable stream positioned at the beginning of the replay.</param>
+            <returns>A detached snapshot containing metadata, counters, warnings, and export-group summaries.</returns>
+            <remarks>
+            The current stream implementation buffers all remaining bytes before parsing. The stream is left at EOF
+            and remains open; the reader owns and disposes only the archive it creates. Reopen or explicitly rewind
+            the stream before another read. This reader instance supports sequential reuse only.
+            </remarks>
+            <exception cref="T:System.ArgumentNullException"><paramref name="stream"/> is null.</exception>
+            <exception cref="T:System.InvalidOperationException">This reader is already performing a read.</exception>
+            <exception cref="T:Replay.Models.Errors.ReplayParseException">The replay has unsupported metadata or malformed required data.</exception>
+        </member>
+        <member name="M:Replay.Valorant.ValorantReplayReader.ReadMetadata(Replay.Encoding.Archives.FBinaryArchive)">
+            <summary>
+            Reads replay metadata and the header from the archive without dispatching replay-data payloads.
+            </summary>
+            <param name="archive">Caller-owned archive positioned at the start of a replay.</param>
+            <returns>A detached metadata snapshot, including whether the current full parser supports its version.</returns>
+            <remarks>
+            The archive remains open and is left immediately after the metadata/header preamble. This overload can
+            report an unsupported full-parse version in the returned metadata. It still throws for malformed metadata.
+            Reposition the archive before a later full read.
+            </remarks>
+            <exception cref="T:System.ArgumentNullException"><paramref name="archive"/> is null.</exception>
+            <exception cref="T:System.InvalidOperationException">This reader is already performing a read.</exception>
+            <exception cref="T:Replay.Models.Errors.ReplayParseException">Replay metadata or the header is malformed.</exception>
+        </member>
+        <member name="M:Replay.Valorant.ValorantReplayReader.ReadMetadata(System.IO.Stream)">
+            <summary>
+            Reads replay metadata and the header from the remaining stream bytes without dispatching replay-data payloads.
+            </summary>
+            <param name="stream">Caller-owned readable stream positioned at the beginning of the replay.</param>
+            <returns>A detached metadata snapshot, including whether the current full parser supports its version.</returns>
+            <remarks>
+            The current stream implementation buffers all remaining bytes, so the supplied stream advances to EOF even
+            though replay-data payloads are not parsed. The stream remains open; the reader disposes only its archive.
+            Reopen or explicitly rewind the stream for a full read or another metadata read.
+            </remarks>
+            <exception cref="T:System.ArgumentNullException"><paramref name="stream"/> is null.</exception>
+            <exception cref="T:System.InvalidOperationException">This reader is already performing a read.</exception>
+            <exception cref="T:Replay.Models.Errors.ReplayParseException">Replay metadata or the header is malformed.</exception>
+        </member>
+        <member name="T:Replay.Valorant.ValorantReplayReadResult">
+            <summary>
+            Detached outcome of a successful full replay traversal.
+            </summary>
+            <remarks>
+            The result contains snapshots rather than parser execution state. Metadata DTOs nested within <see cref="P:Replay.Valorant.ValorantReplayReadResult.Metadata"/>
+            remain consumer-owned mutable data. A completed status describes structural traversal under this parser's policy;
+            it does not guarantee that every VALORANT feature was semantically decoded.
+            </remarks>
+            <param name="Metadata">Detached replay metadata and version support information.</param>
+            <param name="PacketStats">Snapshot of raw packet counters.</param>
+            <param name="BunchPayloadStats">Snapshot of bunch and payload counters.</param>
+            <param name="Status">Whether the traversal completed with any recoverable diagnostics.</param>
+            <param name="Diagnostics">Read-only retained diagnostic snapshot, capped at 1,000 entries.</param>
+            <param name="TotalDiagnosticCount">Total warnings observed, including warnings omitted from <paramref name="Diagnostics"/>.</param>
+            <param name="SuppressedDiagnosticCount">Warnings omitted because the retained diagnostic limit was reached.</param>
+            <param name="ExportGroups">Detached export-group summaries, ordered by ordinal path.</param>
+        </member>
+        <member name="M:Replay.Valorant.ValorantReplayReadResult.#ctor(Replay.Valorant.ValorantReplayMetadata,Replay.Models.Results.ReplayPacketStatistics,Replay.Models.Results.ReplayBunchStatistics,Replay.Models.Diagnostics.ReplayReadStatus,System.Collections.Generic.IReadOnlyList{Replay.Models.Diagnostics.ReplayDiagnostic},System.Int64,System.Int64,System.Collections.Generic.IReadOnlyList{Replay.Models.Results.ReplayExportGroupSummary})">
+            <summary>
+            Detached outcome of a successful full replay traversal.
+            </summary>
+            <remarks>
+            The result contains snapshots rather than parser execution state. Metadata DTOs nested within <see cref="P:Replay.Valorant.ValorantReplayReadResult.Metadata"/>
+            remain consumer-owned mutable data. A completed status describes structural traversal under this parser's policy;
+            it does not guarantee that every VALORANT feature was semantically decoded.
+            </remarks>
+            <param name="Metadata">Detached replay metadata and version support information.</param>
+            <param name="PacketStats">Snapshot of raw packet counters.</param>
+            <param name="BunchPayloadStats">Snapshot of bunch and payload counters.</param>
+            <param name="Status">Whether the traversal completed with any recoverable diagnostics.</param>
+            <param name="Diagnostics">Read-only retained diagnostic snapshot, capped at 1,000 entries.</param>
+            <param name="TotalDiagnosticCount">Total warnings observed, including warnings omitted from <paramref name="Diagnostics"/>.</param>
+            <param name="SuppressedDiagnosticCount">Warnings omitted because the retained diagnostic limit was reached.</param>
+            <param name="ExportGroups">Detached export-group summaries, ordered by ordinal path.</param>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayReadResult.Metadata">
+            <summary>Detached replay metadata and version support information.</summary>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayReadResult.PacketStats">
+            <summary>Snapshot of raw packet counters.</summary>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayReadResult.BunchPayloadStats">
+            <summary>Snapshot of bunch and payload counters.</summary>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayReadResult.Status">
+            <summary>Whether the traversal completed with any recoverable diagnostics.</summary>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayReadResult.Diagnostics">
+            <summary>Read-only retained diagnostic snapshot, capped at 1,000 entries.</summary>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayReadResult.TotalDiagnosticCount">
+            <summary>Total warnings observed, including warnings omitted from <paramref name="Diagnostics"/>.</summary>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayReadResult.SuppressedDiagnosticCount">
+            <summary>Warnings omitted because the retained diagnostic limit was reached.</summary>
+        </member>
+        <member name="P:Replay.Valorant.ValorantReplayReadResult.ExportGroups">
+            <summary>Detached export-group summaries, ordered by ordinal path.</summary>
+        </member>
+    </members>
+</doc>

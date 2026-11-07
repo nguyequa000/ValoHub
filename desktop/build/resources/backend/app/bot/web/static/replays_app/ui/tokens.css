@@ -1,0 +1,46 @@
+/* ValoHub UI v2 tokens (DESIGN-V2 section 3). Custom properties only. Dark theme only. */
+:root{
+  color-scheme:dark;
+  --bg:#0B0F16; --surface-1:#111725; --surface-2:#16202F; --surface-3:#1C2839;
+  --border:#26344A; --border-strong:#3A4D6B; --border-control:#6B7A94;
+  --text:#E7ECF5; --text-dim:#A9B4C6; --text-muted:#8591A6;
+  --accent:#6A4BE8; --accent-hover:#7658F1; --accent-text:#A78BFF; --accent-contrast:#FFFFFF;
+  --accent-tint:rgba(106,75,232,.16);
+  --c-library:#22C7B8; --c-replay:#F2555A; --c-analysis:#9B7BFF; --c-coach:#F5A524; --c-providers:#38BDF8; --c-settings:#94A3B8;
+  --c-library-text:#5FE3D6; --c-replay-text:#FF8A8E; --c-analysis-text:#BFA9FF;
+  --c-coach-text:#FFC46B; --c-providers-text:#7DD3FC; --c-settings-text:#B6C2D4;
+  --accent-space:var(--c-library);
+  --ok:#3DD68C; --warn:#F5A524; --danger:#FF6B6B; --info:#38BDF8;
+  --focus-ring:0 0 0 2px var(--bg),0 0 0 4px var(--accent);
+  --font-ui:"Segoe UI Variable","Segoe UI",system-ui,sans-serif;
+  --font-mono:"Cascadia Mono",Consolas,ui-monospace,monospace;
+  --fs-caption:12px; --lh-caption:16px; --fs-body:13px; --lh-body:18px;
+  --fs-section:16px; --lh-section:22px; --fs-title:20px; --lh-title:28px;
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:20px; --sp-6:24px; --sp-7:28px; --sp-8:32px;
+  --radius-sm:4px; --radius-md:6px; --radius-lg:10px;
+  --h-control:28px; --h-row:32px;
+  --titlebar-h:40px; --rail-w:56px; --rail-w-open:220px; --context-h:48px; --status-h:24px; --caption-reserve:140px;
+  --dur-fast:120ms; --dur:160ms; --ease:cubic-bezier(.2,.8,.2,1);
+  --z-rail:10; --z-titlebar:20; --z-drawer:40; --z-overlay:50; --z-modal:60; --z-palette:70; --z-toast:80;
+  --shadow-pop:0 8px 28px rgba(0,0,0,.5);
+
+  /* legacy v1 variables (kept so the unmigrated v1 pages/stylesheets still resolve) */
+  --vp-bg:#0e1116; --vp-surface:#151a21; --vp-surface-2:#1b222b; --vp-surface-3:#232c37;
+  --vp-border:#2a343f; --vp-border-strong:#3c4a57;
+  --vp-text:#e8edf2; --vp-text-muted:#a7b3bf; --vp-text-dim:#8b98a5;
+  --vp-accent:#ff4655; --vp-accent-soft:#ff7c86; --vp-on-accent:#10151c;
+  --vp-ok:#7fd1a6; --vp-warn:#f0c674; --vp-info:#8fb8ff; --vp-danger:#ff8a94;
+  --vp-font:"Segoe UI Variable Text","Segoe UI",system-ui,sans-serif;
+  --vp-font-display:"Segoe UI Variable Display","Segoe UI",system-ui,sans-serif;
+  --vp-fs-caption:12px; --vp-lh-caption:16px; --vp-fs-body:14px; --vp-lh-body:20px;
+  --vp-fs-title:17px; --vp-lh-title:24px; --vp-fs-page:22px; --vp-lh-page:28px; --vp-fs-data:20px; --vp-lh-data:28px;
+  --vp-s1:4px; --vp-s2:8px; --vp-s3:12px; --vp-s4:16px; --vp-s5:20px; --vp-s6:24px; --vp-s8:32px;
+  --vp-rail-w:56px; --vp-bar-h:48px; --vp-radius:6px; --vp-radius-sm:4px; --vp-control-h:32px; --vp-target-min:24px;
+  --vp-shadow-1:0 1px 2px rgba(0,0,0,.4); --vp-shadow-2:0 8px 24px rgba(0,0,0,.45);
+}
+:root[data-density="compact"]{ --h-control:24px; --h-row:28px; --sp-3:8px; --sp-4:12px; }
+:root[data-reduced-motion="true"]{ --dur-fast:0ms; --dur:0ms; }
+@media (prefers-reduced-motion:reduce){ :root{ --dur-fast:0ms; --dur:0ms; } *{animation:none!important;scroll-behavior:auto!important} }
+[data-space="library"]{--accent-space:var(--c-library)} [data-space="replay"]{--accent-space:var(--c-replay)}
+[data-space="analysis"]{--accent-space:var(--c-analysis)} [data-space="coach"]{--accent-space:var(--c-coach)}
+[data-space="providers"]{--accent-space:var(--c-providers)} [data-space="settings"]{--accent-space:var(--c-settings)}

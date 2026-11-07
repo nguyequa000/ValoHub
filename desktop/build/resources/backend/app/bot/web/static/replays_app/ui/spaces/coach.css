@@ -1,0 +1,32 @@
+/* Coach space. Composes shell primitives; only layout lives here. */
+.coach-wrap { display: grid; grid-template-columns: 220px minmax(0, 1fr) 260px; gap: var(--sp-4); padding: var(--sp-4); height: 100%; overflow: auto; align-items: start; }
+.coach-col { display: flex; flex-direction: column; gap: var(--sp-3); min-width: 0; }
+.coach-col-head, .coach-report-head, .coach-finding-head { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-2); }
+.coach-controls { display: flex; flex-wrap: wrap; gap: var(--sp-2); align-items: center; }
+.coach-controls .select { flex: 1 1 200px; min-width: 0; }
+.coach-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--sp-1); }
+.coach-session { display: flex; flex-direction: column; align-items: flex-start; width: 100%; min-height: var(--h-row); padding: var(--sp-1) var(--sp-2); background: var(--surface-1); color: var(--text); border: 1px solid var(--border); border-radius: var(--radius-sm); cursor: pointer; text-align: left; }
+.coach-session.is-active { border-color: var(--accent-space, var(--accent)); background: var(--surface-2); }
+.coach-muted { color: var(--text-muted); font-size: var(--fs-caption); }
+.coach-summary { color: var(--text); white-space: pre-wrap; overflow-wrap: anywhere; }
+.coach-group { display: flex; flex-direction: column; gap: var(--sp-2); margin-top: var(--sp-3); }
+.coach-finding { display: flex; flex-direction: column; gap: var(--sp-2); }
+.coach-finding p { margin: 0; overflow-wrap: anywhere; }
+.coach-sev--major { color: var(--danger, #ff6b6b); }
+.coach-sev--minor { color: var(--warn, #f5b942); }
+.coach-refs { display: flex; flex-wrap: wrap; gap: var(--sp-2); }
+.coach-ref { display: inline-flex; align-items: center; min-height: var(--h-control); padding: 0 var(--sp-2); color: var(--accent); }
+.coach-pre { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--font-mono, monospace); max-height: 40vh; overflow: auto; }
+.coach-ctx-row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-2); }
+.coach-noprov ul { margin: var(--sp-2) 0; padding-left: var(--sp-4); }
+.coach-index { padding: var(--sp-4); display: flex; flex-direction: column; gap: var(--sp-3); }
+.coach-picklist { display: flex; flex-direction: column; gap: var(--sp-2); max-width: 560px; }
+.coach-pick { display: flex; justify-content: space-between; gap: var(--sp-3); text-decoration: none; color: var(--text); }
+.coach-error { display: flex; flex-direction: column; gap: var(--sp-2); align-items: flex-start; }
+@media (max-width: 900px) {
+  .coach-wrap { grid-template-columns: 180px minmax(0, 1fr); }
+  .coach-context { grid-column: 1 / -1; grid-row: 2; }
+}
+@media (max-width: 640px) {
+  .coach-wrap { grid-template-columns: minmax(0, 1fr); }
+}

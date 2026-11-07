@@ -1,0 +1,2934 @@
+{
+  "schema": "valoplant_asset_sources/v1",
+  "apiVersion": "13.09.00.5777412",
+  "files": {
+    "abilities/0e38b510-41a8-5780-5e8f-568b2a4f2d6c-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png",
+      "source_sha256": "4717a3f96cad3f06ab5f81f6955d7da46b6c47d573ed4102f8ef22b6ac435ed7",
+      "source_bytes": 7834,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7834,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/0e38b510-41a8-5780-5e8f-568b2a4f2d6c-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png",
+      "source_sha256": "d11f81924f04f582b53eb100d1d612eaecb5b63624430bce2a285114fc3d68e6",
+      "source_bytes": 6144,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6144,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/0e38b510-41a8-5780-5e8f-568b2a4f2d6c-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png",
+      "source_sha256": "6a8cffa0c329dd66d5e7d669dcd4c73d177c7e1f704e9e4ef4c7d2f524ca1e36",
+      "source_bytes": 8471,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8471,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/0e38b510-41a8-5780-5e8f-568b2a4f2d6c-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png",
+      "source_sha256": "09f436d22f019be04bdbae4e8d1c0d2fad2889e473ef036632f41ebfa69426dd",
+      "source_bytes": 7352,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7352,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/117ed9e3-49f3-6512-3ccf-0cada7e3823b-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png",
+      "source_sha256": "49d79e15f6f8402e4fa4b4443ef1d5c4e821feea8bf88f39f854795176ec67d6",
+      "source_bytes": 5526,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5526,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/117ed9e3-49f3-6512-3ccf-0cada7e3823b-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png",
+      "source_sha256": "88e71f529227b695b3b7d3ef34d260a99665a28c852f6d9ba5b6a738687bd9ad",
+      "source_bytes": 4156,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4156,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/117ed9e3-49f3-6512-3ccf-0cada7e3823b-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png",
+      "source_sha256": "eb415130ad587842c72ab3afe6e6543e5e98bd0eb37a1cd582bc3cf861d9979a",
+      "source_bytes": 3108,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 3108,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/117ed9e3-49f3-6512-3ccf-0cada7e3823b-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png",
+      "source_sha256": "9c1066246963bfe9f0684c2a7ca7dba42e9d401353ee2af2b1b7476cfb8480bc",
+      "source_bytes": 4760,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4760,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/1dbf2edd-4729-0984-3115-daa5eed44993-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png",
+      "source_sha256": "6080769a7e4b27d5151369981665cc18eebd77d79313cf4face5d81f73643159",
+      "source_bytes": 3503,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 3503,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/1dbf2edd-4729-0984-3115-daa5eed44993-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png",
+      "source_sha256": "0256ce45353e22c4a4c89a7fb5ba382036e5852d8b51d6dded58b8c9509e8b4b",
+      "source_bytes": 3400,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 3400,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/1dbf2edd-4729-0984-3115-daa5eed44993-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png",
+      "source_sha256": "dc03ac610fc211a8bb222a6b0b3979e82ce8ee0e7130d80fa8adc924404b3f6b",
+      "source_bytes": 3264,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 3264,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/1dbf2edd-4729-0984-3115-daa5eed44993-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png",
+      "source_sha256": "fae1de17f4d9e62dc4f16642786e0602df68bf7a8c1493808f7c3426b3b82153",
+      "source_bytes": 3135,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 3135,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/1e58de9c-4950-5125-93e9-a0aee9f98746-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png",
+      "source_sha256": "b947f2b07da0754b3fdd64bb411d6c50bb454d3da6961c0f953a81de6bee2f2b",
+      "source_bytes": 7256,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7256,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/1e58de9c-4950-5125-93e9-a0aee9f98746-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png",
+      "source_sha256": "0a362331c7aa07e05a2edf4471b1b036645b748e0abb947e4c832489d2ae37ba",
+      "source_bytes": 4162,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4162,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/1e58de9c-4950-5125-93e9-a0aee9f98746-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png",
+      "source_sha256": "abc2e70a4a23efc9b92733864b3faaccb8a54dfac67419a690ddc8c111f5b767",
+      "source_bytes": 7909,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7909,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/1e58de9c-4950-5125-93e9-a0aee9f98746-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png",
+      "source_sha256": "27f2e6ec50e39ecc8966a1f55d893dbc9242f81f3ebb268854fe68b4ce4010ac",
+      "source_bytes": 10115,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 10115,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/22697a3d-45bf-8dd7-4fec-84a9e28c69d7-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png",
+      "source_sha256": "2c2e2609acc3391559892c148049f11e12c97760ab9405ad5cfb44c711600d28",
+      "source_bytes": 2943,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 2943,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/22697a3d-45bf-8dd7-4fec-84a9e28c69d7-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png",
+      "source_sha256": "ae3e08d6ee31d00f31b26d694a66d85e6b51f28ecd6e0e32bea9481e62f7108e",
+      "source_bytes": 6031,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6031,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/22697a3d-45bf-8dd7-4fec-84a9e28c69d7-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png",
+      "source_sha256": "ad9e1e01bc73836dd136587adcf06ea66ba086e5e7dc9dde62f0dac9a276d5db",
+      "source_bytes": 6924,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6924,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/22697a3d-45bf-8dd7-4fec-84a9e28c69d7-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ultimate/displayicon.png",
+      "source_sha256": "536b217537f91b591e196fdcccbc27d05033f17570ada836ece3686e48e45903",
+      "source_bytes": 5903,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5903,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/320b2a48-4d9b-a075-30f1-1f93a9b638fa-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability1/displayicon.png",
+      "source_sha256": "7d7a7dfc5261197d543ee6f0a52c04702be12064f9ed9ae8de3881782c481039",
+      "source_bytes": 4004,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4004,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/320b2a48-4d9b-a075-30f1-1f93a9b638fa-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ability2/displayicon.png",
+      "source_sha256": "bca09af68c3c2dec234bc8b1ea2c6da89b41e7ee791325b00f6f88aee9b88727",
+      "source_bytes": 6711,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6711,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/320b2a48-4d9b-a075-30f1-1f93a9b638fa-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/grenade/displayicon.png",
+      "source_sha256": "cd2d3d87b56a9cc0cd3579e471d0c25ff9a423b9653719f9933d66c5541fad65",
+      "source_bytes": 3154,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 3154,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/320b2a48-4d9b-a075-30f1-1f93a9b638fa-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/abilities/ultimate/displayicon.png",
+      "source_sha256": "3da47fc173e42f16c1da9c84c25570b9db9a91caf128242f279f0e88a497b069",
+      "source_bytes": 5482,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5482,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/41fb69c1-4189-7b37-f117-bcaf1e96f1bf-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png",
+      "source_sha256": "bf6621d4df2dea8161cd5bf1248449e66827f0fc6f4ac8de27e132fd8bd57382",
+      "source_bytes": 6956,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6956,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/41fb69c1-4189-7b37-f117-bcaf1e96f1bf-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png",
+      "source_sha256": "7c2968aa145de40c57aa82133c7c24ce8078b8ddec8402894f15514274245ee9",
+      "source_bytes": 6346,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6346,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/41fb69c1-4189-7b37-f117-bcaf1e96f1bf-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png",
+      "source_sha256": "05c343ba1871d34f9e2c006d6b27e7fd4fed262dd4f030303e02a09e207b4ded",
+      "source_bytes": 7546,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7546,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/41fb69c1-4189-7b37-f117-bcaf1e96f1bf-Passive.png": {
+      "source_url": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/passive/displayicon.png",
+      "source_sha256": "f3aca897825d03b7b27a90006c205ef4243b39db7dda6a8fd8bb3868433fee93",
+      "source_bytes": 3787,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 3787,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/41fb69c1-4189-7b37-f117-bcaf1e96f1bf-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png",
+      "source_sha256": "a0f4a6e92a01330f7e36debe93b6193f0025ca44fe4336dcb025fb3438a1343e",
+      "source_bytes": 8244,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8244,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/569fdd95-4d10-43ab-ca70-79becc718b46-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png",
+      "source_sha256": "d4ecc52785dd8f3a43cfe7a6f50446dcc49ab7ed5b96c8491450130ebf2dee3d",
+      "source_bytes": 8288,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8288,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/569fdd95-4d10-43ab-ca70-79becc718b46-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png",
+      "source_sha256": "6b152f8d96f12c09a0f9bd318c9c2a9bb565d4c4afaf3fac7499cb25989f4789",
+      "source_bytes": 2798,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 2798,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/569fdd95-4d10-43ab-ca70-79becc718b46-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png",
+      "source_sha256": "368ef1cf1aab42ae919b3aa096a95e1b66e3b829fe545aee34583238df96fe85",
+      "source_bytes": 2737,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 2737,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/569fdd95-4d10-43ab-ca70-79becc718b46-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png",
+      "source_sha256": "d73ad87cb3679d9f6389ad6bce287279bef38fa03d4e2a518686100d6da4014e",
+      "source_bytes": 5468,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5468,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/5f8d3a7f-467b-97f3-062c-13acf203c006-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png",
+      "source_sha256": "fc99fb189a80212ac921cc0074bfcebaa4679965133694800ea274aabe78117b",
+      "source_bytes": 5697,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5697,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/5f8d3a7f-467b-97f3-062c-13acf203c006-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png",
+      "source_sha256": "1f1f7b7151cfeb0d2ab5cf12c5c53551a21990efd7ad4244f0ba3f2e546f9246",
+      "source_bytes": 7965,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7965,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/5f8d3a7f-467b-97f3-062c-13acf203c006-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png",
+      "source_sha256": "4f0a7ded8a67ce2e72e8ddf43fac7c5afa98387594c5347d85bb4b1cba68ebe5",
+      "source_bytes": 6097,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6097,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/5f8d3a7f-467b-97f3-062c-13acf203c006-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png",
+      "source_sha256": "bbf987794e720d58e512e7c29e8e655e3449c0339bd2a6a5aca5cd85c0ee5b70",
+      "source_bytes": 7309,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7309,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/601dbbe7-43ce-be57-2a40-4abd24953621-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png",
+      "source_sha256": "8e143deecf3a6f56593f9378b26ea662a238c40081c29d3b0c4b013c88d3d810",
+      "source_bytes": 5935,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5935,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:19:54Z"
+    },
+    "abilities/601dbbe7-43ce-be57-2a40-4abd24953621-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png",
+      "source_sha256": "abc626405203a2eceb4259d63d6fcf442a3607a80b358f72ac845b4872ea58ce",
+      "source_bytes": 5484,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5484,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/601dbbe7-43ce-be57-2a40-4abd24953621-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png",
+      "source_sha256": "588de7cbe162388cf4f0b09304e6b2f202e436195eb134214f7dfa55bb64c502",
+      "source_bytes": 11091,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 11091,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/601dbbe7-43ce-be57-2a40-4abd24953621-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png",
+      "source_sha256": "2cd83367a0e4d08ec9d553e790ea3fab206fe2f889ce837204bf9a4cb84ad8df",
+      "source_bytes": 5307,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5307,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/6f2a04ca-43e0-be17-7f36-b3908627744d-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png",
+      "source_sha256": "55580cc68c814f282805a2a5757b6092434076ed290f18b0b2941e966521db51",
+      "source_bytes": 6049,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6049,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/6f2a04ca-43e0-be17-7f36-b3908627744d-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png",
+      "source_sha256": "9146a3b7bcedff700c78d87ae277274d30ea6a094c1db9645f9cb7a396cecd78",
+      "source_bytes": 3890,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 3890,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/6f2a04ca-43e0-be17-7f36-b3908627744d-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png",
+      "source_sha256": "e76e88816bd171a166bf2cd6b043e3a0e13a598dfbf0918c32088396b3798857",
+      "source_bytes": 6196,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6196,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/6f2a04ca-43e0-be17-7f36-b3908627744d-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png",
+      "source_sha256": "4b03b8dccbcf248bcb38dd641c6c109630b534ef5c40ba2e78a265e18f31e41c",
+      "source_bytes": 8601,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8601,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/707eab51-4836-f488-046a-cda6bf494859-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png",
+      "source_sha256": "b37ee0c7e40f357bd40bf622d1684e5184738bd0a536d67779bd7f860c6b78b9",
+      "source_bytes": 4386,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4386,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/707eab51-4836-f488-046a-cda6bf494859-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png",
+      "source_sha256": "b2499750cdad082e9b9162fa3829e6d6f025aeb8b91ebba598cf24910d28debf",
+      "source_bytes": 5238,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5238,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/707eab51-4836-f488-046a-cda6bf494859-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png",
+      "source_sha256": "5b340b535f8caaf9b4543804025c57a813f46a96bd18fce973989775c35533f8",
+      "source_bytes": 4152,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4152,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/707eab51-4836-f488-046a-cda6bf494859-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png",
+      "source_sha256": "1727227575dac11b4d34dd0d798a1985f8e0f404170abdef13fd1e1b58c032d7",
+      "source_bytes": 4870,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4870,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/7c8a4701-4de6-9355-b254-e09bc2a34b72-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/abilities/ability1/displayicon.png",
+      "source_sha256": "8cf997a1065836da55bd8c8985dad3fc5b0472f043c99c56832d8ab093cbefda",
+      "source_bytes": 6098,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6098,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/7c8a4701-4de6-9355-b254-e09bc2a34b72-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/abilities/ability2/displayicon.png",
+      "source_sha256": "478d0bd06770b6d2984a63ff0b6bf1a7079c66cdc59c0db31ee482f48b455354",
+      "source_bytes": 8131,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8131,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/7c8a4701-4de6-9355-b254-e09bc2a34b72-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/abilities/grenade/displayicon.png",
+      "source_sha256": "a7ab99e2eea022225d2e9e440489308d54c20cbf5ba92dbe7de5ac1096e28f5f",
+      "source_bytes": 8025,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8025,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/7c8a4701-4de6-9355-b254-e09bc2a34b72-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/abilities/ultimate/displayicon.png",
+      "source_sha256": "3ab8c3b91a61034c8389f92a0a1c49aa47185e65ac9cc7fcb0c69b9976696ea9",
+      "source_bytes": 8046,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8046,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/7f94d92c-4234-0a36-9646-3a87eb8b5c89-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png",
+      "source_sha256": "795a6f55c11260ac893bb5f0be60833ee9a0cb366f415e298199b31e3c6b406c",
+      "source_bytes": 6530,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6530,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/7f94d92c-4234-0a36-9646-3a87eb8b5c89-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png",
+      "source_sha256": "bcb6541ab299e23b089bffba79d3063bf19035add4567f4186e635d1d555ecbe",
+      "source_bytes": 6089,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6089,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/7f94d92c-4234-0a36-9646-3a87eb8b5c89-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png",
+      "source_sha256": "d15b65b33f85b13063ec80673139f765672c3fa2c2bcba794125c84d2a66923e",
+      "source_bytes": 4901,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4901,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/7f94d92c-4234-0a36-9646-3a87eb8b5c89-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png",
+      "source_sha256": "df9851c8762fcf28cb2d40f15e0d1de364e5f11fe5724cece6ebd5356b69886e",
+      "source_bytes": 8437,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8437,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/8e253930-4c05-31dd-1b6c-968525494517-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png",
+      "source_sha256": "03cdb9d2978665c2b50de63bc3d29008493885edaf64dd455f212d6c9701ebaa",
+      "source_bytes": 4495,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4495,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/8e253930-4c05-31dd-1b6c-968525494517-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png",
+      "source_sha256": "f59e12da8b1abf3a3716b621ee0bf13f716ded649a48b1afae7ab0eded06704f",
+      "source_bytes": 3770,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 3770,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/8e253930-4c05-31dd-1b6c-968525494517-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png",
+      "source_sha256": "6431f11ccfed9e2582836eed8fbbcd7dc94d11c2a463108904554a15b03033d9",
+      "source_bytes": 4600,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4600,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/8e253930-4c05-31dd-1b6c-968525494517-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png",
+      "source_sha256": "a1af45b7b9d852f324669d32ca664e0f5bbefd2229e3b514f6dd7e8d21a3d551",
+      "source_bytes": 4822,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4822,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/92eeef5d-43b5-1d4a-8d03-b3927a09034b-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability1/displayicon.png",
+      "source_sha256": "e16ed639bb8f4bd6a51f02a66ebc7e6cd649d748e129b77185a1279e4dae669e",
+      "source_bytes": 19416,
+      "source_size": [
+        512,
+        512
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5793,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/92eeef5d-43b5-1d4a-8d03-b3927a09034b-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ability2/displayicon.png",
+      "source_sha256": "33edd49d68d63cd566ff7116b9ee927405c8758139feede526fc89f107096d0a",
+      "source_bytes": 24286,
+      "source_size": [
+        512,
+        512
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7263,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/92eeef5d-43b5-1d4a-8d03-b3927a09034b-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/grenade/displayicon.png",
+      "source_sha256": "6332eb9e2faaa0c71b79d6cad30b68f03c835e045ebf426ba180b8446cee969b",
+      "source_bytes": 17720,
+      "source_size": [
+        512,
+        512
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5268,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/92eeef5d-43b5-1d4a-8d03-b3927a09034b-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/abilities/ultimate/displayicon.png",
+      "source_sha256": "4cc252d18965a91b6d4f5c5b22609992d06f94de821b813bea979d5edd2ea052",
+      "source_bytes": 26481,
+      "source_size": [
+        512,
+        512
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8077,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/95b78ed7-4637-86d9-7e41-71ba8c293152-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png",
+      "source_sha256": "2c5e27434b73448062e66ae1958fccacdb199c8e54426fffa63c614ac1620b40",
+      "source_bytes": 5728,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5728,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/95b78ed7-4637-86d9-7e41-71ba8c293152-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png",
+      "source_sha256": "8369d549200badd77737f1930f09593c33b42e2280301c8d98477464d4f04459",
+      "source_bytes": 8148,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8148,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/95b78ed7-4637-86d9-7e41-71ba8c293152-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png",
+      "source_sha256": "35f2eedb3e7f07f2c92e51f566108a599e4e37b225864b3d2c0eee50c9050144",
+      "source_bytes": 4772,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4772,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/95b78ed7-4637-86d9-7e41-71ba8c293152-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png",
+      "source_sha256": "548d30be4f5c76f792ebdbb88a1a3bef1a3ee3598da3ebf8722b12b2522da9e4",
+      "source_bytes": 4767,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4767,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/9f0d8ba9-4140-b941-57d3-a7ad57c6b417-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png",
+      "source_sha256": "9155e33acbf55d088e71d89ffa32546197aebfc916930304589ec2f45c1d59ee",
+      "source_bytes": 4347,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4347,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/9f0d8ba9-4140-b941-57d3-a7ad57c6b417-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png",
+      "source_sha256": "0369f1681bd8c22b46cbaac50434965cb49cc0c67fb1530d41c2a44d978b6f1d",
+      "source_bytes": 2328,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 2328,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/9f0d8ba9-4140-b941-57d3-a7ad57c6b417-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png",
+      "source_sha256": "4c077e6a4256e62fb6ee7e1020036df073503713f4769ef6693b9a6cf9d2d97e",
+      "source_bytes": 4755,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4755,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/9f0d8ba9-4140-b941-57d3-a7ad57c6b417-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png",
+      "source_sha256": "117584be1621b76a06765537b3c4725a50c0ab2b568d9ff5963a24c825dbbdf2",
+      "source_bytes": 7120,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7120,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png",
+      "source_sha256": "7891176eba9db4b4fd848c4e4e3873b06ce8fa3c794d43c83a0628631e92cdbd",
+      "source_bytes": 5792,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5792,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png",
+      "source_sha256": "3ba9f3c358ec0294e0987f6f3e330dd617d49ab044bcc7630bd7eaf462a5f93e",
+      "source_bytes": 7027,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7027,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png",
+      "source_sha256": "d2a30361ae5f2a97628ffa1a0feb94576cfa8ac63700df1be2f51696fd0b0fce",
+      "source_bytes": 4464,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4464,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png",
+      "source_sha256": "733a8138fd0a8a189c457a57a85f86ad13e37d00d876e21bf5e7443984f24b74",
+      "source_bytes": 8772,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8772,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/add6443a-41bd-e414-f6ad-e58d267f4e95-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png",
+      "source_sha256": "0b3ede99c0663016b1330f523d28d1a9568d59d276e1a552085084666fe3b12a",
+      "source_bytes": 3337,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 3337,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/add6443a-41bd-e414-f6ad-e58d267f4e95-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png",
+      "source_sha256": "e4e42df63b48f708daffb0212afae0606be421255d694fbd8a479effb8ceb36c",
+      "source_bytes": 2691,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 2691,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/add6443a-41bd-e414-f6ad-e58d267f4e95-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png",
+      "source_sha256": "125602d18a245414b5a306fb46017709be11e7075ae17405831ff047aa10651a",
+      "source_bytes": 4019,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4019,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/add6443a-41bd-e414-f6ad-e58d267f4e95-Passive.png": {
+      "source_url": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/passive/displayicon.png",
+      "source_sha256": "17ae977530d186351ca1fc49012d4f40704a1e369bb039c3502756b310904cbf",
+      "source_bytes": 25096,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 3540,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/add6443a-41bd-e414-f6ad-e58d267f4e95-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png",
+      "source_sha256": "25c1a7d52b4654dde8adf18e10bea514d45c71d77c68360f7ceec83f0fbec780",
+      "source_bytes": 5014,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5014,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/b444168c-4e35-8076-db47-ef9bf368f384-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png",
+      "source_sha256": "7f48a51776a1feb4a1a3fa351be104849d5f9cd393f17bd495339406aef4f592",
+      "source_bytes": 6830,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6830,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/b444168c-4e35-8076-db47-ef9bf368f384-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png",
+      "source_sha256": "3bbdbe9ba0f4d96dbf8edbb0265e91489b94042209b9c474862f8fce68eab8f4",
+      "source_bytes": 6357,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6357,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/b444168c-4e35-8076-db47-ef9bf368f384-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png",
+      "source_sha256": "d3e3ff2f7063eb6bf2d77717042338ec6102db50ed7eb39eb025b5c49900fcf2",
+      "source_bytes": 5291,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5291,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/b444168c-4e35-8076-db47-ef9bf368f384-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png",
+      "source_sha256": "aaab2362eb505f6f3465e47d7e511f67f95fd15b833aafd5c9a1095025ce12b2",
+      "source_bytes": 9111,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 9111,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/bb2a4828-46eb-8cd1-e765-15848195d751-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability1/displayicon.png",
+      "source_sha256": "3af8aca43a49785be807786851cf5c3bb9a340869a9ce3193a879ce0ec6f6f18",
+      "source_bytes": 4359,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4359,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/bb2a4828-46eb-8cd1-e765-15848195d751-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability2/displayicon.png",
+      "source_sha256": "58df42cb5fb15c17f522d2fe359f18dcd8aa7938d08cc5ba77f63b3f65c18bf8",
+      "source_bytes": 5337,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5337,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/bb2a4828-46eb-8cd1-e765-15848195d751-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/grenade/displayicon.png",
+      "source_sha256": "f30a030f81715a45f720cbf4f8e0031933c71a4ca4590d8d7536407aef0e4351",
+      "source_bytes": 5196,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5196,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/bb2a4828-46eb-8cd1-e765-15848195d751-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ultimate/displayicon.png",
+      "source_sha256": "60e4eb7c301a6f1292eb0d60361b631d06252cbd49ad119e99a5ce3952e6ce9d",
+      "source_bytes": 2035,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 2035,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability1/displayicon.png",
+      "source_sha256": "10dc3ca3dfd96addcc52d5f2983e1bad32acd77ad1fac8c5bc9963300e105781",
+      "source_bytes": 7505,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7505,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability2/displayicon.png",
+      "source_sha256": "937aaa568ccdf52a7d81af9afb8e535e998eea4530dac89af56c23680e2d9ae9",
+      "source_bytes": 7749,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7749,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/grenade/displayicon.png",
+      "source_sha256": "fa1922078bab2ace9723d3e3563a9fdda6c4bca7d0483184c30170b798e91f0b",
+      "source_bytes": 4726,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4726,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ultimate/displayicon.png",
+      "source_sha256": "78f484e0a847825c3ca5885e3c6f0b1dd6b61986da814959a94b07cc657871ce",
+      "source_bytes": 6028,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6028,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/dade69b4-4f5a-8528-247b-219e5a1facd6-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png",
+      "source_sha256": "9e4abfc49cbab2d60c5481162434d4cb13d3c81863d86b33ac72525b51232c07",
+      "source_bytes": 6189,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6189,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/dade69b4-4f5a-8528-247b-219e5a1facd6-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png",
+      "source_sha256": "6d6ea18956d119428ebfc8210fa40eb166491a84cd275673c0a7062a1626f445",
+      "source_bytes": 5714,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5714,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/dade69b4-4f5a-8528-247b-219e5a1facd6-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png",
+      "source_sha256": "c46caeeeeb1035b0cd8d3456cb4468ddbacce977c48cc057d751e63fec257582",
+      "source_bytes": 5248,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5248,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/dade69b4-4f5a-8528-247b-219e5a1facd6-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png",
+      "source_sha256": "d758c8ebdce45322a879c4fceaaa0ce515cae0cede578ee1ae9a485eba9af26f",
+      "source_bytes": 7590,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7590,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/abilities/ability1/displayicon.png",
+      "source_sha256": "9923565ac81907e8f077b2e946959014ad76b2248904d1bbbfd43187ba39caf1",
+      "source_bytes": 8203,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8203,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/abilities/ability2/displayicon.png",
+      "source_sha256": "438e447b6f4029f48aa01dbf48339943cf57d85e4ea719668f06a8f3a1260344",
+      "source_bytes": 6993,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6993,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/abilities/grenade/displayicon.png",
+      "source_sha256": "dba3aecf44c9219d88ebdbe8f1a012c6a7381108ffde8475d0e2dff9fd3f5edb",
+      "source_bytes": 6254,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6254,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04-Passive.png": {
+      "source_url": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/abilities/passive/displayicon.png",
+      "source_sha256": "3a7512727c5bba838824befa9e3c5e81e29889b18207b54622ee98722104bfe7",
+      "source_bytes": 5447,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5447,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/abilities/ultimate/displayicon.png",
+      "source_sha256": "5087b54c1d50dff7a65d351b21f4330726adb41beb7ec053bd47d6ff69ca9a54",
+      "source_bytes": 9221,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 9221,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/df1cb487-4902-002e-5c17-d28e83e78588-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability1/displayicon.png",
+      "source_sha256": "104497b5a72c0202b07e5c567ea323fe4cc469d863c5b5120e03601ff918745b",
+      "source_bytes": 4820,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 4820,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/df1cb487-4902-002e-5c17-d28e83e78588-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability2/displayicon.png",
+      "source_sha256": "48e8b0d6746e14a354156ff39f57131cb8e9c5a8a80abd5fb505aa049d46c1bf",
+      "source_bytes": 5768,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5768,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/df1cb487-4902-002e-5c17-d28e83e78588-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/grenade/displayicon.png",
+      "source_sha256": "ea2bd66d8e19c557a2a41a418441fc09ab59514ced9f252983640fba5b74980e",
+      "source_bytes": 8346,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8346,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/df1cb487-4902-002e-5c17-d28e83e78588-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ultimate/displayicon.png",
+      "source_sha256": "51b5f443ce378b1a4fa94507f064636ba5b6e332a561914799ad232490286caa",
+      "source_bytes": 6712,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6712,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "abilities/e370fa57-4757-3604-3648-499e1f642d3f-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png",
+      "source_sha256": "2aced3a0809560c5ace3f0a9aaf6efc36a5ac077c0e3d9df34a34a4914992240",
+      "source_bytes": 7032,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 7032,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/e370fa57-4757-3604-3648-499e1f642d3f-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png",
+      "source_sha256": "69ae92c01f507776a81c5d0a443fb9bed827193ce3db6830fbe0053b108b414a",
+      "source_bytes": 8027,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 8027,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/e370fa57-4757-3604-3648-499e1f642d3f-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png",
+      "source_sha256": "ef010d865eb6e8d46613020a2985114703c8c54e31a7006f50b24e7b720df082",
+      "source_bytes": 6445,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6445,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/e370fa57-4757-3604-3648-499e1f642d3f-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png",
+      "source_sha256": "4f8416f1a99e735b9d1da0789d57adda03538a170770e92f8e7704ca0f138335",
+      "source_bytes": 6927,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6927,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/eb93336a-449b-9c1b-0a54-a891f7921d69-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png",
+      "source_sha256": "a9e890e68195d5ae06fe9ba569e89a0f4526690eb453e4a623893e76fe07e6d4",
+      "source_bytes": 3877,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 3877,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/eb93336a-449b-9c1b-0a54-a891f7921d69-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png",
+      "source_sha256": "58d1501e98b24536efb646dc6944495e25c0805cea5622bea49664e80207221d",
+      "source_bytes": 3527,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 3527,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/eb93336a-449b-9c1b-0a54-a891f7921d69-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png",
+      "source_sha256": "07686804e60f186d5e3c86bcb1aa44fc6170da6aaebe09d50cba47d9041f6682",
+      "source_bytes": 5103,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5103,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/eb93336a-449b-9c1b-0a54-a891f7921d69-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png",
+      "source_sha256": "4eef8570a4ddb7e4eab68c13262367df4ac5e85d8664515273c3619e8816e4e2",
+      "source_bytes": 5335,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5335,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "abilities/efba5359-4016-a1e5-7626-b1ae76895940-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability1/displayicon.png",
+      "source_sha256": "965764144c01208ffe97557951187a542fc6efdd60c5b9df8bd47dab23a256c2",
+      "source_bytes": 5455,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5455,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/efba5359-4016-a1e5-7626-b1ae76895940-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability2/displayicon.png",
+      "source_sha256": "2a9344af04150224748c5a8a68e6d3171fbbdc147a0aba2ed13d726d62094455",
+      "source_bytes": 5292,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5292,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/efba5359-4016-a1e5-7626-b1ae76895940-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/grenade/displayicon.png",
+      "source_sha256": "2b7770100a32fe874749362d095385b5143150b02a2a1629a6f5beb544a0cbbe",
+      "source_bytes": 6156,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6156,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/efba5359-4016-a1e5-7626-b1ae76895940-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ultimate/displayicon.png",
+      "source_sha256": "9f3781e1eb800b14b475e9bbb3962f94fde5dad808d48235c0de0e6a545e102d",
+      "source_bytes": 5128,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5128,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "abilities/f94c3b30-42be-e959-889c-5aa313dba261-Ability1.png": {
+      "source_url": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png",
+      "source_sha256": "e180075abe413b8a29d5d5f5f99618887f04e35b97346621ee48dc55bb3bc1ac",
+      "source_bytes": 2655,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 2655,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/f94c3b30-42be-e959-889c-5aa313dba261-Ability2.png": {
+      "source_url": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png",
+      "source_sha256": "66f2e862697859b8ee11074fe00581ac2f8198015f5f2cec8d536025d64b12bf",
+      "source_bytes": 5132,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5132,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/f94c3b30-42be-e959-889c-5aa313dba261-Grenade.png": {
+      "source_url": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png",
+      "source_sha256": "aebb9043573357e1fef1b1682e983948b29a2b27f93fc124747c602c9d8fef14",
+      "source_bytes": 5884,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 5884,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "abilities/f94c3b30-42be-e959-889c-5aa313dba261-Ultimate.png": {
+      "source_url": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png",
+      "source_sha256": "6cc6b2312b28951b8327566cbed2068da15de78f99aba94fc2531c8f68d61505",
+      "source_bytes": 6431,
+      "source_size": [
+        128,
+        128
+      ],
+      "transform": "ability-max128",
+      "output_bytes": 6431,
+      "output_size": [
+        128,
+        128
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c.png": {
+      "source_url": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+      "source_sha256": "b2c18170a366f5e72342e86aaba65ab7cf139e4903400ac5ead2397e47af10dc",
+      "source_bytes": 354086,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 16683,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b.png": {
+      "source_url": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+      "source_sha256": "c563d8085b90e8e19fee8ef13cefd45356a69e49989f144631548079863dd694",
+      "source_bytes": 428133,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 18220,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/1dbf2edd-4729-0984-3115-daa5eed44993.png": {
+      "source_url": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+      "source_sha256": "6704b491d95159f51b55bb7804c30eb89511487c77ba2e30fffb3beb774a7b18",
+      "source_bytes": 388443,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 17230,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/1e58de9c-4950-5125-93e9-a0aee9f98746.png": {
+      "source_url": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+      "source_sha256": "f69b0c15f564925d0972b9aa0e60ee180839f5c111847d7e0b18a179f750e640",
+      "source_bytes": 396252,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 18289,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7.png": {
+      "source_url": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+      "source_sha256": "7703fa1ae4289af11e3ce7cac4f0293fa93e1719bd39f0e44eaeee6e9f4c7e15",
+      "source_bytes": 435701,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 15801,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa.png": {
+      "source_url": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon.png",
+      "source_sha256": "24d84a2b82806899441511b3f2a4c152e7792f756231f231b4e54af1c6e99be2",
+      "source_bytes": 464918,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 18517,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf.png": {
+      "source_url": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+      "source_sha256": "70061e655c229326b38efad764f4b82263ac3065e7b3aa9a6808f737387bb176",
+      "source_bytes": 409955,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 17678,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/569fdd95-4d10-43ab-ca70-79becc718b46.png": {
+      "source_url": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+      "source_sha256": "56a14a4a033fb1769574e331f03dca5aaf39c8b6aa65b6d0b2558647f6bd38d6",
+      "source_bytes": 357309,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 18384,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "agents/5f8d3a7f-467b-97f3-062c-13acf203c006.png": {
+      "source_url": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+      "source_sha256": "e38c30c81de0601bd3de340aefdc82e01ddf4a7580c3848eff45c59f03793362",
+      "source_bytes": 456642,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 18828,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "agents/601dbbe7-43ce-be57-2a40-4abd24953621.png": {
+      "source_url": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/displayicon.png",
+      "source_sha256": "e0f200b03983bc1ee4cbc17476d2940b241e3841943ca6795406bdeeb9f50b98",
+      "source_bytes": 628427,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 18113,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/6f2a04ca-43e0-be17-7f36-b3908627744d.png": {
+      "source_url": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+      "source_sha256": "96b7997f91b5f7ccb8872b8069b198dfc9bea871e8347559f7a4b9b1dd53b84e",
+      "source_bytes": 450543,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 19369,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/707eab51-4836-f488-046a-cda6bf494859.png": {
+      "source_url": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+      "source_sha256": "3a8b0582cfd95e3a9a1d83c3b1e824de3c20af15574396adff125a51ad6c6916",
+      "source_bytes": 421306,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 18444,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/7c8a4701-4de6-9355-b254-e09bc2a34b72.png": {
+      "source_url": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/displayicon.png",
+      "source_sha256": "d50919fcf1b6c5ca92155d0b6d3d0a15e0d3d2f958a63eb84df6076c6abe4649",
+      "source_bytes": 394611,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 18645,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89.png": {
+      "source_url": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+      "source_sha256": "1ca02a8e6fb437fba4864f293973e79e46382b2a57b55cafeb4df3d95d3a8216",
+      "source_bytes": 497037,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 18323,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "agents/8e253930-4c05-31dd-1b6c-968525494517.png": {
+      "source_url": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+      "source_sha256": "5961fac1d5f2f2cd9e35d6d8acb09df7016e0ec51cc53eac49ff8664c419b313",
+      "source_bytes": 431965,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 17703,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b.png": {
+      "source_url": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/displayicon.png",
+      "source_sha256": "73a36fd036123fc3497716b820605f67a13fae3533fb2c79c646fbbea37d3cee",
+      "source_bytes": 278965,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 15167,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/95b78ed7-4637-86d9-7e41-71ba8c293152.png": {
+      "source_url": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+      "source_sha256": "f522b11d545d61b45b2d0fef6097f6c17f6bd6f40caa95a0326d8824035f2590",
+      "source_bytes": 513708,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 18647,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417.png": {
+      "source_url": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+      "source_sha256": "ab3be7c8412fdf78b72987d7829dd570f600927bbfe9b1487c51c995560c73d5",
+      "source_bytes": 412007,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 16353,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc.png": {
+      "source_url": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+      "source_sha256": "adda77d405273bcecf6eb05d737da2db7e5443adde45f5cff5b9b648ec3df8dc",
+      "source_bytes": 367243,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 17673,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "agents/add6443a-41bd-e414-f6ad-e58d267f4e95.png": {
+      "source_url": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+      "source_sha256": "04d5f6b623ebb3f42f3fa572dab3bbad3be614d127ba7d2ea28575a0f30b4045",
+      "source_bytes": 410578,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 17986,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "agents/b444168c-4e35-8076-db47-ef9bf368f384.png": {
+      "source_url": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+      "source_sha256": "d6c800a5c3470779cb3b9795265a9fbc329aed5f50d9db31f9a389ff0bd6318f",
+      "source_bytes": 509256,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 18274,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "agents/bb2a4828-46eb-8cd1-e765-15848195d751.png": {
+      "source_url": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+      "source_sha256": "f491dff17632b08a009eda907000097169bd4a048c9cb7e5d6feb0723d88b9a2",
+      "source_bytes": 204687,
+      "source_size": [
+        512,
+        512
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 22572,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235.png": {
+      "source_url": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+      "source_sha256": "473c76937bb788450fd7b3c7a5460e5131c7307d7102248d382c816ce5d5d482",
+      "source_bytes": 540135,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 21318,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "agents/dade69b4-4f5a-8528-247b-219e5a1facd6.png": {
+      "source_url": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+      "source_sha256": "2ea9f3af0e07a8fc4c1b24cc3e6c5b5718824dc64a26dadf1f9cea00530fe894",
+      "source_bytes": 579617,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 21311,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04.png": {
+      "source_url": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/displayicon.png",
+      "source_sha256": "981e77651c031c856d64303515b0f535486320041cb2b5291a664ec81b461755",
+      "source_bytes": 277568,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 15062,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/df1cb487-4902-002e-5c17-d28e83e78588.png": {
+      "source_url": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+      "source_sha256": "f4118f1567f4285fa6bfa7d3b36fcebe95b34a8bb7c21bdefe99bb75ceffec8a",
+      "source_bytes": 386496,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 19811,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "agents/e370fa57-4757-3604-3648-499e1f642d3f.png": {
+      "source_url": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+      "source_sha256": "d86ce31860b104c60abd2a75402e89126dc95e06fdb2acb2299c4a0e27018e77",
+      "source_bytes": 568157,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 15200,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "agents/eb93336a-449b-9c1b-0a54-a891f7921d69.png": {
+      "source_url": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+      "source_sha256": "b15901ae8693d703b8b0bdc510b675194ef86cf11da1bcbb92d3a5524f0dad6b",
+      "source_bytes": 411650,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 17408,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/efba5359-4016-a1e5-7626-b1ae76895940.png": {
+      "source_url": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+      "source_sha256": "afa8d35bdfe05f4b4a4405b699a3416ce8100fee8da86df0df3e6956165fff11",
+      "source_bytes": 287425,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 17662,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/f94c3b30-42be-e959-889c-5aa313dba261.png": {
+      "source_url": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+      "source_sha256": "63456bd7a31c64bcffa6ce4386363a222fb6d68b9251c47f01f2dc512f7ac52d",
+      "source_bytes": 479860,
+      "source_size": [
+        1024,
+        1024
+      ],
+      "transform": "portrait-96-lanczos",
+      "output_bytes": 19311,
+      "output_size": [
+        96,
+        96
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "agents/map/0e38b510-41a8-5780-5e8f-568b2a4f2d6c.png": {
+      "source_url": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/minimapportrait.png",
+      "source_sha256": "2ed545a23c6eb616fe4e59daae44f65654ea1a4dffe710e955ce1b7791eca177",
+      "source_bytes": 7192,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7192,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/map/117ed9e3-49f3-6512-3ccf-0cada7e3823b.png": {
+      "source_url": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/minimapportrait.png",
+      "source_sha256": "9b875a383ada1c067db7fae8d8033afff23b06ad00b0aebc6c8eaef25b30cc0c",
+      "source_bytes": 6886,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 6886,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/map/1dbf2edd-4729-0984-3115-daa5eed44993.png": {
+      "source_url": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/minimapportrait.png",
+      "source_sha256": "a2b33dd59f012ec4b62c45afd4fde1a61f3947b5905c81f121fc599c4b995c50",
+      "source_bytes": 7166,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7166,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/map/1e58de9c-4950-5125-93e9-a0aee9f98746.png": {
+      "source_url": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/minimapportrait.png",
+      "source_sha256": "2656d7a2ca97f82f506b93eea3b927305b4a6a9ba8c23afe5c99b537dc341dbe",
+      "source_bytes": 6800,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 6800,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/map/22697a3d-45bf-8dd7-4fec-84a9e28c69d7.png": {
+      "source_url": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/minimapportrait.png",
+      "source_sha256": "5cb50db65ee5eb46caabe35cf07665549142a8966e54237a6d53726e1cd3d8ae",
+      "source_bytes": 6157,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 6157,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/map/320b2a48-4d9b-a075-30f1-1f93a9b638fa.png": {
+      "source_url": "https://media.valorant-api.com/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/minimapportrait.png",
+      "source_sha256": "81ab52b51f1e3d62cde2d3dd111c0f522581eb483181c4c2f3154525ec662997",
+      "source_bytes": 7325,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7325,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/map/41fb69c1-4189-7b37-f117-bcaf1e96f1bf.png": {
+      "source_url": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/minimapportrait.png",
+      "source_sha256": "7f92db99c9e1ecbbba024303d509e1f21d80ce9d3841f67d36124da8def5b21c",
+      "source_bytes": 6964,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 6964,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/map/569fdd95-4d10-43ab-ca70-79becc718b46.png": {
+      "source_url": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/minimapportrait.png",
+      "source_sha256": "44bc1bc56e705b10263df2c7f72a2129db72654d03616cc150cba797145d16bc",
+      "source_bytes": 6979,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 6979,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "agents/map/5f8d3a7f-467b-97f3-062c-13acf203c006.png": {
+      "source_url": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/minimapportrait.png",
+      "source_sha256": "639e8a8bc8cefb14b0a32cfc83f2c46710a3031fac8e2eccbd427e24b0284fc0",
+      "source_bytes": 7164,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7164,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "agents/map/601dbbe7-43ce-be57-2a40-4abd24953621.png": {
+      "source_url": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/minimapportrait.png",
+      "source_sha256": "de5dadd578d02450176fc9b89936537e42bb63918fd85a0395732f9f1ba07ff2",
+      "source_bytes": 7062,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7062,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/map/6f2a04ca-43e0-be17-7f36-b3908627744d.png": {
+      "source_url": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/minimapportrait.png",
+      "source_sha256": "2a21276a245921771a3501fffe9549b976313258c826712cce3f76570b6e0184",
+      "source_bytes": 6773,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 6773,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/map/707eab51-4836-f488-046a-cda6bf494859.png": {
+      "source_url": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/minimapportrait.png",
+      "source_sha256": "ef2669556a86ed5eef3edf7800dac52a993c324bc479eef1e138ca2405950ff2",
+      "source_bytes": 6941,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 6941,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/map/7c8a4701-4de6-9355-b254-e09bc2a34b72.png": {
+      "source_url": "https://media.valorant-api.com/agents/7c8a4701-4de6-9355-b254-e09bc2a34b72/minimapportrait.png",
+      "source_sha256": "b1b30cc315774d3741827c0b6d5ab669c6408148d2cb378f38645978c70bbde8",
+      "source_bytes": 6333,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 6333,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/map/7f94d92c-4234-0a36-9646-3a87eb8b5c89.png": {
+      "source_url": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/minimapportrait.png",
+      "source_sha256": "803dd7b90a7841e22dee4beff677512ee0bb29a97c78c2626d432bc6489b0d49",
+      "source_bytes": 7275,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7275,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "agents/map/8e253930-4c05-31dd-1b6c-968525494517.png": {
+      "source_url": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/minimapportrait.png",
+      "source_sha256": "c05b673472195d26fb5504936cebef413f081b54439322b715b3be2d4dd660c6",
+      "source_bytes": 6392,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 6392,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "agents/map/92eeef5d-43b5-1d4a-8d03-b3927a09034b.png": {
+      "source_url": "https://media.valorant-api.com/agents/92eeef5d-43b5-1d4a-8d03-b3927a09034b/minimapportrait.png",
+      "source_sha256": "22e078e62fb0a3921c09b80cd4c27b75f593a38c21da445acc387f3ba3834e51",
+      "source_bytes": 5367,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 5367,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/map/95b78ed7-4637-86d9-7e41-71ba8c293152.png": {
+      "source_url": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/minimapportrait.png",
+      "source_sha256": "f9619781f2e61b021bc5a2bddfbcb1ee48b642a0abd3050003dfeb36818e0aa7",
+      "source_bytes": 7204,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7204,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/map/9f0d8ba9-4140-b941-57d3-a7ad57c6b417.png": {
+      "source_url": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/minimapportrait.png",
+      "source_sha256": "23c249efe8bc0c10c7eb95bb915775f841fb0aa41641245b75b23d598cc9672f",
+      "source_bytes": 5821,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 5821,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/map/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc.png": {
+      "source_url": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/minimapportrait.png",
+      "source_sha256": "bd3484c2bcb0d0aa71b99198c291c8a86430f3f8dc34b5b39bab0034ef822d37",
+      "source_bytes": 6236,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 6236,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "agents/map/add6443a-41bd-e414-f6ad-e58d267f4e95.png": {
+      "source_url": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/minimapportrait.png",
+      "source_sha256": "b7f6a3863668dddefb1883a572eac42554da725ea6da206c2dfeaeb69ed5b737",
+      "source_bytes": 6574,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 6574,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "agents/map/b444168c-4e35-8076-db47-ef9bf368f384.png": {
+      "source_url": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/minimapportrait.png",
+      "source_sha256": "9fba4d172ebf025c2453f802acdc2b8e233aec366124d6e956a02630efdb38d8",
+      "source_bytes": 7285,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7285,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "agents/map/bb2a4828-46eb-8cd1-e765-15848195d751.png": {
+      "source_url": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/minimapportrait.png",
+      "source_sha256": "91ef678cb58beea2cf1a8f7e62972dcb1f129f645f26a87d1bd8eae4ff8f2342",
+      "source_bytes": 7897,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7897,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/map/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235.png": {
+      "source_url": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/minimapportrait.png",
+      "source_sha256": "38a553d5a9cbbcfaab49a4e01e0af06f89524aa859cfac0d98e2789ee20bda73",
+      "source_bytes": 7463,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7463,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "agents/map/dade69b4-4f5a-8528-247b-219e5a1facd6.png": {
+      "source_url": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/minimapportrait.png",
+      "source_sha256": "815b47ddcab6b135218907376bb882220d5904140ef20ac38a5a912391ae9a74",
+      "source_bytes": 7170,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7170,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "agents/map/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04.png": {
+      "source_url": "https://media.valorant-api.com/agents/ddd5a15c-4fbe-42fa-3789-11a55ca5ee04/minimapportrait.png",
+      "source_sha256": "1a664e54b87148361cbf5cf726114c8f7291ece22bc2d64253f4f6cc7428233a",
+      "source_bytes": 5468,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 5468,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/map/df1cb487-4902-002e-5c17-d28e83e78588.png": {
+      "source_url": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/minimapportrait.png",
+      "source_sha256": "a510144e658ebce65fd7ab62f72d7a0f6304d17a5dcc08db5f79ef28b4360f53",
+      "source_bytes": 7279,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7279,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:08Z"
+    },
+    "agents/map/e370fa57-4757-3604-3648-499e1f642d3f.png": {
+      "source_url": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/minimapportrait.png",
+      "source_sha256": "d3b5d4432c2d8234466a4e0e154cab3db57dbcaad51bce4dd9a534f8e4bdb6ff",
+      "source_bytes": 6131,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 6131,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    },
+    "agents/map/eb93336a-449b-9c1b-0a54-a891f7921d69.png": {
+      "source_url": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/minimapportrait.png",
+      "source_sha256": "648775b912549c6512e2fafdbd9afa70a40b88b29bdbfd82bda4e83c06a8ad43",
+      "source_bytes": 6501,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 6501,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:07Z"
+    },
+    "agents/map/efba5359-4016-a1e5-7626-b1ae76895940.png": {
+      "source_url": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/minimapportrait.png",
+      "source_sha256": "cd26d1509bcae0183e782311eeb922c35777552f34e751776da10e9f1fbfff10",
+      "source_bytes": 7366,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7366,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:06Z"
+    },
+    "agents/map/f94c3b30-42be-e959-889c-5aa313dba261.png": {
+      "source_url": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/minimapportrait.png",
+      "source_sha256": "120e9adea568763ddd22b0a27ebeb4db2ec4ac7d6c3d0c95b9615a12132e667e",
+      "source_bytes": 7243,
+      "source_size": [
+        64,
+        64
+      ],
+      "transform": "copy-verbatim",
+      "output_bytes": 7243,
+      "output_size": [
+        64,
+        64
+      ],
+      "fetched_at": "2026-10-31T09:15:05Z"
+    }
+  }
+}

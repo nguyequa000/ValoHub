@@ -1,0 +1,22 @@
+upstream_sha=09a8e1e1d81c48840b8810f523f1595e539b7d55
+overlay_patch=VALOPLANT_WORK/parser-overlay.patch
+overlay_patch_sha256=cba0b5b648723afecd9fe5dee8a941d8d51f240b0c1476679ede4809fdf6032f
+overlay_files:
+- vendorValorantReplayParser/src/CliReader/JsonExport/ReplayEventJsonWriter.cs
+- vendorValorantReplayParser/src/CliReader/JsonExport/ReplayExportManifestWriter.cs
+- vendorValorantReplayParser/src/CliReader/JsonExport/ReplayExportSink.cs
+- vendorValorantReplayParser/src/CliReader/JsonExport/ReplayExportStatistics.cs
+- vendorValorantReplayParser/src/CliReader/JsonExport/ReplayJsonNormalizer.cs
+- vendorValorantReplayParser/src/Replay.Unreal/Header/ReplayHeaderReader.cs
+- vendorValorantReplayParser/tests/Replay.Unreal.Tests/Header/ReplayHeaderReaderTests.cs
+- vendorValorantReplayParser/tests/Replay.Valorant.Events.Tests/Export/ReplayExportTests.cs
+assembly_set_sha256=3a8616a63387121ddf30bc01b5e22f9fedc635a149ad04c03144057bed2fb0f0
+assembly.CliReader.dll=7035778d0edd5926a73b8e85f831a28afaa087dba6f94fa45501404a79ea4b01
+assembly.Replay.Encoding.dll=1f96f3f6a7d34e3d970d097a14e7c7b8291a6c62b064258a911f52eba1b0ccb9
+assembly.Replay.Models.dll=9661f65f676fbb295c67886733dace140d8fc17b6564d5159d9e6401e219a74b
+assembly.Replay.Unreal.dll=e694f367d6b08d5f9110e2ed6cded242392e82301db7101d23fea53207c707a8
+assembly.Replay.Valorant.Events.dll=3bde2b7be9d146965a2d9d7ecaaad257ec9843ea33dff916d5789040b0445768
+assembly.Replay.Valorant.dll=761f3783b192d33e32f97b82915e154586aebb28c0df5a99aed43759f61ad10c
+tested.1=++Ares-Core+release-13.06|bad1543033d11396b9728ce66484d106ee2dafa91431ca655c962ee058c06f07|validated|A3 t_8eb4065e re-decode with the published 7035778d build @09a8e1e1: 1572247 movement rows, movement sha256 d765ed89..., 18 contiguous rounds, 461754 event rows, 0 diagnostics - byte-identical stream to A1/A2
+tested.2=++Ares-Core+release-13.08|87976b8cd193496b8e04b49d068a1f78ea1322b9a3b54791be65c67e70f2fd76|validated|A3 t_8eb4065e re-decode with the published 7035778d build @09a8e1e1: 2483916 movement rows, movement sha256 2b62a978..., 22 contiguous rounds, 645804 event rows, 0 diagnostics - byte-identical stream to A1/A2
+tested.3=++Ares-Core+release-11.07|c5809e86257adfb0df056e0aa005e8915b4794c1300235ea439f3ae153796020|failed|carried from A2 record, not re-run in A3: legacy header parses (UE4Version 522 layout) but ContentBlockFramer still rejects packet 0 channel 1 position 294 of 809 bits, declares 3725 with 515 remaining - NOT fixed at 09a8e1e1

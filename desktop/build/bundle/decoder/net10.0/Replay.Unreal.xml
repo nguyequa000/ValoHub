@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Replay.Unreal</name>
+    </assembly>
+    <members>
+        <member name="M:Replay.Unreal.Bunches.IPartialBunchAccumulator.FinalizePending">
+            <summary>
+            Discards and reports unfinished assemblies after normal replay traversal.
+            Dispose remains silent so exception cleanup cannot add diagnostics.
+            </summary>
+        </member>
+        <member name="T:Replay.Unreal.Bunches.PartialBunchAccumulator">
+            <summary>
+            Retains fragments for incomplete bunches and transfers completed payload ownership to the caller.
+            </summary>
+        </member>
+        <member name="M:Replay.Unreal.Bunches.PartialBunchAccumulator.FinalizePending">
+            <summary>
+            Discards unfinished assemblies and reports them as incomplete. Call only after normal replay traversal.
+            </summary>
+        </member>
+        <member name="T:Replay.Unreal.Bunches.PartialBunchLimits">
+            <summary>
+            Resource limits for incomplete bunch payloads retained by a replay parse.
+            </summary>
+        </member>
+        <member name="T:Replay.Unreal.Parsing.IRepLayoutCustomDeltaPayload">
+            <summary>Opt-in native delta data following a terminated RepLayout property stream.</summary>
+        </member>
+    </members>
+</doc>

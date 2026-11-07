@@ -51,10 +51,6 @@ vendorvalorant-web-replayer/
 
 # ValoHub desktop build outputs
 desktop/.venv/
-desktop/build/
-desktop/dist/
-desktop/sidecar/build/
-desktop/sidecar/dist/
 
 # Stamped per build (About falls back cleanly when absent; commit comes from /api/app/info)
 bot/web/static/replays_app/brand/build-info.json

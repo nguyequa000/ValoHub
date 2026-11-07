@@ -1,0 +1,16 @@
+{
+    "product":  "ValoHub",
+    "version":  "0.1.0",
+    "git_commit":  "7c9e7355458bf7e2984e9c16d80e8eea6760ef86",
+    "git_dirty":  false,
+    "python":  "Python 3.12.10",
+    "aiohttp":  "3.14.1",
+    "electron":  "45.2.1",
+    "electron_builder":  "26.18.0",
+    "built_utc":  "2026-11-07T06:20:33.9707705Z",
+    "freeze_seconds":  4,
+    "sha256":  {
+                   "ValoHub.exe":  "347ef0a90dd2d42b12c5f811c889b138864597f7b4e3b1a003ec3a1e50c4c360",
+                   "backend/python.exe":  "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a"
+               }
+}

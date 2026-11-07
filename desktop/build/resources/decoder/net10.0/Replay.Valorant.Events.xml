@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Replay.Valorant.Events</name>
+    </assembly>
+    <members>
+        <member name="T:Replay.Valorant.Events.ValorantEventEnricher">
+            <summary>Derives gameplay events from native parser events and forwards both to the consumer.</summary>
+            <remarks>Create one instance per replay. Call Complete only after a successful read.</remarks>
+        </member>
+        <member name="M:Replay.Valorant.Events.ValorantEventEnricher.Complete">
+            <summary>Flushes deferred gameplay events after parsing succeeds. Repeated calls have no effect.</summary>
+        </member>
+    </members>
+</doc>

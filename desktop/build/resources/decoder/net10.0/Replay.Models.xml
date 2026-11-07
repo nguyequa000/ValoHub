@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Replay.Models</name>
+    </assembly>
+    <members>
+        <member name="T:Replay.Models.Diagnostics.ReplayDiagnostic">
+            <summary>A structured, recoverable warning observed while reading a replay.</summary>
+            <remarks>
+            Diagnostics contain descriptive strings and optional replay location values. They do not retain exceptions,
+            payload bytes, archives, callbacks, or parser state.
+            </remarks>
+            <param name="Code">The kind of recoverable condition.</param>
+            <param name="Message">Description of the sequence anomaly or speculative fallback.</param>
+            <param name="PacketId">Packet associated with the warning, when known.</param>
+            <param name="ChannelIndex">Channel associated with the warning, when known.</param>
+            <param name="TimeSeconds">Replay time associated with the warning, when known.</param>
+            <param name="ExportGroupPath">Export-group path associated with the warning, when known.</param>
+            <param name="FieldName">Field or function associated with the warning, when known.</param>
+        </member>
+        <member name="M:Replay.Models.Diagnostics.ReplayDiagnostic.#ctor(Replay.Models.Diagnostics.ReplayDiagnosticCode,System.String,System.Nullable{System.Int32},System.Nullable{System.UInt32},System.Nullable{System.Single},System.String,System.String)">
+            <summary>A structured, recoverable warning observed while reading a replay.</summary>
+            <remarks>
+            Diagnostics contain descriptive strings and optional replay location values. They do not retain exceptions,
+            payload bytes, archives, callbacks, or parser state.
+            </remarks>
+            <param name="Code">The kind of recoverable condition.</param>
+            <param name="Message">Description of the sequence anomaly or speculative fallback.</param>
+            <param name="PacketId">Packet associated with the warning, when known.</param>
+            <param name="ChannelIndex">Channel associated with the warning, when known.</param>
+            <param name="TimeSeconds">Replay time associated with the warning, when known.</param>
+            <param name="ExportGroupPath">Export-group path associated with the warning, when known.</param>
+            <param name="FieldName">Field or function associated with the warning, when known.</param>
+        </member>
+        <member name="P:Replay.Models.Diagnostics.ReplayDiagnostic.Code">
+            <summary>The kind of recoverable condition.</summary>
+        </member>
+        <member name="P:Replay.Models.Diagnostics.ReplayDiagnostic.Message">
+            <summary>Description of the sequence anomaly or speculative fallback.</summary>
+        </member>
+        <member name="P:Replay.Models.Diagnostics.ReplayDiagnostic.PacketId">
+            <summary>Packet associated with the warning, when known.</summary>
+        </member>
+        <member name="P:Replay.Models.Diagnostics.ReplayDiagnostic.ChannelIndex">
+            <summary>Channel associated with the warning, when known.</summary>
+        </member>
+        <member name="P:Replay.Models.Diagnostics.ReplayDiagnostic.TimeSeconds">
+            <summary>Replay time associated with the warning, when known.</summary>
+        </member>
+        <member name="P:Replay.Models.Diagnostics.ReplayDiagnostic.ExportGroupPath">
+            <summary>Export-group path associated with the warning, when known.</summary>
+        </member>
+        <member name="P:Replay.Models.Diagnostics.ReplayDiagnostic.FieldName">
+            <summary>Field or function associated with the warning, when known.</summary>
+        </member>
+        <member name="T:Replay.Models.Diagnostics.ReplayReadStatus">
+            <summary>Completion state of a full replay traversal.</summary>
+        </member>
+        <member name="F:Replay.Models.Diagnostics.ReplayReadStatus.Completed">
+            <summary>The replay traversal completed without recoverable diagnostics.</summary>
+        </member>
+        <member name="F:Replay.Models.Diagnostics.ReplayReadStatus.CompletedWithWarnings">
+            <summary>The replay traversal completed after one or more recoverable conditions were recorded.</summary>
+        </member>
+        <member name="T:Replay.Models.Diagnostics.ReplayDiagnosticCode">
+            <summary>Known recoverable conditions reported in <see cref="T:Replay.Models.Diagnostics.ReplayDiagnostic"/>.</summary>
+        </member>
+        <member name="F:Replay.Models.Diagnostics.ReplayDiagnosticCode.PartialSequenceError">
+            <summary>A partial-bunch sequence anomaly caused an affected assembly to be discarded.</summary>
+        </member>
+        <member name="F:Replay.Models.Diagnostics.ReplayDiagnosticCode.IncompletePartialBunch">
+            <summary>An unfinished partial bunch was discarded when input ended.</summary>
+        </member>
+        <member name="F:Replay.Models.Diagnostics.ReplayDiagnosticCode.RawPayloadFallback">
+            <summary>A speculative typed decoder rolled back and preserved the bounded payload as raw data.</summary>
+        </member>
+        <member name="T:Replay.Models.Events.NetGuidExported">
+            <summary>A native object GUID/path export. PacketId is -1 for frame-level exports.</summary>
+        </member>
+        <member name="M:Replay.Models.Events.NetGuidExported.#ctor(System.Single,System.Int32,System.UInt32,System.String,System.UInt32)">
+            <summary>A native object GUID/path export. PacketId is -1 for frame-level exports.</summary>
+        </member>
+        <member name="T:Replay.Models.Replay.ReplayReleaseVersion">
+            <summary>
+            Identifies a VALORANT game release independently of the Unreal replay version.
+            </summary>
+        </member>
+        <member name="M:Replay.Models.Replay.ReplayReleaseVersion.#ctor(System.UInt16,System.UInt16)">
+            <summary>
+            Identifies a VALORANT game release independently of the Unreal replay version.
+            </summary>
+        </member>
+        <member name="T:Replay.Models.Replay.VersionedDefinition`1">
+            <summary>
+            Selects a definition by inclusive VALORANT release boundaries.
+            </summary>
+        </member>
+        <member name="T:Replay.Models.Results.ReplayBunchStatistics">
+            <summary>Immutable snapshot of bunch, payload, and content-block counters.</summary>
+            <remarks>Counter meanings follow the parser stages that produce them; related counters are not interchangeable.</remarks>
+            <param name="PacketCount">Number of packets processed by the bunch pipeline.</param>
+            <param name="BunchCount">Total bunches encountered.</param>
+            <param name="PayloadBunchCount">Bunches containing payload data.</param>
+            <param name="PackageMapExportBunchCount">Package-map export bunches encountered.</param>
+            <param name="ExportedNetGuidCount">Net GUID exports encountered.</param>
+            <param name="MustBeMappedGuidCount">Must-be-mapped GUID entries encountered.</param>
+            <param name="PartialFragmentCount">Partial bunch fragments encountered.</param>
+            <param name="CompletedPartialBunchCount">Partial bunch assemblies completed.</param>
+            <param name="PartialErrorCount">Partial-bunch sequence errors.</param>
+            <param name="ActorChannelOpenCount">Actor-channel open bunches encountered.</param>
+            <param name="ActorChannelCloseCount">Actor-channel close bunches encountered.</param>
+            <param name="ActorSerializeNewActorCount">New-actor serialization records encountered.</param>
+            <param name="DynamicOpenPayloadBunchCount">Dynamic actor-channel open payload bunches encountered.</param>
+            <param name="DynamicOpenPayloadBitsSkipped">Dynamic open payload bits intentionally skipped.</param>
+            <param name="ContentBlockCount">Content blocks framed.</param>
+            <param name="ActorContentBlockCount">Actor content blocks framed.</param>
+            <param name="SubobjectContentBlockCount">Subobject content blocks framed.</param>
+            <param name="DeletedContentBlockCount">Deleted-object content blocks framed.</param>
+            <param name="RepLayoutContentBlockCount">Rep-layout content blocks framed.</param>
+            <param name="ContentPayloadBitsSkipped">Content payload bits intentionally skipped.</param>
+            <param name="ContentPayloadBitsParsed">Content payload bits parsed.</param>
+            <param name="MalformedPayloadCount">Malformed payload conditions counted by the bunch pipeline.</param>
+            <param name="MalformedPayloadExceptionCount">Malformed payload exceptions observed.</param>
+            <param name="MalformedMustBeMappedGuidCount">Malformed must-be-mapped GUID payloads.</param>
+            <param name="MalformedActorOpenCount">Malformed actor-channel open payloads.</param>
+            <param name="MalformedContentBlockCount">Malformed content blocks.</param>
+            <param name="TrailingPayloadCount">Unexpected trailing payload conditions counted by the pipeline.</param>
+        </member>
+        <member name="M:Replay.Models.Results.ReplayBunchStatistics.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int64,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int64,System.Int64,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>Immutable snapshot of bunch, payload, and content-block counters.</summary>
+            <remarks>Counter meanings follow the parser stages that produce them; related counters are not interchangeable.</remarks>
+            <param name="PacketCount">Number of packets processed by the bunch pipeline.</param>
+            <param name="BunchCount">Total bunches encountered.</param>
+            <param name="PayloadBunchCount">Bunches containing payload data.</param>
+            <param name="PackageMapExportBunchCount">Package-map export bunches encountered.</param>
+            <param name="ExportedNetGuidCount">Net GUID exports encountered.</param>
+            <param name="MustBeMappedGuidCount">Must-be-mapped GUID entries encountered.</param>
+            <param name="PartialFragmentCount">Partial bunch fragments encountered.</param>
+            <param name="CompletedPartialBunchCount">Partial bunch assemblies completed.</param>
+            <param name="PartialErrorCount">Partial-bunch sequence errors.</param>
+            <param name="ActorChannelOpenCount">Actor-channel open bunches encountered.</param>
+            <param name="ActorChannelCloseCount">Actor-channel close bunches encountered.</param>
+            <param name="ActorSerializeNewActorCount">New-actor serialization records encountered.</param>
+            <param name="DynamicOpenPayloadBunchCount">Dynamic actor-channel open payload bunches encountered.</param>
+            <param name="DynamicOpenPayloadBitsSkipped">Dynamic open payload bits intentionally skipped.</param>
+            <param name="ContentBlockCount">Content blocks framed.</param>
+            <param name="ActorContentBlockCount">Actor content blocks framed.</param>
+            <param name="SubobjectContentBlockCount">Subobject content blocks framed.</param>
+            <param name="DeletedContentBlockCount">Deleted-object content blocks framed.</param>
+            <param name="RepLayoutContentBlockCount">Rep-layout content blocks framed.</param>
+            <param name="ContentPayloadBitsSkipped">Content payload bits intentionally skipped.</param>
+            <param name="ContentPayloadBitsParsed">Content payload bits parsed.</param>
+            <param name="MalformedPayloadCount">Malformed payload conditions counted by the bunch pipeline.</param>
+            <param name="MalformedPayloadExceptionCount">Malformed payload exceptions observed.</param>
+            <param name="MalformedMustBeMappedGuidCount">Malformed must-be-mapped GUID payloads.</param>
+            <param name="MalformedActorOpenCount">Malformed actor-channel open payloads.</param>
+            <param name="MalformedContentBlockCount">Malformed content blocks.</param>
+            <param name="TrailingPayloadCount">Unexpected trailing payload conditions counted by the pipeline.</param>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.PacketCount">
+            <summary>Number of packets processed by the bunch pipeline.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.BunchCount">
+            <summary>Total bunches encountered.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.PayloadBunchCount">
+            <summary>Bunches containing payload data.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.PackageMapExportBunchCount">
+            <summary>Package-map export bunches encountered.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.ExportedNetGuidCount">
+            <summary>Net GUID exports encountered.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.MustBeMappedGuidCount">
+            <summary>Must-be-mapped GUID entries encountered.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.PartialFragmentCount">
+            <summary>Partial bunch fragments encountered.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.CompletedPartialBunchCount">
+            <summary>Partial bunch assemblies completed.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.PartialErrorCount">
+            <summary>Partial-bunch sequence errors.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.ActorChannelOpenCount">
+            <summary>Actor-channel open bunches encountered.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.ActorChannelCloseCount">
+            <summary>Actor-channel close bunches encountered.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.ActorSerializeNewActorCount">
+            <summary>New-actor serialization records encountered.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.DynamicOpenPayloadBunchCount">
+            <summary>Dynamic actor-channel open payload bunches encountered.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.DynamicOpenPayloadBitsSkipped">
+            <summary>Dynamic open payload bits intentionally skipped.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.ContentBlockCount">
+            <summary>Content blocks framed.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.ActorContentBlockCount">
+            <summary>Actor content blocks framed.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.SubobjectContentBlockCount">
+            <summary>Subobject content blocks framed.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.DeletedContentBlockCount">
+            <summary>Deleted-object content blocks framed.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.RepLayoutContentBlockCount">
+            <summary>Rep-layout content blocks framed.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.ContentPayloadBitsSkipped">
+            <summary>Content payload bits intentionally skipped.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.ContentPayloadBitsParsed">
+            <summary>Content payload bits parsed.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.MalformedPayloadCount">
+            <summary>Malformed payload conditions counted by the bunch pipeline.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.MalformedPayloadExceptionCount">
+            <summary>Malformed payload exceptions observed.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.MalformedMustBeMappedGuidCount">
+            <summary>Malformed must-be-mapped GUID payloads.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.MalformedActorOpenCount">
+            <summary>Malformed actor-channel open payloads.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.MalformedContentBlockCount">
+            <summary>Malformed content blocks.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayBunchStatistics.TrailingPayloadCount">
+            <summary>Unexpected trailing payload conditions counted by the pipeline.</summary>
+        </member>
+        <member name="T:Replay.Models.Results.ReplayExportFieldSummary">
+            <summary>Detached summary of one class-net-cache field.</summary>
+            <param name="Handle">Field handle.</param>
+            <param name="Name">Field name.</param>
+            <param name="CompatibleChecksum">Compatible field checksum.</param>
+        </member>
+        <member name="M:Replay.Models.Results.ReplayExportFieldSummary.#ctor(System.UInt32,System.String,System.UInt32)">
+            <summary>Detached summary of one class-net-cache field.</summary>
+            <param name="Handle">Field handle.</param>
+            <param name="Name">Field name.</param>
+            <param name="CompatibleChecksum">Compatible field checksum.</param>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayExportFieldSummary.Handle">
+            <summary>Field handle.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayExportFieldSummary.Name">
+            <summary>Field name.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayExportFieldSummary.CompatibleChecksum">
+            <summary>Compatible field checksum.</summary>
+        </member>
+        <member name="T:Replay.Models.Results.ReplayExportGroupSummary">
+            <summary>Detached summary of an export group.</summary>
+            <param name="PathName">Ordinal export-group path.</param>
+            <param name="PathNameIndex">Path-name index associated with the group.</param>
+            <param name="Fields">Read-only field summaries ordered by handle.</param>
+        </member>
+        <member name="M:Replay.Models.Results.ReplayExportGroupSummary.#ctor(System.String,System.UInt32,System.Collections.Generic.IReadOnlyList{Replay.Models.Results.ReplayExportFieldSummary})">
+            <summary>Detached summary of an export group.</summary>
+            <param name="PathName">Ordinal export-group path.</param>
+            <param name="PathNameIndex">Path-name index associated with the group.</param>
+            <param name="Fields">Read-only field summaries ordered by handle.</param>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayExportGroupSummary.PathName">
+            <summary>Ordinal export-group path.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayExportGroupSummary.PathNameIndex">
+            <summary>Path-name index associated with the group.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayExportGroupSummary.Fields">
+            <summary>Read-only field summaries ordered by handle.</summary>
+        </member>
+        <member name="T:Replay.Models.Results.ReplayPacketStatistics">
+            <summary>Immutable snapshot of raw replay packet counters.</summary>
+            <param name="PacketCount">Number of packets encountered.</param>
+            <param name="TotalPacketBytes">Total encoded bytes consumed for packets.</param>
+            <param name="PacketsWithBunches">Number of packets containing one or more bunches.</param>
+            <param name="BunchCount">Total bunches encountered in packets.</param>
+            <param name="MalformedPacketCount">Malformed packet count maintained by the packet reader.</param>
+            <param name="PartialErrorCount">Partial-sequence error count maintained by the packet reader.</param>
+            <param name="MinTimeSeconds">Minimum packet time observed.</param>
+            <param name="MaxTimeSeconds">Maximum packet time observed.</param>
+        </member>
+        <member name="M:Replay.Models.Results.ReplayPacketStatistics.#ctor(System.Int32,System.Int64,System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)">
+            <summary>Immutable snapshot of raw replay packet counters.</summary>
+            <param name="PacketCount">Number of packets encountered.</param>
+            <param name="TotalPacketBytes">Total encoded bytes consumed for packets.</param>
+            <param name="PacketsWithBunches">Number of packets containing one or more bunches.</param>
+            <param name="BunchCount">Total bunches encountered in packets.</param>
+            <param name="MalformedPacketCount">Malformed packet count maintained by the packet reader.</param>
+            <param name="PartialErrorCount">Partial-sequence error count maintained by the packet reader.</param>
+            <param name="MinTimeSeconds">Minimum packet time observed.</param>
+            <param name="MaxTimeSeconds">Maximum packet time observed.</param>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayPacketStatistics.PacketCount">
+            <summary>Number of packets encountered.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayPacketStatistics.TotalPacketBytes">
+            <summary>Total encoded bytes consumed for packets.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayPacketStatistics.PacketsWithBunches">
+            <summary>Number of packets containing one or more bunches.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayPacketStatistics.BunchCount">
+            <summary>Total bunches encountered in packets.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayPacketStatistics.MalformedPacketCount">
+            <summary>Malformed packet count maintained by the packet reader.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayPacketStatistics.PartialErrorCount">
+            <summary>Partial-sequence error count maintained by the packet reader.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayPacketStatistics.MinTimeSeconds">
+            <summary>Minimum packet time observed.</summary>
+        </member>
+        <member name="P:Replay.Models.Results.ReplayPacketStatistics.MaxTimeSeconds">
+            <summary>Maximum packet time observed.</summary>
+        </member>
+    </members>
+</doc>
