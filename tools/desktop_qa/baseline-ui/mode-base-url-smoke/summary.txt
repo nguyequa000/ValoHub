@@ -1,0 +1,17 @@
+ValoPlant UI gate — 2026-11-02T22:21:53.663Z
+target   : base-url http://127.0.0.1:19631 (replay demo)
+viewports: 1000x640
+result   : FAIL — 9 failure(s), 1 warning(s)
+
+FAIL [b-card-above-fold] library @ 1000x640: first card top 997 bottom 1303 vs innerHeight 640 (below the fold by 663.0 px)
+FAIL [f1-nested-interactive] library @ 1000x640: 1 interactive element(s) nested inside another: #pick
+FAIL [g2-hit-area] library @ 1000x640: 1 control(s) below the 16x16 px hard floor: body.has-rail > header.app-bar > a.brand 122.7x13
+FAIL [a1-horizontal-overflow] viewer @ 1000x640: document scrollWidth 1262 / body 1262 > innerWidth 1000 (+262.0 px)
+FAIL [c-transport-in-viewport] viewer @ 1000x640: #utility-player right:142.4; #utility-team right:262.4 outside the 1000x640 viewport
+FAIL [d-tick-click-seeks] viewer @ 1000x640: page has no .tick.util elements
+FAIL [e-single-h1] viewer @ 1000x640: 0 h1 element(s): (none)
+FAIL [g2-hit-area] viewer @ 1000x640: 1 control(s) below the 16x16 px hard floor: body.viewer-page.has-rail > header.app-bar > a.brand 116.2x13
+FAIL [h-contrast] viewer @ 1000x640: 1 text node(s) below their WCAG threshold: #round-strip > button.round-button.active.won-a
+WARN [h-contrast-unverified] library @ 1000x640: 2 text node(s) over a background image cannot be verified mechanically
+
+report: C:\Users\johnq\Documents\test\ValorantBot\.worktrees\ui-q1-ui-qa\tools\desktop_qa\baseline-ui\mode-base-url-smoke\report.json

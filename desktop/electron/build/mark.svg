@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+  <!-- ValoHub mark "Converge": three feeds (9u/6u/9u) end flush at the hub slab.
+       Axis-aligned on the 24-unit grid: 2 px bars and 2 px gaps at 16 px, no counters.
+       The slab's left corners are square so the feed joints do not notch at 16 px. -->
+  <rect x="3" y="4.5" width="9" height="3"/>
+  <rect x="6" y="10.5" width="6" height="3"/>
+  <rect x="3" y="16.5" width="9" height="3"/>
+  <path d="M12 4.5 H19 A2 2 0 0 1 21 6.5 V17.5 A2 2 0 0 1 19 19.5 H12 Z"/>
+</svg>

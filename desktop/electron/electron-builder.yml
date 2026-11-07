@@ -1,0 +1,31 @@
+appId: com.valohub.desktop
+productName: ValoHub
+copyright: ValoHub
+asar: true
+compression: normal
+npmRebuild: false
+directories:
+  output: dist
+  buildResources: assets
+files:
+  - package.json
+  - src/**
+  - build/icon.ico
+  - build/mark.svg
+extraResources:
+  - from: ../build/resources/backend
+    to: backend
+  - from: ../build/resources/decoder
+    to: decoder
+  - from: ../build/resources/runtime
+    to: runtime
+win:
+  icon: build/icon.ico
+  target:
+    - target: dir
+      arch: x64
+  # no signing, no installer, never published
+  signExecutable: false
+artifactName: ValoHub-${version}-win64.${ext}
+afterPack: scripts/afterPack.js
+publish: null

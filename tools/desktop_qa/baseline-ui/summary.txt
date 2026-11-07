@@ -1,0 +1,71 @@
+ValoPlant UI gate — 2026-11-02T22:21:19.331Z
+target   : dev-server http://127.0.0.1:19631 (replay bad1543033d11396)
+viewports: 1000x640, 1280x800, 1440x900, 1920x1080, 768x1024, 390x844
+result   : FAIL — 57 failure(s), 7 warning(s)
+
+FAIL [b-card-above-fold] library @ 1000x640: first card top 997 bottom 1303 vs innerHeight 640 (below the fold by 663.0 px)
+FAIL [f1-nested-interactive] library @ 1000x640: 1 interactive element(s) nested inside another: #pick
+FAIL [g2-hit-area] library @ 1000x640: 1 control(s) below the 16x16 px hard floor: body.has-rail > header.app-bar > a.brand 122.7x13
+FAIL [b-card-above-fold] library @ 1280x800: first card top 997 bottom 1324 vs innerHeight 800 (below the fold by 524.0 px)
+FAIL [f1-nested-interactive] library @ 1280x800: 1 interactive element(s) nested inside another: #pick
+FAIL [g2-hit-area] library @ 1280x800: 1 control(s) below the 16x16 px hard floor: body.has-rail > header.app-bar > a.brand 122.7x13
+FAIL [b-card-above-fold] library @ 1440x900: first card top 977 bottom 1283 vs innerHeight 900 (below the fold by 383.0 px)
+FAIL [f1-nested-interactive] library @ 1440x900: 1 interactive element(s) nested inside another: #pick
+FAIL [g2-hit-area] library @ 1440x900: 1 control(s) below the 16x16 px hard floor: body.has-rail > header.app-bar > a.brand 122.7x13
+FAIL [b-card-above-fold] library @ 1920x1080: first card top 977 bottom 1283 vs innerHeight 1080 (below the fold by 203.0 px)
+FAIL [f1-nested-interactive] library @ 1920x1080: 1 interactive element(s) nested inside another: #pick
+FAIL [g2-hit-area] library @ 1920x1080: 1 control(s) below the 16x16 px hard floor: body.has-rail > header.app-bar > a.brand 122.7x13
+FAIL [b-card-above-fold] library @ 768x1024: first card top 997 bottom 1303 vs innerHeight 1024 (below the fold by 279.0 px)
+FAIL [f1-nested-interactive] library @ 768x1024: 1 interactive element(s) nested inside another: #pick
+FAIL [g2-hit-area] library @ 768x1024: 1 control(s) below the 16x16 px hard floor: body.has-rail > header.app-bar > a.brand 122.7x13
+FAIL [b-card-above-fold] library @ 390x844: first card top 1234 bottom 1539 vs innerHeight 844 (below the fold by 695.0 px)
+FAIL [f1-nested-interactive] library @ 390x844: 1 interactive element(s) nested inside another: #pick
+FAIL [g2-hit-area] library @ 390x844: 1 control(s) below the 16x16 px hard floor: body.has-rail > header.app-bar > a.brand 122.7x13
+FAIL [a1-horizontal-overflow] viewer @ 1000x640: document scrollWidth 1262 / body 1262 > innerWidth 1000 (+262.0 px)
+FAIL [c-transport-in-viewport] viewer @ 1000x640: #utility-player right:142.4; #utility-team right:262.4 outside the 1000x640 viewport
+FAIL [d-tick-click-seeks] viewer @ 1000x640: click hit <div class="timeline-panel"> instead of the tick (pointer-events / stacking blocked)
+FAIL [e-single-h1] viewer @ 1000x640: 0 h1 element(s): (none)
+FAIL [f2-interactive-in-aria-hidden] viewer @ 1000x640: 20 interactive element(s) inside [aria-hidden="true"]: #ticks > button.tick.util.trap (5x); #ticks > button.tick.util.teleport; #ticks > button.tick.util.recon (2x); #ticks > button.tick.util.smoke (4x); #ticks > button.tick.util.flash (2x); #ticks > button.tick.util.blast (4x); #ticks > button.tick.util.molly; #ticks > button.tick.util.nearsight
+FAIL [g2-hit-area] viewer @ 1000x640: 21 control(s) below the 16x16 px hard floor: body.viewer-page.has-rail > header.app-bar > a.brand 105.4x13; #ticks > button.tick.util.trap (5x) 3x32; #ticks > button.tick.util.teleport 3x32; #ticks > button.tick.util.recon (2x) 3x32; #ticks > button.tick.util.smoke (4x) 3x32; #ticks > button.tick.util.flash (2x) 3x32; #ticks > button.tick.util.blast (4x) 3x32; #ticks > button.tick.util.molly 3x32; #ticks > button.tick.util.nearsight 3x32
+FAIL [h-contrast] viewer @ 1000x640: 1 text node(s) below their WCAG threshold: #round-strip > button.round-button.active.won-b
+FAIL [d-tick-click-seeks] viewer @ 1280x800: click hit <div class="timeline-panel"> instead of the tick (pointer-events / stacking blocked)
+FAIL [e-single-h1] viewer @ 1280x800: 0 h1 element(s): (none)
+FAIL [f2-interactive-in-aria-hidden] viewer @ 1280x800: 20 interactive element(s) inside [aria-hidden="true"]: #ticks > button.tick.util.trap (5x); #ticks > button.tick.util.teleport; #ticks > button.tick.util.recon (2x); #ticks > button.tick.util.smoke (4x); #ticks > button.tick.util.flash (2x); #ticks > button.tick.util.blast (4x); #ticks > button.tick.util.molly; #ticks > button.tick.util.nearsight
+FAIL [g2-hit-area] viewer @ 1280x800: 21 control(s) below the 16x16 px hard floor: body.viewer-page.has-rail > header.app-bar > a.brand 122.7x13; #ticks > button.tick.util.trap (5x) 3x32; #ticks > button.tick.util.teleport 3x32; #ticks > button.tick.util.recon (2x) 3x32; #ticks > button.tick.util.smoke (4x) 3x32; #ticks > button.tick.util.flash (2x) 3x32; #ticks > button.tick.util.blast (4x) 3x32; #ticks > button.tick.util.molly 3x32; #ticks > button.tick.util.nearsight 3x32
+FAIL [h-contrast] viewer @ 1280x800: 1 text node(s) below their WCAG threshold: #round-strip > button.round-button.active.won-b
+FAIL [d-tick-click-seeks] viewer @ 1440x900: click hit <div class="timeline-panel"> instead of the tick (pointer-events / stacking blocked)
+FAIL [e-single-h1] viewer @ 1440x900: 0 h1 element(s): (none)
+FAIL [f2-interactive-in-aria-hidden] viewer @ 1440x900: 20 interactive element(s) inside [aria-hidden="true"]: #ticks > button.tick.util.trap (5x); #ticks > button.tick.util.teleport; #ticks > button.tick.util.recon (2x); #ticks > button.tick.util.smoke (4x); #ticks > button.tick.util.flash (2x); #ticks > button.tick.util.blast (4x); #ticks > button.tick.util.molly; #ticks > button.tick.util.nearsight
+FAIL [g2-hit-area] viewer @ 1440x900: 21 control(s) below the 16x16 px hard floor: body.viewer-page.has-rail > header.app-bar > a.brand 122.7x13; #ticks > button.tick.util.trap (5x) 3x32; #ticks > button.tick.util.teleport 3x32; #ticks > button.tick.util.recon (2x) 3x32; #ticks > button.tick.util.smoke (4x) 3x32; #ticks > button.tick.util.flash (2x) 3x32; #ticks > button.tick.util.blast (4x) 3x32; #ticks > button.tick.util.molly 3x32; #ticks > button.tick.util.nearsight 3x32
+FAIL [h-contrast] viewer @ 1440x900: 1 text node(s) below their WCAG threshold: #round-strip > button.round-button.active.won-b
+FAIL [d-tick-click-seeks] viewer @ 1920x1080: click hit <div class="timeline-panel"> instead of the tick (pointer-events / stacking blocked)
+FAIL [e-single-h1] viewer @ 1920x1080: 0 h1 element(s): (none)
+FAIL [f2-interactive-in-aria-hidden] viewer @ 1920x1080: 20 interactive element(s) inside [aria-hidden="true"]: #ticks > button.tick.util.trap (5x); #ticks > button.tick.util.teleport; #ticks > button.tick.util.recon (2x); #ticks > button.tick.util.smoke (4x); #ticks > button.tick.util.flash (2x); #ticks > button.tick.util.blast (4x); #ticks > button.tick.util.molly; #ticks > button.tick.util.nearsight
+FAIL [g2-hit-area] viewer @ 1920x1080: 21 control(s) below the 16x16 px hard floor: body.viewer-page.has-rail > header.app-bar > a.brand 122.7x13; #ticks > button.tick.util.trap (5x) 3x32; #ticks > button.tick.util.teleport 3x32; #ticks > button.tick.util.recon (2x) 3x32; #ticks > button.tick.util.smoke (4x) 3x32; #ticks > button.tick.util.flash (2x) 3x32; #ticks > button.tick.util.blast (4x) 3x32; #ticks > button.tick.util.molly 3x32; #ticks > button.tick.util.nearsight 3x32
+FAIL [h-contrast] viewer @ 1920x1080: 1 text node(s) below their WCAG threshold: #round-strip > button.round-button.active.won-b
+FAIL [a1-horizontal-overflow] viewer @ 768x1024: document scrollWidth 1262 / body 1262 > innerWidth 768 (+494.0 px)
+FAIL [d-tick-click-seeks] viewer @ 768x1024: click hit <div class="timeline-panel"> instead of the tick (pointer-events / stacking blocked)
+FAIL [e-single-h1] viewer @ 768x1024: 0 h1 element(s): (none)
+FAIL [f2-interactive-in-aria-hidden] viewer @ 768x1024: 20 interactive element(s) inside [aria-hidden="true"]: #ticks > button.tick.util.trap (5x); #ticks > button.tick.util.teleport; #ticks > button.tick.util.recon (2x); #ticks > button.tick.util.smoke (4x); #ticks > button.tick.util.flash (2x); #ticks > button.tick.util.blast (4x); #ticks > button.tick.util.molly; #ticks > button.tick.util.nearsight
+FAIL [g2-hit-area] viewer @ 768x1024: 21 control(s) below the 16x16 px hard floor: body.viewer-page.has-rail > header.app-bar > a.brand 84.3x13; #ticks > button.tick.util.trap (5x) 3x32; #ticks > button.tick.util.teleport 3x32; #ticks > button.tick.util.recon (2x) 3x32; #ticks > button.tick.util.smoke (4x) 3x32; #ticks > button.tick.util.flash (2x) 3x32; #ticks > button.tick.util.blast (4x) 3x32; #ticks > button.tick.util.molly 3x32; #ticks > button.tick.util.nearsight 3x32
+FAIL [h-contrast] viewer @ 768x1024: 1 text node(s) below their WCAG threshold: #round-strip > button.round-button.active.won-b
+FAIL [d-tick-click-seeks] viewer @ 390x844: click hit <div class="timeline-panel"> instead of the tick (pointer-events / stacking blocked)
+FAIL [e-single-h1] viewer @ 390x844: 0 h1 element(s): (none)
+FAIL [f2-interactive-in-aria-hidden] viewer @ 390x844: 20 interactive element(s) inside [aria-hidden="true"]: #ticks > button.tick.util.trap (5x); #ticks > button.tick.util.teleport; #ticks > button.tick.util.recon (2x); #ticks > button.tick.util.smoke (4x); #ticks > button.tick.util.flash (2x); #ticks > button.tick.util.blast (4x); #ticks > button.tick.util.molly; #ticks > button.tick.util.nearsight
+FAIL [g2-hit-area] viewer @ 390x844: 21 control(s) below the 16x16 px hard floor: body.viewer-page.has-rail > header.app-bar > a.brand 42.1x13; #ticks > button.tick.util.trap (5x) 3x32; #ticks > button.tick.util.teleport 3x32; #ticks > button.tick.util.recon (2x) 3x32; #ticks > button.tick.util.smoke (4x) 3x32; #ticks > button.tick.util.flash (2x) 3x32; #ticks > button.tick.util.blast (4x) 3x32; #ticks > button.tick.util.molly 3x32; #ticks > button.tick.util.nearsight 3x32
+FAIL [h-contrast] viewer @ 390x844: 1 text node(s) below their WCAG threshold: #round-strip > button.round-button.active.won-b
+FAIL [g2-hit-area] analysis @ 1000x640: 1 control(s) below the 16x16 px hard floor: body.analysis-page.has-rail > header.app-bar > a.brand 122.7x13
+FAIL [g2-hit-area] analysis @ 1280x800: 1 control(s) below the 16x16 px hard floor: body.analysis-page.has-rail > header.app-bar > a.brand 122.7x13
+FAIL [g2-hit-area] analysis @ 1440x900: 1 control(s) below the 16x16 px hard floor: body.analysis-page.has-rail > header.app-bar > a.brand 122.7x13
+FAIL [g2-hit-area] analysis @ 1920x1080: 1 control(s) below the 16x16 px hard floor: body.analysis-page.has-rail > header.app-bar > a.brand 122.7x13
+FAIL [g2-hit-area] analysis @ 768x1024: 1 control(s) below the 16x16 px hard floor: body.analysis-page.has-rail > header.app-bar > a.brand 122.7x13
+FAIL [g2-hit-area] analysis @ 390x844: 1 control(s) below the 16x16 px hard floor: body.analysis-page.has-rail > header.app-bar > a.brand 82.9x13
+WARN [h-contrast-unverified] library @ 1000x640: 2 text node(s) over a background image cannot be verified mechanically
+WARN [h-contrast-unverified] library @ 1280x800: 2 text node(s) over a background image cannot be verified mechanically
+WARN [h-contrast-unverified] library @ 1440x900: 2 text node(s) over a background image cannot be verified mechanically
+WARN [h-contrast-unverified] library @ 1920x1080: 5 text node(s) over a background image cannot be verified mechanically
+WARN [h-contrast-unverified] library @ 768x1024: 4 text node(s) over a background image cannot be verified mechanically
+WARN [h-contrast-unverified] library @ 390x844: 2 text node(s) over a background image cannot be verified mechanically
+WARN [c-transport-in-viewport] viewer @ 768x1024: #utility-paths right:25.3; #utility-areas right:140.9; #utility-player right:374.4; #utility-team right:494.4 outside the 768x1024 viewport
+
+report: C:\Users\johnq\Documents\test\ValorantBot\.worktrees\ui-q1-ui-qa\tools\desktop_qa\baseline-ui\report.json

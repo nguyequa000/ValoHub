@@ -1,0 +1,46 @@
+name: Build and Package Validation
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate:
+    name: Validate on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET SDK from global.json
+        uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - name: Restore solution
+        run: dotnet restore ValorantReplayParser.sln -p:Configuration=Release
+      - name: Build solution
+        run: dotnet build ValorantReplayParser.sln --configuration Release --no-restore
+      - name: Test all projects
+        run: dotnet test ValorantReplayParser.sln --configuration Release --no-build --no-restore --results-directory artifacts/test-results --logger trx
+        env:
+          SNAPSHOOTER_STRICT_MODE: true
+      - name: Validate NuGet packages with an isolated consumer
+        shell: pwsh
+        run: pwsh -File build/Test-Packages.ps1 -Version 0.1.0-alpha.2
+      - name: Upload packages, symbols, and test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-${{ matrix.os }}-${{ github.sha }}
+          if-no-files-found: ignore
+          path: |
+            artifacts/packages/*.nupkg
+            artifacts/packages/*.snupkg
+            artifacts/test-results/*.trx
+            artifacts/test-results/**/*.trx

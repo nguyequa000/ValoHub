@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Replay library · ValoHub</title>
+  <script>
+    // The same files run under the aiohttp route or a repo-root demo HTTP server.
+    window.replayAssetBase = location.pathname.startsWith('/bot/web/static/replays_app/')
+      ? '/bot/web/static/replays_app/' : '/static/replays_app/';
+    const css = document.createElement('link'); css.rel = 'stylesheet';
+    css.href = window.replayAssetBase + 'styles.css'; document.head.append(css);
+    const decoderCss = document.createElement('link'); decoderCss.rel = 'stylesheet';
+    decoderCss.href = window.replayAssetBase + 'decoder.css'; document.head.append(decoderCss);
+    for (const href of ['ui/tokens.css', 'ui/app-shell.css', 'ui/library.css']) {
+      const link = document.createElement('link'); link.rel = 'stylesheet';
+      link.href = window.replayAssetBase + href; document.head.append(link);
+    }
+  </script>
+</head>
+<body class="has-rail">
+<a class="vp-skip" href="#content">Skip to content</a>
+<nav class="app-rail" aria-label="Main navigation">
+  <a class="rail-brand" href="/replays" title="ValoHub">◆</a>
+  <a class="rail-link" href="/replays" title="Replay library" aria-label="Replay library" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="6" rx="1"/><rect x="3" y="14" width="7" height="6" rx="1"/><rect x="14" y="14" width="7" height="6" rx="1"/></svg></a>
+  <a class="rail-link" href="/replays" title="2D replay" aria-label="2D replay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5l11 7-11 7z"/></svg></a>
+  <a class="rail-link" href="/replays" title="Match analysis" aria-label="Match analysis"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19V5"/><path d="M4 19h16"/><rect x="7" y="11" width="3" height="5"/><rect x="12" y="8" width="3" height="8"/><rect x="17" y="13" width="3" height="3"/></svg></a>
+  <span class="rail-spacer"></span>
+</nav>
+<header class="app-bar">
+    <a class="brand" href="/replays"><span class="brand-mark" aria-hidden="true">◆</span> VALO<span>PLANT</span></a>
+    <div class="app-bar-title"><strong>Replay library</strong></div>
+    <div class="app-bar-actions"><span id="watcher-badge" class="pill watcher-badge" role="status" hidden></span></div>
+  </header>
+  <main class="library-shell" id="content">
+    <section class="library-toolbar" aria-label="Library actions">
+      <h1>Replay library</h1>
+      <span id="count" class="count" aria-label="Replay count">—</span>
+      <span id="archive-status" class="muted archive-status" role="status">Loading library…</span>
+      <div class="import-row">
+        <div id="drop-zone" class="drop-zone"><span class="drop-symbol" aria-hidden="true">⇧</span><span id="import-help">Drop a .vrf replay here</span></div>
+        <button id="pick" class="primary" type="button" aria-describedby="import-help">Choose file</button>
+        <input id="file" type="file" accept=".vrf" hidden aria-label="VRF replay file">
+        <button id="refresh" class="secondary" type="button" title="Refresh replay list">↻ Refresh</button>
+      </div>
+      <div class="job-area" aria-live="polite"><div id="upload-status" class="muted">Ready to import</div>
+        <div class="progress-track" id="progress-track" hidden><div id="progress-bar"></div></div></div>
+    </section>
+    <section class="archive" aria-label="Recorded matches">
+      <div id="cards" class="replay-grid"></div>
+      <div id="empty" class="empty-state" hidden><span aria-hidden="true">◇</span><h2>No replays yet</h2><p>Import a .vrf replay to start your archive.</p><button id="empty-pick" class="primary" type="button">Import a .vrf replay</button></div>
+      <div id="demo-slot" class="demo-slot" hidden><h2 class="demo-heading">Or explore the synthetic demo</h2><div id="demo-cards" class="replay-grid"></div></div>
+    </section>
+    <details class="decoder-panel" id="decoder-details">
+      <summary><span>Parser &amp; decoder</span><span id="decoder-state" class="status-pill" role="status">CHECKING</span></summary>
+      <dl class="decoder-details"><div><dt>Commit</dt><dd id="decoder-commit">—</dd></div><div><dt>Overlay</dt><dd id="decoder-overlay">—</dd></div><div><dt>Supported branches</dt><dd id="decoder-branches">—</dd></div><div><dt>Last check</dt><dd id="decoder-last-check">Never</dd></div></dl>
+      <div class="decoder-actions"><button id="decoder-update" class="secondary" type="button">Update parser</button> <label class="muted"><input id="decoder-dry-run" type="checkbox"> Dry run (no changes)</label></div>
+      <p id="decoder-progress" class="muted" role="status" aria-live="polite">No update has run yet.</p>
+      <div class="progress-track" id="decoder-progress-track" hidden><div id="decoder-progress-bar"></div></div>
+    </details>
+  </main>
+  <script>
+    if (location.pathname.startsWith('/bot/web/static/replays_app/'))
+      document.querySelector('.brand').href = window.replayAssetBase + 'index.html';
+    const app = document.createElement('script'); app.src = window.replayAssetBase + 'library.js'; document.body.append(app);
+  </script>
+</body>
+</html>

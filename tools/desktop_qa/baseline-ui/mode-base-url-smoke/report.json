@@ -1,0 +1,1041 @@
+{
+  "schema": "valoplant_ui_gate/v1",
+  "generatedAt": "2026-11-02T22:21:53.663Z",
+  "node": "v24.19.0",
+  "platform": "win32 10.0.26200",
+  "mode": "base-url",
+  "target": {
+    "kind": "base-url",
+    "origin": "http://127.0.0.1:19631",
+    "token": "<redacted:ephemeral>",
+    "browser": "msedge",
+    "browserPort": 19632,
+    "browserVersion": "Edg/156.0.4314.58",
+    "replayId": "demo",
+    "replayIdSource": "api"
+  },
+  "viewports": [
+    "1000x640"
+  ],
+  "pages": [
+    {
+      "name": "library",
+      "path": "/replays",
+      "url": "http://127.0.0.1:19631/replays",
+      "results": [
+        {
+          "viewport": "1000x640",
+          "ready": true,
+          "readyWaitMs": 1,
+          "geometry": {
+            "innerWidth": 1000,
+            "innerHeight": 640,
+            "docScrollWidth": 1000,
+            "bodyScrollWidth": 1000,
+            "docScrollHeight": 1451
+          },
+          "crossCheck": {
+            "computedPaddingLeft": "56px",
+            "cdpPaddingLeft": 56,
+            "agreement": true
+          },
+          "cards": {
+            "count": 3,
+            "first": {
+              "selector": "#cards > article.replay-card:nth-of-type(1)",
+              "x": 82,
+              "y": 997,
+              "w": 284,
+              "h": 306,
+              "top": 997,
+              "bottom": 1303,
+              "left": 82,
+              "right": 366,
+              "fullyAboveFold": false,
+              "intersectsFold": false
+            }
+          },
+          "transport": [
+            {
+              "selector": "#prev",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": "#play",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": "#next",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": "#scrub",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": "#speed",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": "#clock",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": "#duration",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": "#trails",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": "#abilities",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": "#utility-paths",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": "#utility-areas",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": "#utility-player",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": "#utility-team",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": "#ticks",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            },
+            {
+              "selector": ".timeline-key",
+              "found": false,
+              "insideViewport": false,
+              "rect": null
+            }
+          ],
+          "interactive": {
+            "total": 16,
+            "visible": 13,
+            "noName": 0,
+            "small": 0,
+            "smallHard": 1,
+            "clipped": 0,
+            "nested": 1,
+            "ariaHidden": 0
+          },
+          "contrast": {
+            "checked": 18,
+            "failures": 0,
+            "unverified": 2
+          },
+          "interaction": null,
+          "consoleErrors": [],
+          "screenshot": "library-1000x640.png",
+          "findings": [
+            {
+              "check": "a1-horizontal-overflow",
+              "severity": "pass",
+              "page": "library",
+              "viewport": "1000x640",
+              "detail": "scrollWidth 1000 <= innerWidth 1000 + 1"
+            },
+            {
+              "check": "a2-clipped-control",
+              "severity": "pass",
+              "page": "library",
+              "viewport": "1000x640",
+              "detail": "no control clipped by an overflow:hidden|clip ancestor"
+            },
+            {
+              "check": "b-card-above-fold",
+              "severity": "fail",
+              "page": "library",
+              "viewport": "1000x640",
+              "detail": "first card top 997 bottom 1303 vs innerHeight 640 (below the fold by 663.0 px)",
+              "card": {
+                "selector": "#cards > article.replay-card:nth-of-type(1)",
+                "x": 82,
+                "y": 997,
+                "w": 284,
+                "h": 306,
+                "top": 997,
+                "bottom": 1303,
+                "left": 82,
+                "right": 366,
+                "fullyAboveFold": false,
+                "intersectsFold": false
+              }
+            },
+            {
+              "check": "e-single-h1",
+              "severity": "pass",
+              "page": "library",
+              "viewport": "1000x640",
+              "detail": "exactly one h1: \"Your replay library.\""
+            },
+            {
+              "check": "f1-nested-interactive",
+              "severity": "fail",
+              "page": "library",
+              "viewport": "1000x640",
+              "detail": "1 interactive element(s) nested inside another: #pick",
+              "items": [
+                {
+                  "selector": "#pick",
+                  "inside": "#drop-zone",
+                  "name": "Choose file"
+                }
+              ],
+              "groups": [
+                {
+                  "selector": "#pick",
+                  "count": 1,
+                  "sizes": []
+                }
+              ]
+            },
+            {
+              "check": "f2-interactive-in-aria-hidden",
+              "severity": "pass",
+              "page": "library",
+              "viewport": "1000x640",
+              "detail": "no interactive element inside aria-hidden"
+            },
+            {
+              "check": "g1-accessible-name",
+              "severity": "pass",
+              "page": "library",
+              "viewport": "1000x640",
+              "detail": "all 13 visible controls have an accessible name"
+            },
+            {
+              "check": "g2-hit-area",
+              "severity": "fail",
+              "page": "library",
+              "viewport": "1000x640",
+              "detail": "1 control(s) below the 16x16 px hard floor: body.has-rail > header.app-bar > a.brand 122.7x13",
+              "items": [
+                {
+                  "selector": "body.has-rail > header.app-bar > a.brand",
+                  "w": 122.7,
+                  "h": 13,
+                  "viaLabel": false,
+                  "name": "◆ VALO PLANT"
+                }
+              ],
+              "groups": [
+                {
+                  "selector": "body.has-rail > header.app-bar > a.brand",
+                  "count": 1,
+                  "sizes": [
+                    "122.7x13"
+                  ]
+                }
+              ]
+            },
+            {
+              "check": "h-contrast",
+              "severity": "pass",
+              "page": "library",
+              "viewport": "1000x640",
+              "detail": "18 text node(s) checked, all >= threshold"
+            },
+            {
+              "check": "h-contrast-unverified",
+              "severity": "warn",
+              "page": "library",
+              "viewport": "1000x640",
+              "detail": "2 text node(s) over a background image cannot be verified mechanically",
+              "items": [
+                {
+                  "selector": "#drop-zone > div > strong",
+                  "reason": "background-image",
+                  "image": "linear-gradient(120deg, rgb(28, 40, 48), rgb(23, 33, 42))",
+                  "text": "Drop a .vrf replay here"
+                },
+                {
+                  "selector": "#import-help",
+                  "reason": "background-image",
+                  "image": "linear-gradient(120deg, rgb(28, 40, 48), rgb(23, 33, 42))",
+                  "text": "or choose a file to upload into the local library"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "viewer",
+      "path": "/replays/demo/view",
+      "url": "http://127.0.0.1:19631/replays/demo/view",
+      "results": [
+        {
+          "viewport": "1000x640",
+          "ready": true,
+          "readyWaitMs": 166,
+          "geometry": {
+            "innerWidth": 1000,
+            "innerHeight": 640,
+            "docScrollWidth": 1262,
+            "bodyScrollWidth": 1262,
+            "docScrollHeight": 640
+          },
+          "crossCheck": {
+            "computedPaddingLeft": "56px",
+            "cdpPaddingLeft": 56,
+            "agreement": true
+          },
+          "cards": {
+            "count": 0,
+            "first": null
+          },
+          "transport": [
+            {
+              "selector": "#prev",
+              "found": true,
+              "visible": true,
+              "insideViewport": true,
+              "overflow": [],
+              "rect": {
+                "x": 78,
+                "y": 492.5,
+                "w": 30.3,
+                "h": 32,
+                "top": 492.5,
+                "bottom": 524.5,
+                "left": 78,
+                "right": 108.3
+              },
+              "instance": "#prev"
+            },
+            {
+              "selector": "#play",
+              "found": true,
+              "visible": true,
+              "insideViewport": true,
+              "overflow": [],
+              "rect": {
+                "x": 116.3,
+                "y": 492.5,
+                "w": 50,
+                "h": 32,
+                "top": 492.5,
+                "bottom": 524.5,
+                "left": 116.3,
+                "right": 166.3
+              },
+              "instance": "#play"
+            },
+            {
+              "selector": "#next",
+              "found": true,
+              "visible": true,
+              "insideViewport": true,
+              "overflow": [],
+              "rect": {
+                "x": 174.3,
+                "y": 492.5,
+                "w": 30.3,
+                "h": 32,
+                "top": 492.5,
+                "bottom": 524.5,
+                "left": 174.3,
+                "right": 204.6
+              },
+              "instance": "#next"
+            },
+            {
+              "selector": "#scrub",
+              "found": true,
+              "visible": true,
+              "insideViewport": true,
+              "overflow": [],
+              "rect": {
+                "x": 83,
+                "y": 550,
+                "w": 540,
+                "h": 16,
+                "top": 550,
+                "bottom": 566,
+                "left": 83,
+                "right": 623
+              },
+              "instance": "#scrub"
+            },
+            {
+              "selector": "#speed",
+              "found": true,
+              "visible": true,
+              "insideViewport": true,
+              "overflow": [],
+              "rect": {
+                "x": 376.1,
+                "y": 489,
+                "w": 66,
+                "h": 39,
+                "top": 489,
+                "bottom": 528,
+                "left": 376.1,
+                "right": 442.1
+              },
+              "instance": "#speed"
+            },
+            {
+              "selector": "#clock",
+              "found": true,
+              "visible": true,
+              "insideViewport": true,
+              "overflow": [],
+              "rect": {
+                "x": 224.6,
+                "y": 494.5,
+                "w": 53.7,
+                "h": 25,
+                "top": 494.5,
+                "bottom": 519.5,
+                "left": 224.6,
+                "right": 278.3
+              },
+              "instance": "#clock"
+            },
+            {
+              "selector": "#duration",
+              "found": true,
+              "visible": true,
+              "insideViewport": true,
+              "overflow": [],
+              "rect": {
+                "x": 278.3,
+                "y": 499.5,
+                "w": 49.4,
+                "h": 19,
+                "top": 499.5,
+                "bottom": 518.5,
+                "left": 278.3,
+                "right": 327.7
+              },
+              "instance": "#duration"
+            },
+            {
+              "selector": "#trails",
+              "found": true,
+              "visible": true,
+              "insideViewport": true,
+              "overflow": [],
+              "rect": {
+                "x": 464.1,
+                "y": 501,
+                "w": 13,
+                "h": 13,
+                "top": 501,
+                "bottom": 514,
+                "left": 464.1,
+                "right": 477.1
+              },
+              "instance": "#trails"
+            },
+            {
+              "selector": "#abilities",
+              "found": true,
+              "visible": true,
+              "insideViewport": true,
+              "overflow": [],
+              "rect": {
+                "x": 654.5,
+                "y": 501,
+                "w": 13,
+                "h": 13,
+                "top": 501,
+                "bottom": 514,
+                "left": 654.5,
+                "right": 667.5
+              },
+              "instance": "#abilities"
+            },
+            {
+              "selector": "#utility-paths",
+              "found": true,
+              "visible": true,
+              "insideViewport": true,
+              "overflow": [],
+              "rect": {
+                "x": 780.3,
+                "y": 501,
+                "w": 13,
+                "h": 13,
+                "top": 501,
+                "bottom": 514,
+                "left": 780.3,
+                "right": 793.3
+              },
+              "instance": "#utility-paths"
+            },
+            {
+              "selector": "#utility-areas",
+              "found": true,
+              "visible": true,
+              "insideViewport": true,
+              "overflow": [],
+              "rect": {
+                "x": 895.9,
+                "y": 501,
+                "w": 13,
+                "h": 13,
+                "top": 501,
+                "bottom": 514,
+                "left": 895.9,
+                "right": 908.9
+              },
+              "instance": "#utility-areas"
+            },
+            {
+              "selector": "#utility-player",
+              "found": true,
+              "visible": true,
+              "insideViewport": false,
+              "overflow": [
+                "right:142.4"
+              ],
+              "rect": {
+                "x": 1040.4,
+                "y": 489,
+                "w": 102,
+                "h": 39,
+                "top": 489,
+                "bottom": 528,
+                "left": 1040.4,
+                "right": 1142.4
+              },
+              "instance": "#utility-player"
+            },
+            {
+              "selector": "#utility-team",
+              "found": true,
+              "visible": true,
+              "insideViewport": false,
+              "overflow": [
+                "right:262.4"
+              ],
+              "rect": {
+                "x": 1160.4,
+                "y": 489,
+                "w": 102,
+                "h": 39,
+                "top": 489,
+                "bottom": 528,
+                "left": 1160.4,
+                "right": 1262.4
+              },
+              "instance": "#utility-team"
+            },
+            {
+              "selector": "#ticks",
+              "found": true,
+              "visible": true,
+              "insideViewport": true,
+              "overflow": [],
+              "rect": {
+                "x": 83,
+                "y": 532,
+                "w": 540,
+                "h": 22,
+                "top": 532,
+                "bottom": 554,
+                "left": 83,
+                "right": 623
+              },
+              "instance": "#ticks"
+            },
+            {
+              "selector": ".timeline-key",
+              "found": true,
+              "visible": true,
+              "insideViewport": true,
+              "overflow": [],
+              "rect": {
+                "x": 78,
+                "y": 582,
+                "w": 550,
+                "h": 20,
+                "top": 582,
+                "bottom": 602,
+                "left": 78,
+                "right": 628
+              },
+              "instance": "#content > section.map-column > div.timeline-panel:nth-of-type(2) > div.timeline-key:nth-of-type(3)"
+            }
+          ],
+          "interactive": {
+            "total": 33,
+            "visible": 26,
+            "noName": 0,
+            "small": 6,
+            "smallHard": 1,
+            "clipped": 0,
+            "nested": 0,
+            "ariaHidden": 0
+          },
+          "contrast": {
+            "checked": 47,
+            "failures": 1,
+            "unverified": 0
+          },
+          "interaction": {
+            "ok": false,
+            "changed": false,
+            "count": 0,
+            "inViewCount": 0,
+            "ticks": [],
+            "reason": "page has no .tick.util elements"
+          },
+          "consoleErrors": [],
+          "screenshot": "viewer-1000x640.png",
+          "findings": [
+            {
+              "check": "a1-horizontal-overflow",
+              "severity": "fail",
+              "page": "viewer",
+              "viewport": "1000x640",
+              "detail": "document scrollWidth 1262 / body 1262 > innerWidth 1000 (+262.0 px)",
+              "excessPx": 262
+            },
+            {
+              "check": "a2-clipped-control",
+              "severity": "pass",
+              "page": "viewer",
+              "viewport": "1000x640",
+              "detail": "no control clipped by an overflow:hidden|clip ancestor"
+            },
+            {
+              "check": "c-transport-in-viewport",
+              "severity": "fail",
+              "page": "viewer",
+              "viewport": "1000x640",
+              "detail": "#utility-player right:142.4; #utility-team right:262.4 outside the 1000x640 viewport",
+              "outside": [
+                {
+                  "selector": "#utility-player",
+                  "overflow": [
+                    "right:142.4"
+                  ],
+                  "rect": {
+                    "x": 1040.4,
+                    "y": 489,
+                    "w": 102,
+                    "h": 39,
+                    "top": 489,
+                    "bottom": 528,
+                    "left": 1040.4,
+                    "right": 1142.4
+                  }
+                },
+                {
+                  "selector": "#utility-team",
+                  "overflow": [
+                    "right:262.4"
+                  ],
+                  "rect": {
+                    "x": 1160.4,
+                    "y": 489,
+                    "w": 102,
+                    "h": 39,
+                    "top": 489,
+                    "bottom": 528,
+                    "left": 1160.4,
+                    "right": 1262.4
+                  }
+                }
+              ]
+            },
+            {
+              "check": "d-tick-click-seeks",
+              "severity": "fail",
+              "page": "viewer",
+              "viewport": "1000x640",
+              "detail": "page has no .tick.util elements",
+              "tickCount": 0,
+              "inViewCount": 0
+            },
+            {
+              "check": "e-single-h1",
+              "severity": "fail",
+              "page": "viewer",
+              "viewport": "1000x640",
+              "detail": "0 h1 element(s): (none)",
+              "h1": []
+            },
+            {
+              "check": "f1-nested-interactive",
+              "severity": "pass",
+              "page": "viewer",
+              "viewport": "1000x640",
+              "detail": "no nested interactive elements"
+            },
+            {
+              "check": "f2-interactive-in-aria-hidden",
+              "severity": "pass",
+              "page": "viewer",
+              "viewport": "1000x640",
+              "detail": "no interactive element inside aria-hidden"
+            },
+            {
+              "check": "g1-accessible-name",
+              "severity": "pass",
+              "page": "viewer",
+              "viewport": "1000x640",
+              "detail": "all 26 visible controls have an accessible name"
+            },
+            {
+              "check": "g2-hit-area",
+              "severity": "fail",
+              "page": "viewer",
+              "viewport": "1000x640",
+              "detail": "1 control(s) below the 16x16 px hard floor: body.viewer-page.has-rail > header.app-bar > a.brand 116.2x13",
+              "items": [
+                {
+                  "selector": "body.viewer-page.has-rail > header.app-bar > a.brand",
+                  "w": 116.2,
+                  "h": 13,
+                  "viaLabel": false,
+                  "name": "◆ VALO PLANT"
+                }
+              ],
+              "groups": [
+                {
+                  "selector": "body.viewer-page.has-rail > header.app-bar > a.brand",
+                  "count": 1,
+                  "sizes": [
+                    "116.2x13"
+                  ]
+                }
+              ]
+            },
+            {
+              "check": "h-contrast",
+              "severity": "fail",
+              "page": "viewer",
+              "viewport": "1000x640",
+              "detail": "1 text node(s) below their WCAG threshold: #round-strip > button.round-button.active.won-a",
+              "items": [
+                {
+                  "selector": "#round-strip > button.round-button.active.won-a:nth-of-type(1)",
+                  "text": "1",
+                  "ratio": 2.85,
+                  "need": 4.5,
+                  "fontSize": 11.48,
+                  "fontWeight": 500,
+                  "color": "rgb(232, 237, 242)",
+                  "background": "rgb(255, 70, 85)",
+                  "backgroundFrom": "#round-strip > button.round-button.active.won-a:nth-of-type(1)",
+                  "opacity": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "check": "b-card-above-fold",
+      "severity": "fail",
+      "page": "library",
+      "viewport": "1000x640",
+      "detail": "first card top 997 bottom 1303 vs innerHeight 640 (below the fold by 663.0 px)",
+      "card": {
+        "selector": "#cards > article.replay-card:nth-of-type(1)",
+        "x": 82,
+        "y": 997,
+        "w": 284,
+        "h": 306,
+        "top": 997,
+        "bottom": 1303,
+        "left": 82,
+        "right": 366,
+        "fullyAboveFold": false,
+        "intersectsFold": false
+      }
+    },
+    {
+      "check": "f1-nested-interactive",
+      "severity": "fail",
+      "page": "library",
+      "viewport": "1000x640",
+      "detail": "1 interactive element(s) nested inside another: #pick",
+      "items": [
+        {
+          "selector": "#pick",
+          "inside": "#drop-zone",
+          "name": "Choose file"
+        }
+      ],
+      "groups": [
+        {
+          "selector": "#pick",
+          "count": 1,
+          "sizes": []
+        }
+      ]
+    },
+    {
+      "check": "g2-hit-area",
+      "severity": "fail",
+      "page": "library",
+      "viewport": "1000x640",
+      "detail": "1 control(s) below the 16x16 px hard floor: body.has-rail > header.app-bar > a.brand 122.7x13",
+      "items": [
+        {
+          "selector": "body.has-rail > header.app-bar > a.brand",
+          "w": 122.7,
+          "h": 13,
+          "viaLabel": false,
+          "name": "◆ VALO PLANT"
+        }
+      ],
+      "groups": [
+        {
+          "selector": "body.has-rail > header.app-bar > a.brand",
+          "count": 1,
+          "sizes": [
+            "122.7x13"
+          ]
+        }
+      ]
+    },
+    {
+      "check": "h-contrast-unverified",
+      "severity": "warn",
+      "page": "library",
+      "viewport": "1000x640",
+      "detail": "2 text node(s) over a background image cannot be verified mechanically",
+      "items": [
+        {
+          "selector": "#drop-zone > div > strong",
+          "reason": "background-image",
+          "image": "linear-gradient(120deg, rgb(28, 40, 48), rgb(23, 33, 42))",
+          "text": "Drop a .vrf replay here"
+        },
+        {
+          "selector": "#import-help",
+          "reason": "background-image",
+          "image": "linear-gradient(120deg, rgb(28, 40, 48), rgb(23, 33, 42))",
+          "text": "or choose a file to upload into the local library"
+        }
+      ]
+    },
+    {
+      "check": "a1-horizontal-overflow",
+      "severity": "fail",
+      "page": "viewer",
+      "viewport": "1000x640",
+      "detail": "document scrollWidth 1262 / body 1262 > innerWidth 1000 (+262.0 px)",
+      "excessPx": 262
+    },
+    {
+      "check": "c-transport-in-viewport",
+      "severity": "fail",
+      "page": "viewer",
+      "viewport": "1000x640",
+      "detail": "#utility-player right:142.4; #utility-team right:262.4 outside the 1000x640 viewport",
+      "outside": [
+        {
+          "selector": "#utility-player",
+          "overflow": [
+            "right:142.4"
+          ],
+          "rect": {
+            "x": 1040.4,
+            "y": 489,
+            "w": 102,
+            "h": 39,
+            "top": 489,
+            "bottom": 528,
+            "left": 1040.4,
+            "right": 1142.4
+          }
+        },
+        {
+          "selector": "#utility-team",
+          "overflow": [
+            "right:262.4"
+          ],
+          "rect": {
+            "x": 1160.4,
+            "y": 489,
+            "w": 102,
+            "h": 39,
+            "top": 489,
+            "bottom": 528,
+            "left": 1160.4,
+            "right": 1262.4
+          }
+        }
+      ]
+    },
+    {
+      "check": "d-tick-click-seeks",
+      "severity": "fail",
+      "page": "viewer",
+      "viewport": "1000x640",
+      "detail": "page has no .tick.util elements",
+      "tickCount": 0,
+      "inViewCount": 0
+    },
+    {
+      "check": "e-single-h1",
+      "severity": "fail",
+      "page": "viewer",
+      "viewport": "1000x640",
+      "detail": "0 h1 element(s): (none)",
+      "h1": []
+    },
+    {
+      "check": "g2-hit-area",
+      "severity": "fail",
+      "page": "viewer",
+      "viewport": "1000x640",
+      "detail": "1 control(s) below the 16x16 px hard floor: body.viewer-page.has-rail > header.app-bar > a.brand 116.2x13",
+      "items": [
+        {
+          "selector": "body.viewer-page.has-rail > header.app-bar > a.brand",
+          "w": 116.2,
+          "h": 13,
+          "viaLabel": false,
+          "name": "◆ VALO PLANT"
+        }
+      ],
+      "groups": [
+        {
+          "selector": "body.viewer-page.has-rail > header.app-bar > a.brand",
+          "count": 1,
+          "sizes": [
+            "116.2x13"
+          ]
+        }
+      ]
+    },
+    {
+      "check": "h-contrast",
+      "severity": "fail",
+      "page": "viewer",
+      "viewport": "1000x640",
+      "detail": "1 text node(s) below their WCAG threshold: #round-strip > button.round-button.active.won-a",
+      "items": [
+        {
+          "selector": "#round-strip > button.round-button.active.won-a:nth-of-type(1)",
+          "text": "1",
+          "ratio": 2.85,
+          "need": 4.5,
+          "fontSize": 11.48,
+          "fontWeight": 500,
+          "color": "rgb(232, 237, 242)",
+          "background": "rgb(255, 70, 85)",
+          "backgroundFrom": "#round-strip > button.round-button.active.won-a:nth-of-type(1)",
+          "opacity": 1
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "pass": false,
+    "failCount": 9,
+    "warnCount": 1,
+    "pagesChecked": 2,
+    "viewportsChecked": 1,
+    "screenshots": [
+      "library-1000x640.png",
+      "viewer-1000x640.png"
+    ],
+    "byCheck": {
+      "b-card-above-fold": {
+        "fail": 1,
+        "warn": 0
+      },
+      "f1-nested-interactive": {
+        "fail": 1,
+        "warn": 0
+      },
+      "g2-hit-area": {
+        "fail": 2,
+        "warn": 0
+      },
+      "h-contrast-unverified": {
+        "fail": 0,
+        "warn": 1
+      },
+      "a1-horizontal-overflow": {
+        "fail": 1,
+        "warn": 0
+      },
+      "c-transport-in-viewport": {
+        "fail": 1,
+        "warn": 0
+      },
+      "d-tick-click-seeks": {
+        "fail": 1,
+        "warn": 0
+      },
+      "e-single-h1": {
+        "fail": 1,
+        "warn": 0
+      },
+      "h-contrast": {
+        "fail": 1,
+        "warn": 0
+      }
+    },
+    "failedChecks": [
+      "b-card-above-fold",
+      "f1-nested-interactive",
+      "g2-hit-area",
+      "a1-horizontal-overflow",
+      "c-transport-in-viewport",
+      "d-tick-click-seeks",
+      "e-single-h1",
+      "h-contrast"
+    ],
+    "warnChecks": [
+      "h-contrast-unverified"
+    ]
+  },
+  "log": [
+    "[browser stderr] DevTools listening on ws://127.0.0.1:19632/devtools/browser/5cfd284d-646c-4ebf-9bda-0822a3d7c81a",
+    "[gate] target base-url http://127.0.0.1:19631 browser msedge"
+  ]
+}

@@ -1,0 +1,269 @@
+/* Lane C: last-loaded refinements. Existing palette and tokens only; no markup dependencies. */
+
+/* Rhythm: replace the replay's 26px controls with the shared 28px grid. */
+.replay__back,.replay__actions .btn,.replay__tab,.replay__collapse,.replay__round{height:28px}
+/* Rhythm: tool clusters and inspector headings breathe in whole 4px increments. */
+.replay__nav-group,.replay__tabs,.replay__inspector-head,.stat,.model-picker__list{gap:var(--sp-1)}
+/* Rhythm: avoid 6px dock padding and cramped inspector edges. */
+.replay__transport{padding:var(--sp-2) var(--sp-3)}
+/* Rhythm: keep inspector control insets aligned with its sections. */
+.replay__inspector-head{padding:var(--sp-1) var(--sp-2)}
+/* Rhythm: HUD and legend share the same compact card insets. */
+.replay__hud,.replay__legend{padding:var(--sp-1) var(--sp-2)}
+/* Rhythm: roster rows align with comfortable table rows. */
+.replay__roster-row{min-height:var(--h-row)}
+/* Rhythm: metadata, cards and table content keep consistent vertical separation. */
+.an__cardhead>div:first-child,.an__legend-band{gap:var(--sp-1)}
+/* Rhythm: keyboard caps use grid padding instead of a one-off 5px inset. */
+.kbd{padding-inline:var(--sp-1)}
+
+/* Type: captions in dense replay and analysis surfaces were 10–11px; preserve the 12/16 floor. */
+.badge,.replay__meta,.replay__quality,.replay__speedlabel,.replay__keys,.replay__eyebrow,
+.replay__half,.replay__role,.replay__severity,.replay__ref,.replay__legal,.replay__tick,
+.an__hint,.an__legend-meta dt,.an__legend-range,.an__legend-n,.an__note,.an__round,
+.an__time,.an__utilhead,.an__key{font-size:var(--fs-caption);line-height:var(--lh-caption)}
+/* Type: clock is body-size data, not an isolated 14px step. */
+.replay__clock{font-size:var(--fs-body);line-height:var(--lh-body)}
+/* Type: section and title hierarchy stays on the declared ramp. */
+.card__title,.modal__title{font-size:var(--fs-section);line-height:var(--lh-section)}
+/* Type: empty titles retain the top step without oversized decorative copy. */
+.empty__title{font-size:var(--fs-title);line-height:var(--lh-title)}
+/* Data: changing clocks, scores and counts must not jitter horizontally. */
+.table,.replay__time,.replay__meta,.replay__round,.replay__count,.an__time,.an__round,
+.an__utilrow,.an__legend-meta,.statusbar{font-variant-numeric:tabular-nums}
+
+/* Affordance: all shared hit targets retain the 24px minimum, including compact density. */
+.btn,.chip,.segmented>button,.icon-btn,.rail__item,.statusbar__seg{min-height:24px;min-width:24px}
+/* Hover: chips and segmented controls previously lacked a visible resting-to-hover cue. */
+.chip:not(:disabled):not([aria-disabled="true"]):hover,
+.segmented>button:not(:disabled):not([aria-disabled="true"]):hover{background:var(--surface-3);color:var(--text);border-color:var(--border-control)}
+/* Press: physical depression is visible without animating layout or colour. */
+:is(.btn,.chip,.segmented>button,.icon-btn,.rail__item):not(:disabled):not([aria-disabled="true"]):active{transform:translateY(1px)}
+/* Selection: an inset edge makes pressed state distinguishable without colour alone. */
+:is(.btn,.chip,.icon-btn,.segmented>button)[aria-pressed="true"]{box-shadow:inset 0 -2px 0 var(--accent-text)}
+/* Disabled: dashed boundaries and not-allowed cursor supplement colour; no opacity-induced contrast loss. */
+:is(.btn,.chip,.segmented>button,.icon-btn,.rail__item):is(:disabled,[aria-disabled="true"]){opacity:1;color:var(--text-muted);border:1px dashed var(--border-control);background:var(--surface-1);cursor:not-allowed;transform:none}
+/* Focus: one separated two-pixel ring, even on a primary fill; suppress competing outlines. */
+:focus-visible{outline:0!important;box-shadow:var(--focus-ring)!important}
+/* Boundaries: editable fields and toggles must remain identifiable against every surface. */
+.field,.select,.toggle,.segmented,.palette-trigger,.palette__input{border-color:var(--border-control)}
+/* Errors: preserve the semantic invalid border over the common field boundary. */
+.field[aria-invalid="true"]{border-color:var(--danger)}
+
+/* Empty/error: quiet centred copy, bounded measure; do not hide recovery actions or semantic alerts. */
+.an__emptyfindings,.an__errorcard,.replay__state{justify-items:center;text-align:center;overflow-wrap:anywhere}
+/* Loading: retain the existing reserved rows, remove moving gradients rather than changing their geometry. */
+.skeleton__row{animation:none;background:var(--surface-2)}
+/* Loading/empty: align the message without growing or moving the underlying stage. */
+.replay__loading{padding:var(--sp-4);text-align:center}
+/* Recovery actions: centre the existing action group without inventing or suppressing actions in CSS. */
+.an__errorcard .an__actions{justify-content:center}
+
+/* Scrolling: reserve space before overflow arrives in each independently scrolling pane. */
+.replay__inspector-body,.replay__tick-pop,.an__findinglist,.an__tablescroll,
+.model-picker__list,.model-picker__groups,.palette__list,.settings-body,.coach-pre,
+.modal,.drawer{scrollbar-gutter:stable}
+/* Scrollbars: use an existing control-boundary colour so the thumb remains discoverable. */
+*{scrollbar-color:var(--border-control) var(--bg)}
+/* Chromium scrollbars: keep the same geometry as the base layer to avoid width changes. */
+::-webkit-scrollbar-thumb{background:var(--border-control)}
+/* Tables: sticky column labels stay opaque with a persistent hairline during long-list scrolling. */
+.table thead th{position:sticky;top:0;z-index:1;background:var(--surface-1);box-shadow:inset 0 -1px 0 var(--border)}
+
+/* Chrome: the 24px segments fit inside a 24px bordered bar without clipping their labels. */
+.statusbar{align-items:stretch;border-top:0;box-shadow:inset 0 1px 0 var(--border)}
+/* Chrome: prevent automatic shrinking from cutting off compact status labels. */
+.statusbar__seg{flex-shrink:0;line-height:var(--lh-caption)}
+/* Compact chrome: spend spacing before sacrificing labels or target sizes at 900px. */
+@media(max-width:1100px){
+  /* Context: smaller insets leave room for the actual action labels. */
+  .context-bar{padding-inline:var(--sp-3);gap:var(--sp-2)}
+  /* Status: compact gaps preserve the 24px hit areas. */
+  .statusbar__seg{padding-inline:var(--sp-1);gap:var(--sp-1)}
+}
+
+/* Motion: eliminate colour/width/background transitions globally; only compositor properties move. */
+*,*::before,*::after{transition-property:transform,opacity!important;transition-duration:var(--dur-fast)!important;transition-timing-function:var(--ease)!important}
+/* Reduced motion: no press displacement and no residual transition or animation, in OS or app mode. */
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition-duration:0ms!important;animation-duration:0ms!important;animation:none!important;scroll-behavior:auto!important}
+  /* Preserve positioning transforms on overlays; disable only the interaction displacement. */
+  :is(.btn,.chip,.segmented>button,.icon-btn,.rail__item):active{transform:none!important}
+}
+/* App preference: match the OS branch without altering positioned overlays. */
+:root[data-reduced-motion="true"] *,
+:root[data-reduced-motion="true"] *::before,
+:root[data-reduced-motion="true"] *::after{transition-duration:0ms!important;animation:none!important;scroll-behavior:auto!important}
+/* App preference: pressing a control must not move it when reduced motion is selected. */
+:root[data-reduced-motion="true"] :is(.btn,.chip,.segmented>button,.icon-btn,.rail__item):active{transform:none!important}
+
+/* B2: separate glyph lanes; only non-interactive event glyphs use the narrower 20px box. */
+.replay__tick{top:0;width:20px;margin-left:-10px}
+/* B2: preserve the mandatory 24px utility hit area around its narrow painted marker. */
+.replay__tick--util{min-width:24px;margin-left:-12px}
+/* P3: separate full-height utility and kill bands; counts retain coincident kill events. */
+.replay__tick--kill{top:28px;width:24px;margin-left:-12px}
+.replay__ticks{height:52px}
+.replay__scrubwrap{padding-bottom:52px}
+/* B2/H5: keep violet as the sole transport action accent; neutral thumb avoids a competing red ring. */
+.replay__scrub::-webkit-slider-thumb{width:12px;height:12px;margin-top:-4px;border-color:var(--text)}
+/* B2: acknowledge the fixed inspector boundary without adding markup or intercepting controls. */
+.replay__transport{position:relative}
+/* B2: the dock's seam matches the 340px inspector above it. */
+.replay__transport::after{content:"";position:absolute;right:340px;top:0;bottom:0;width:1px;background:var(--border);pointer-events:none}
+/* B2: reserve the inspector zone for speed so the scrub track actually ends before the seam. */
+.replay__transport-row:not(.replay__transport-row--tools){grid-template-columns:auto auto minmax(80px,1fr) 328px}
+/* B2: inset speed from the seam while keeping the stage-side timeline independent. */
+.replay__speedwrap{padding-left:12px}
+/* H1: no action-group wrapper exists, so auto margin on Import anchors it and its refresh sibling. */
+[data-testid="library-import"]{margin-left:auto}
+/* H1: box the refresh glyph so it reads as a control, not loose punctuation. */
+[data-testid="library-refresh"]{width:28px;height:28px;border:1px solid var(--border);border-radius:6px;flex:none}
+/* H1: keep both toolbar rows over the archive rather than the preview column at desktop widths. */
+@media(min-width:1101px){
+  /* H1: reserve the preview's 340px without affecting the archive's existing content inset. */
+  .lib-toolbar__row{margin-right:340px}
+}
+/* H2: cluster list facts at the right edge instead of distributing unrelated numbers across the row. */
+.lib-grid--list .lib-facts{grid-template-columns:repeat(4,max-content);justify-content:end;gap:4px 28px;margin-left:auto;padding-right:8px;max-width:100%}
+/* H2: tabular right-aligned values establish predictable columns. */
+.lib-grid--list .lib-facts dd{min-width:72px;text-align:right;font-variant-numeric:tabular-nums}
+/* H3: separate the chevron from its label. */
+.replay__back{gap:6px;padding:0 8px}
+/* H3: size workspace switches consistently with compact header actions. */
+.replay__switch-btn{height:26px}
+/* H3: a quiet hairline separates identity from destination switching. */
+.replay__switch{padding-left:12px;border-left:1px solid var(--border)}
+/* H3: reserve the longer saved label so bookmark toggling cannot shift Share moment. */
+[data-testid="replay-bookmark"]{min-width:168px;justify-content:center}
+/* H4: tint means selection; keep the team underline without a third violet border signal. */
+.replay__round--active{background:var(--accent-tint);border-color:var(--border)}
+/* H4: give the second half a genuine section boundary. */
+.replay__half{margin-top:12px;padding-top:8px;border-top:1px solid var(--border)}
+/* H4: the first half needs no divider above it. */
+.replay__half:first-child{margin-top:0;padding-top:0;border-top:0}
+/* H4/M4: 30px rounds and 6px gaps calm the dense inspector grid. */
+.replay__round{height:30px}
+/* H4/M4: retain the result underlines while adding breathing room between rounds. */
+.replay__strip{gap:6px}
+/* H5: transport selectors share the navigation control height. */
+.replay__filter,.replay__speed{height:28px}
+/* H5: labels retain comfortable targets without shrinking their checkbox input. */
+.replay__toggle{min-height:28px}
+/* H5: checked toggles are visibly enabled. */
+.replay__toggle:has(input:checked){color:var(--text)}
+/* H5: unavailable is distinct from unchecked without opacity reducing text contrast. */
+.replay__toggle:has(input:disabled){color:var(--text-muted);cursor:not-allowed;text-decoration:line-through;text-decoration-style:dotted}
+/* H5: neutral event paint keeps violet play as the one action accent, not amber versus red. */
+.replay__tick--kill,.replay__tick--plant,.replay__tick--defuse{color:var(--text-muted)}
+/* H5: utility bars remain legible but do not add another saturated dock accent. */
+.replay__tick--util::before{background:var(--text-muted)}
+/* H5: neutral cluster badges preserve the existing dark-on-light count contrast. */
+.replay__tick--cluster{background:var(--text-muted);color:var(--bg)}
+/* H6: fit a square heatmap to the viewport instead of centring a small map in a wide stage. */
+.an__stage{height:auto;width:min(100%,56vh,480px);aspect-ratio:1/1;margin-inline:auto}
+/* H6: thicker swatches make the intensity ramp visible at normal viewing distance. */
+.an__legend-swatch{height:12px;border:0}
+/* H6: five distinct alpha steps override the identical-looking inline hues without changing the palette. */
+.an__legend-band:nth-child(1) .an__legend-swatch{opacity:.18}
+/* H6: the second legend band visibly increases intensity. */
+.an__legend-band:nth-child(2) .an__legend-swatch{opacity:.38}
+/* H6: the middle legend band establishes the ramp midpoint. */
+.an__legend-band:nth-child(3) .an__legend-swatch{opacity:.58}
+/* H6: the fourth legend band approaches full intensity. */
+.an__legend-band:nth-child(4) .an__legend-swatch{opacity:.78}
+/* H6: the final legend band keeps full intensity. */
+.an__legend-band:nth-child(5) .an__legend-swatch{opacity:1}
+/* H7: bound the player picker so its action stays nearby. */
+.coach-controls .select{flex:0 1 420px;max-width:420px}
+/* H7: stretch only the empty report state, leaving real reviews in their existing flow. */
+.coach-report-col:has(.coach-emptycard){display:grid;grid-template-rows:auto 1fr;align-self:stretch;min-height:236px}
+/* H7: centre the quiet empty card within the available report column. */
+.coach-report-col>.coach-emptycard{place-self:center;width:min(100%,520px)}
+/* H8: retain pass one's 12/16 floor and distinguish confirmed micro-labels through case and tracking. */
+.replay__quality,.replay__half,.replay__role,.an__legend-n{text-transform:uppercase;letter-spacing:.06em;color:var(--text-muted)}
+/* M1: demote the drop illustration so Import remains its sole saturated action. */
+.lib-drop__art{color:var(--text-muted);font-size:24px}
+/* M2: recent imports gets a list boundary and compact vertical rhythm. */
+.lib-imports{gap:2px;padding-top:12px;border-top:1px solid var(--border)}
+/* M2: existing recent rows get a readable line-height and inset without fabricated metadata. */
+.lib-recent li{min-height:32px;padding:0 8px;border-radius:4px;display:flex;align-items:center}
+/* M2: recent rows expose their hover surface. */
+.lib-recent li:hover{background:var(--surface-2)}
+/* M3: quality reads as a badge without adding a new colour or reducing the type floor. */
+.replay__quality{padding:0 6px;border:1px solid var(--border-control);border-radius:3px;background:var(--surface-2)}
+/* M3: demote duplicated inspector copy without hiding information. */
+.replay__note{font-size:12px;color:var(--text-muted)}
+/* M4: separate inspector sections without stretching honest short lists. */
+.replay__section{padding-bottom:16px}
+/* M4: legal prose keeps the 12/16 floor with a comfortable inset. */
+.replay__legal{font-size:12px;line-height:16px;padding:10px 12px}
+/* P2: bound the long findings rail; round tables use the page's scroll axis. */
+.an__findings{min-height:0}
+.an__findings .an__findinglist{max-height:calc(100vh - 268px);overflow:auto;scrollbar-gutter:stable}
+.an__tablescroll{max-height:none;overflow:visible}
+/* Compact data rows keep all 18 outcomes on the page without introducing a second scroller. */
+.an__table th,.an__table td{height:24px}
+/* Keep supplemental charts subordinate to the map and full outcome table. */
+.an__chart .an__svg{max-height:240px}
+
+/* Compact: match the existing 300px inspector rather than forcing the desktop seam. */
+@media(min-width:861px) and (max-width:1100px){
+  /* B2: reserve the narrower inspector zone including the dock's 12px right inset. */
+  .replay__transport-row:not(.replay__transport-row--tools){grid-template-columns:auto auto minmax(80px,1fr) 288px}
+  /* B2: align the seam to the compact inspector boundary. */
+  .replay__transport::after{right:300px}
+}
+/* Stacked: there is no side inspector seam once the inspector moves below the stage. */
+@media(max-width:860px){
+  /* B2: return the speed picker to its natural width in the stacked layout. */
+  .replay__transport-row:not(.replay__transport-row--tools){grid-template-columns:auto auto minmax(80px,1fr) auto}
+  /* B2: suppress a misleading vertical seam when no side column exists. */
+  .replay__transport::after{display:none}
+}
+/* H2: keep the same facts cluster inside narrow stacked archive cards without horizontal overflow. */
+@media(max-width:1100px){
+  /* H2: reduce only the inter-column gap when archive width is constrained. */
+  .lib-grid--list .lib-facts{gap:4px 8px;grid-template-columns:repeat(3,minmax(0,max-content))}
+  }
+
+  /* P4–P12: measured pass-three refinements. Keep secondary content readable, not decorative. */
+  @media(min-width:861px) and (max-width:1100px){
+    .replay--inspector-collapsed .replay__transport::after{right:44px}
+  }
+  .providers-space{max-width:980px}
+  .provider-row__note{max-width:90ch}
+  .settings__row{grid-template-columns:minmax(160px,1fr) minmax(0,max-content);gap:24px}
+  .settings__value{text-align:right;font-weight:500;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+  /* Use opaque palette colours: each swatch exceeds 3:1 against the legend, including band one. */
+  .an__legend-swatch{opacity:1!important;background-image:none!important}
+  .an__legend-band:nth-child(1) .an__legend-swatch{background:#ad874a!important}
+  .an__legend-band:nth-child(2) .an__legend-swatch{background:#c39951!important}
+  .an__legend-band:nth-child(3) .an__legend-swatch{background:#d9ac5a!important}
+  .an__legend-band:nth-child(4) .an__legend-swatch{background:#edb961!important}
+  .an__legend-band:nth-child(5) .an__legend-swatch{background:#ffc259!important}
+  .replay__legal small{font-size:inherit;line-height:inherit}
+  /* The labelled statusbar already provides health; keep the rail footer when expanded. */
+  body[data-rail="closed"] .rail__foot{display:none}
+  /* One setup link and one generate action remain; regeneration uses the main control. */
+  .coach-context>a.btn:not(.btn--primary){background:transparent;border-color:transparent;color:var(--accent-text);justify-content:flex-start}
+  .coach-noprov .btn{display:none}
+  .coach-context>button.btn:last-of-type{display:none}
+  @media(max-width:1100px){
+    .an__mapcard{margin-top:0}
+  }
+  /* Compact filters share columns with saved views rather than clipping focusable controls. */
+  @media(max-width:900px){
+    .an__filters{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px 16px}
+    .an__filterhead{grid-column:1;grid-row:1;margin:0}
+    .an__mobile{grid-column:1;grid-row:2;margin:0}
+    .an__filters .an__group{grid-column:1;grid-row:3;margin:0}
+    .an__filters .an__views{grid-column:2;grid-row:1 / span 3;margin:0;padding-top:0;border-top:0}
+  }
+  .an__utilbreak{white-space:normal;overflow:visible;text-overflow:clip;line-height:16px;overflow-wrap:anywhere}
+  .an__utilrow{min-height:28px;padding-block:4px;align-items:start}
+  /* Free rhythm fixes P14/P15/P17. */
+  .an__count{height:24px;min-width:32px;font:600 12px/1 var(--font-mono)}
+  .lib-grid--list .lib-facts{grid-template-columns:repeat(3,max-content)}
+  .settings-nav{align-self:stretch;min-height:100%;padding-bottom:16px}
+  @media(max-width:640px){.settings__row{grid-template-columns:minmax(0,1fr)}.settings__value{text-align:left}}

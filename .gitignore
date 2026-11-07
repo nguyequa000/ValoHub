@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Exports (generated reports)
+exports/*.md
+exports/*.docx
+exports/*.json
+!exports/.gitkeep
+
+# Logs
+*.log
+
+# PowerShell
+*.ps1.bak
+
+# VRF frontend build (generated + agent workspace)
+data/
+VALOPLANT_WORK/
+cache/
+
+# Toolchain + large data kept on disk, not in git
+dotnet10-sdk/
+extracted_data/
+replays/*
+!replays/README.md
+
+# .NET / JS build outputs and deps
+bin/
+obj/
+node_modules/
+
+# Reference clone (kept on disk; ported code lives in bot/web/static/replays_app)
+vendorvalorant-web-replayer/
+.worktrees/
+
+# ValoHub desktop build outputs
+desktop/.venv/
+desktop/build/
+desktop/dist/
+desktop/sidecar/build/
+desktop/sidecar/dist/
+
+# Stamped per build (About falls back cleanly when absent; commit comes from /api/app/info)
+bot/web/static/replays_app/brand/build-info.json
+
+# Fetched agent/map art (Riot-derived; regenerate with tools/fetch_agent_assets.py)
+bot/web/static/replays_app/assets/

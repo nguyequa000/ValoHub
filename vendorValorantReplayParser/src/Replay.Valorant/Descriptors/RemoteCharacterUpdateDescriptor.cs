@@ -1,0 +1,23 @@
+using Replay.Models.Descriptors;
+using Replay.Models.Net;
+using Replay.Unreal.Parsing;
+
+namespace Replay.Valorant.Descriptors;
+
+public sealed class RemoteCharacterUpdateDescriptor : ExportGroupDescriptor<RemoteCharacterUpdateDescriptor>
+{
+    public override string Path => "/Script/ShooterGame.RemoteCharacterUpdate";
+    public override ExportCategory Categories => ExportCategory.Movement;
+    public override ExportGroupKind Kind => ExportGroupKind.FastArray;
+
+    public uint ShooterCharacterNetGuidValue { get; set; }
+    public NetObjectReference ShooterCharacterNetGuid { get; set; }
+    public uint ComponentDataStream { get; set; }
+
+    protected override void Configure()
+    {
+        AddProperty(x => x.ShooterCharacterNetGuidValue).UInt32();
+        AddProperty(x => x.ShooterCharacterNetGuid).ObjectNetGuid();
+        AddProperty(x => x.ComponentDataStream);
+    }
+}

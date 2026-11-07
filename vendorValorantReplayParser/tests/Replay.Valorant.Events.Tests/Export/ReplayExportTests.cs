@@ -1,0 +1,864 @@
+using System.Text.Json;
+using CliReader.JsonExport;
+using Replay.Models.Descriptors;
+using Replay.Models.Diagnostics;
+using Replay.Models.Events;
+using Replay.Models.Net;
+using Replay.Models.Replay;
+using Replay.Models.Results;
+using Replay.Models.Unreal;
+using Replay.Valorant.Combat;
+using Replay.Valorant.Events.Combat;
+using Replay.Valorant.Events.Flashes;
+using Replay.Valorant.Events.Footsteps;
+using Replay.Valorant.Events.Movement;
+using Replay.Valorant.Events.Nearsights;
+using Replay.Valorant.Events.Walls;
+using Replay.Valorant.GameState;
+using Replay.Valorant.Movement;
+
+namespace Replay.Valorant.Events.Tests.Export;
+
+public class ReplayExportTests
+{
+    [Test]
+    public void ExportOptions_Create_ResolvesViewerProfile()
+    {
+        var options = ExportOptions.Create("match.replay", "bundle", "viewer");
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(options.ReplayPath, Is.EqualTo("match.replay"));
+            Assert.That(options.OutputDirectory, Is.EqualTo("bundle"));
+            Assert.That(options.ProfileName, Is.EqualTo("viewer"));
+            Assert.That(options.ParseProfile.CaptureDiagnosticFields, Is.True);
+        });
+    }
+
+    [Test]
+    public void EventSink_WritesSupportedEventsAndFiltersExportShells()
+    {
+        using var events = new MemoryStream();
+        using var movement = new MemoryStream();
+        using (var sink = CreateSink(events, movement))
+        {
+            sink.Emit(Spawned());
+            sink.Emit(new ActorClosed(2, 12, 100, 7, ChannelCloseReason.Destroyed));
+            sink.Emit(Export(wasDecoded: false, payload: new TestPayload()));
+            sink.Emit(Export(wasDecoded: true, payload: null));
+            sink.Emit(Export(wasDecoded: true, payload: new TestPayload()));
+            sink.Emit(Rpc());
+
+            var statistics = sink.Statistics;
+            Assert.Multiple(() =>
+            {
+                Assert.That(statistics.EventCount, Is.EqualTo(4));
+                Assert.That(statistics.FilteredExportGroupCount, Is.EqualTo(2));
+                Assert.That(statistics.UndecodedExportGroupCount, Is.EqualTo(1));
+                Assert.That(statistics.EmptyDecodedExportGroupCount, Is.EqualTo(1));
+                Assert.That(statistics.FilteredExportGroups.Count, Is.EqualTo(2));
+            });
+        }
+
+        var documents = ParseLines(events);
+        Assert.That(
+            documents.Select(document => document.RootElement.GetProperty("type").GetString()),
+            Is.EqualTo(new[]
+            {
+                "actor_spawned",
+                "actor_closed",
+                "export_group_received",
+                "rpc_received",
+            }));
+
+        var exported = documents[2].RootElement;
+        Assert.Multiple(() =>
+        {
+            Assert.That(exported.GetProperty("time_ms").GetInt64(), Is.EqualTo(2500));
+            Assert.That(exported.GetProperty("actor_net_guid").GetUInt32(), Is.EqualTo(100));
+            Assert.That(exported.GetProperty("object_net_guid").GetUInt32(), Is.EqualTo(101));
+            Assert.That(exported.GetProperty("channel").GetUInt32(), Is.EqualTo(7));
+            Assert.That(exported.GetProperty("was_decoded").GetBoolean(), Is.True);
+            Assert.That(exported.GetProperty("categories")[0].GetString(), Is.EqualTo("movement"));
+            Assert.That(exported.GetProperty("payload").GetProperty("Health").GetInt32(), Is.EqualTo(87));
+            Assert.That(exported.GetProperty("payload").TryGetProperty("Ignored", out _), Is.False);
+            Assert.That(documents[3].RootElement.GetProperty("was_decoded").GetBoolean(), Is.False);
+        });
+
+        Dispose(documents);
+    }
+
+    [Test]
+    public void EventSink_WritesValorantShotAsNestedSnakeCaseObject()
+    {
+        using var events = new MemoryStream();
+        using var movement = new MemoryStream();
+        using (var sink = CreateSink(events, movement))
+        {
+            sink.Emit(Shot());
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(sink.Statistics.EventCount, Is.EqualTo(1));
+                Assert.That(sink.Statistics.ValorantShotReceivedCount, Is.EqualTo(1));
+                Assert.That(sink.Statistics.MovementCount, Is.Zero);
+            });
+        }
+
+        using var document = ParseLines(events).Single();
+        var exported = document.RootElement;
+        var shot = exported.GetProperty("shot");
+        Assert.Multiple(() =>
+        {
+            Assert.That(exported.GetProperty("type").GetString(), Is.EqualTo("valorant_shot_received"));
+            Assert.That(exported.GetProperty("time_ms").GetInt64(), Is.EqualTo(4250));
+            Assert.That(exported.GetProperty("actor_net_guid").GetUInt32(), Is.EqualTo(100));
+            Assert.That(exported.GetProperty("object_net_guid").GetUInt32(), Is.EqualTo(101));
+            Assert.That(exported.GetProperty("channel").GetUInt32(), Is.EqualTo(7));
+            Assert.That(shot.GetProperty("effect_id").GetUInt64(), Is.EqualTo(99));
+            Assert.That(shot.GetProperty("alliance_filter").GetString(), Is.EqualTo("alliance_enemy"));
+            Assert.That(shot.GetProperty("location").GetProperty("x").GetDouble(), Is.EqualTo(1));
+            Assert.That(shot.GetProperty("rotation").GetProperty("yaw").GetDouble(), Is.EqualTo(5));
+            Assert.That(shot.GetProperty("attack_vectors").GetArrayLength(), Is.EqualTo(2));
+            Assert.That(shot.GetProperty("fire_mode").GetString(), Is.EqualTo("alternate"));
+            Assert.That(shot.GetProperty("fire_mode_evidence").GetString(), Is.EqualTo("source:ZoomedFire"));
+            Assert.That(shot.GetProperty("wait_on_replication_actor").GetUInt32(), Is.EqualTo(200));
+            Assert.That(shot.GetProperty("firing_player_state").GetUInt32(), Is.EqualTo(300));
+            Assert.That(shot.GetProperty("firing_state").GetUInt32(), Is.EqualTo(400));
+            Assert.That(shot.GetProperty("effect_equippable").GetUInt32(), Is.EqualTo(500));
+            Assert.That(shot.GetProperty("equippable").GetProperty("net_guid").GetUInt32(), Is.EqualTo(500));
+            Assert.That(shot.GetProperty("equippable").GetProperty("category").GetString(), Is.EqualTo("rifle"));
+        });
+        Assert.That(movement.ToArray(), Is.Empty);
+    }
+
+    [Test]
+    public void EventSink_WritesFlashLifecycleAsSnakeCaseEvents()
+    {
+        using var events = new MemoryStream();
+        using var movement = new MemoryStream();
+        using (var sink = CreateSink(events, movement))
+        {
+            sink.Emit(FlashCast());
+            sink.Emit(FlashPath());
+            sink.Emit(FlashExplosion());
+            sink.Emit(FlashHit());
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(sink.Statistics.EventCount, Is.EqualTo(4));
+                Assert.That(sink.Statistics.ValorantFlashCastCount, Is.EqualTo(1));
+                Assert.That(sink.Statistics.ValorantFlashPathUpdatedCount, Is.EqualTo(1));
+                Assert.That(sink.Statistics.ValorantFlashExplodedCount, Is.EqualTo(1));
+                Assert.That(sink.Statistics.ValorantFlashPlayerHitCount, Is.EqualTo(1));
+            });
+        }
+
+        var documents = ParseLines(events);
+        Assert.That(
+            documents.Select(document => document.RootElement.GetProperty("type").GetString()),
+            Is.EqualTo(new[]
+            {
+                "valorant_flash_cast",
+                "valorant_flash_path_updated",
+                "valorant_flash_exploded",
+                "valorant_flash_player_hit",
+            }));
+
+        var cast = documents[0].RootElement;
+        var path = documents[1].RootElement;
+        var explosion = documents[2].RootElement;
+        var hit = documents[3].RootElement;
+        Assert.Multiple(() =>
+        {
+            Assert.That(cast.GetProperty("flash_kind").GetString(), Is.EqualTo("kayo_flash_drive_underhand"));
+            Assert.That(cast.GetProperty("caster_subject").GetString(), Is.EqualTo("subject-1"));
+            Assert.That(path.GetProperty("sample_index").GetInt32(), Is.EqualTo(2));
+            Assert.That(path.GetProperty("source").GetString(), Is.EqualTo("replicated_movement"));
+            Assert.That(explosion.GetProperty("evidence").GetString(), Is.EqualTo("stop_projectile_rpc"));
+            Assert.That(explosion.GetProperty("max_flash_duration_seconds").GetDouble(), Is.EqualTo(2.25));
+            Assert.That(hit.GetProperty("blind_id").ValueKind, Is.EqualTo(JsonValueKind.Null));
+            Assert.That(hit.GetProperty("duration_source").GetString(), Is.EqualTo("effect_data_gameplay_tag"));
+            Assert.That(hit.GetProperty("correlation").GetString(), Is.EqualTo("causing_projectile"));
+        });
+
+        Dispose(documents);
+    }
+
+    [Test]
+    public void EventSink_WritesNearsightLifecycleAsSnakeCaseEvents()
+    {
+        using var events = new MemoryStream();
+        using var movement = new MemoryStream();
+        using (var sink = CreateSink(events, movement))
+        {
+            sink.Emit(NearsightCast());
+            sink.Emit(NearsightPath());
+            sink.Emit(NearsightActivation());
+            sink.Emit(NearsightHit());
+            sink.Emit(NearsightEffectEnded());
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(sink.Statistics.EventCount, Is.EqualTo(5));
+                Assert.That(sink.Statistics.ValorantNearsightCastCount, Is.EqualTo(1));
+                Assert.That(sink.Statistics.ValorantNearsightPathUpdatedCount, Is.EqualTo(1));
+                Assert.That(sink.Statistics.ValorantNearsightActivatedCount, Is.EqualTo(1));
+                Assert.That(sink.Statistics.ValorantNearsightPlayerHitCount, Is.EqualTo(1));
+                Assert.That(sink.Statistics.ValorantNearsightPlayerEffectEndedCount, Is.EqualTo(1));
+            });
+        }
+
+        var documents = ParseLines(events);
+        Assert.That(
+            documents.Select(document => document.RootElement.GetProperty("type").GetString()),
+            Is.EqualTo(new[]
+            {
+                "valorant_nearsight_cast",
+                "valorant_nearsight_path_updated",
+                "valorant_nearsight_activated",
+                "valorant_nearsight_player_hit",
+                "valorant_nearsight_player_effect_ended",
+            }));
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(documents[0].RootElement.GetProperty("nearsight_kind").GetString(), Is.EqualTo("reyna_leer"));
+            Assert.That(documents[1].RootElement.GetProperty("source").GetString(), Is.EqualTo("replicated_movement"));
+            Assert.That(documents[2].RootElement.GetProperty("evidence").GetString(), Is.EqualTo("source_actor_spawned"));
+            Assert.That(documents[3].RootElement.GetProperty("duration_until_removed").GetBoolean(), Is.True);
+            Assert.That(documents[3].RootElement.GetProperty("configured_duration_seconds").ValueKind, Is.EqualTo(JsonValueKind.Null));
+            Assert.That(documents[4].RootElement.GetProperty("observed_duration_seconds").GetDouble(), Is.EqualTo(0.25));
+        });
+
+        Dispose(documents);
+    }
+
+    [Test]
+    public void EventSink_WritesWallLifecycleAsSnakeCaseEvents()
+    {
+        using var events = new MemoryStream();
+        using var movement = new MemoryStream();
+        using (var sink = CreateSink(events, movement))
+        {
+            sink.Emit(WallPlaced());
+            sink.Emit(WallSegmentSpawned());
+            sink.Emit(WallActivated());
+            sink.Emit(WallSegmentDestroyed());
+            sink.Emit(WallDestroyed());
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(sink.Statistics.EventCount, Is.EqualTo(5));
+                Assert.That(sink.Statistics.ValorantWallPlacedCount, Is.EqualTo(1));
+                Assert.That(sink.Statistics.ValorantWallSegmentSpawnedCount, Is.EqualTo(1));
+                Assert.That(sink.Statistics.ValorantWallActivatedCount, Is.EqualTo(1));
+                Assert.That(sink.Statistics.ValorantWallSegmentDestroyedCount, Is.EqualTo(1));
+                Assert.That(sink.Statistics.ValorantWallDestroyedCount, Is.EqualTo(1));
+            });
+        }
+
+        var documents = ParseLines(events);
+        Assert.That(documents.Select(document => document.RootElement.GetProperty("type").GetString()),
+            Is.EqualTo(new[]
+            {
+                "valorant_wall_placed",
+                "valorant_wall_segment_spawned",
+                "valorant_wall_activated",
+                "valorant_wall_segment_destroyed",
+                "valorant_wall_destroyed",
+            }));
+        Assert.Multiple(() =>
+        {
+            Assert.That(documents[0].RootElement.GetProperty("wall_kind").GetString(), Is.EqualTo("vyse_shear"));
+            Assert.That(documents[0].RootElement.GetProperty("wall_start").GetProperty("x").GetDouble(), Is.EqualTo(1));
+            Assert.That(documents[1].RootElement.GetProperty("segment_index").GetInt32(), Is.EqualTo(2));
+            Assert.That(documents[2].RootElement.GetProperty("trigger_subject").GetString(), Is.EqualTo("trigger"));
+            Assert.That(documents[3].RootElement.GetProperty("evidence").GetString(), Is.EqualTo("disable_collision_rpc"));
+            Assert.That(documents[4].RootElement.GetProperty("active_duration_seconds").GetDouble(), Is.EqualTo(6));
+        });
+        Dispose(documents);
+    }
+
+    [Test]
+    public void EventSink_WritesFootstepReceived()
+    {
+        using var events = new MemoryStream();
+        using var movement = new MemoryStream();
+        using (var sink = CreateSink(events, movement))
+        {
+            sink.Emit(new ValorantFootstepReceived(1.5f, 4, 2, 6, 1, ValorantFootstepKind.JumpLand, 20, 30, "jett",
+                new FVector(1, 2, 3), new FRotator(0, 90, 0), 5, 1, 12.5f,
+                new NetObjectReference(99, "/Game/Characters/_Core/FXC_JumpLand.FXC_JumpLand_C")));
+            Assert.That(sink.Statistics.ValorantFootstepReceivedCount, Is.EqualTo(1));
+            Assert.That(sink.Statistics.EventCount, Is.EqualTo(1));
+        }
+
+        var documents = ParseLines(events);
+        var footstep = documents.Single().RootElement;
+        Assert.Multiple(() =>
+        {
+            Assert.That(footstep.GetProperty("type").GetString(), Is.EqualTo("valorant_footstep_received"));
+            Assert.That(footstep.GetProperty("kind").GetString(), Is.EqualTo("jump_land"));
+            Assert.That(footstep.GetProperty("character_net_guid").GetUInt32(), Is.EqualTo(20));
+            Assert.That(footstep.GetProperty("subject").GetString(), Is.EqualTo("jett"));
+            Assert.That(footstep.GetProperty("location").GetProperty("x").GetDouble(), Is.EqualTo(1));
+            Assert.That(footstep.GetProperty("surface").GetDouble(), Is.EqualTo(5));
+        });
+        Dispose(documents);
+    }
+
+    [Test]
+    public void EventSink_WritesStructuredRoundResultPayload()
+    {
+        using var events = new MemoryStream();
+        using var movement = new MemoryStream();
+        using (var sink = CreateSink(events, movement))
+        {
+            sink.Emit(Export(wasDecoded: true, payload: new RoundResultPayload()));
+            sink.Emit(Export(wasDecoded: true, payload: new BombGameStateDescriptor
+            {
+                RoundResults = new AresRoundResultsUpdate(1,
+                [
+                    new AresRoundResult(0, "Blue", AresTeamRole.Defender, AresRoundOutcome.Defuse),
+                ]),
+            }));
+            Assert.That(sink.Statistics.RoundOutcomeCount, Is.EqualTo(1));
+        }
+
+        var documents = ParseLines(events);
+        var result = documents[0].RootElement
+            .GetProperty("payload")
+            .GetProperty("RoundResults")[0];
+        var outcome = documents[2].RootElement;
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(result.GetProperty("RoundNumber").GetInt32(), Is.Zero);
+            Assert.That(result.GetProperty("WinningTeam").GetString(), Is.EqualTo("Blue"));
+            Assert.That(result.GetProperty("WinningTeamRole").GetString(), Is.EqualTo("defender"));
+            Assert.That(result.GetProperty("RoundResult").GetString(), Is.EqualTo("defuse"));
+            Assert.That(outcome.GetProperty("type").GetString(), Is.EqualTo("round_outcome"));
+            Assert.That(outcome.GetProperty("round_number").GetInt32(), Is.EqualTo(1));
+            Assert.That(outcome.GetProperty("winner_team").GetString(), Is.EqualTo("Blue"));
+            Assert.That(outcome.GetProperty("winner_role").GetString(), Is.EqualTo("defender"));
+            Assert.That(outcome.GetProperty("end_type").GetString(), Is.EqualTo("defuse"));
+            Assert.That(outcome.GetProperty("red_score").GetInt32(), Is.Zero);
+            Assert.That(outcome.GetProperty("blue_score").GetInt32(), Is.EqualTo(1));
+        });
+        Dispose(documents);
+    }
+
+    [Test]
+    public void EventSink_WritesAbsoluteLifeChangesFromTypedAndRawDamagePayloads()
+    {
+        using var events = new MemoryStream();
+        using var movement = new MemoryStream();
+        using (var sink = CreateSink(events, movement))
+        {
+            sink.Emit(Spawned());
+            sink.Emit(Rpc(new MulticastNotifyHealParameters
+            {
+                LifeChanges =
+                [
+                    new HealLifeChangeEvent
+                    {
+                        ChangedComponent = new NetObjectReference(701, null),
+                        LifeResult = 88,
+                        DeltaLife = 13,
+                        AliveAfterChange = true,
+                    },
+                ],
+            }));
+            sink.Emit(Rpc(new MulticastNotifyDamageBaseParameters
+            {
+                LifeChangeEvents =
+                [
+                    new DamageLifeChangeEvent
+                    {
+                        ChangedComponent = new NetObjectReference(2785, null),
+                        LifeResult = 99,
+                        DeltaLife = -13,
+                        AliveAfterChange = true,
+                    },
+                ],
+            }));
+            Assert.That(sink.Statistics.PlayerLifeChangeCount, Is.EqualTo(2));
+        }
+
+        var changes = ParseLines(events)
+            .Where(document => document.RootElement.GetProperty("type").GetString() == "player_life_change")
+            .Select(document => document.RootElement.Clone())
+            .ToArray();
+        Assert.Multiple(() =>
+        {
+            Assert.That(changes, Has.Length.EqualTo(2));
+            Assert.That(changes[0].GetProperty("character_net_guid").GetUInt32(), Is.EqualTo(100));
+            Assert.That(changes[0].GetProperty("character_class_path").GetString(), Does.EndWith("_PC"));
+            Assert.That(changes[0].GetProperty("changed_component_net_guid").GetUInt32(), Is.EqualTo(701));
+            Assert.That(changes[0].GetProperty("life_result").GetSingle(), Is.EqualTo(88));
+            Assert.That(changes[0].GetProperty("change_kind").GetString(), Is.EqualTo("heal"));
+            Assert.That(changes[1].GetProperty("changed_component_net_guid").GetUInt32(), Is.EqualTo(2785));
+            Assert.That(changes[1].GetProperty("life_result").GetSingle(), Is.EqualTo(99));
+            Assert.That(changes[1].GetProperty("change_kind").GetString(), Is.EqualTo("damage"));
+        });
+    }
+
+    [TestCase(5u, "/Game/Effects/Flash.Flash_C")]
+    [TestCase(5u, null)]
+    [TestCase(0u, null)]
+    public void JsonNormalizer_WritesTypedAndDiagnosticObjectReferencesAsScalarNetGuids(uint netGuid, string? path)
+    {
+        var reference = new NetObjectReference(netGuid, path);
+        using var stream = new MemoryStream();
+        using (var writer = new Utf8JsonWriter(stream))
+        {
+            new ReplayJsonNormalizer().WriteValue(writer,
+                new object[] { reference, DecodedFieldValue.FromObjectReference(reference) });
+        }
+
+        using var document = JsonDocument.Parse(stream.ToArray());
+        var typed = document.RootElement[0];
+        var diagnostic = document.RootElement[1];
+        Assert.Multiple(() =>
+        {
+            Assert.That(typed.GetUInt32(), Is.EqualTo(netGuid));
+            Assert.That(diagnostic.GetUInt32(), Is.EqualTo(netGuid));
+        });
+    }
+
+    [Test]
+    public void JsonNormalizer_WritesMemoryAndTreatsNonInvokablePropertiesAsNull()
+    {
+        using var stream = new MemoryStream();
+        using (var writer = new Utf8JsonWriter(stream))
+        {
+            new ReplayJsonNormalizer().WriteValue(writer, new ReflectionPayload([1, 2, 3]));
+        }
+
+        using var document = JsonDocument.Parse(stream.ToArray());
+        Assert.Multiple(() =>
+        {
+            Assert.That(document.RootElement.GetProperty("Data").GetString(), Is.EqualTo("AQID"));
+            Assert.That(document.RootElement.GetProperty("Span").ValueKind, Is.EqualTo(JsonValueKind.Null));
+        });
+    }
+
+    [Test]
+    public void MovementSink_WritesMachineReadableMovementShape()
+    {
+        using var events = new MemoryStream();
+        using var movement = new MemoryStream();
+        using (var sink = CreateSink(events, movement))
+        {
+            var move = Movement();
+            var movementReceived = new RemoteCharacterMovementReceived(1.25f, 99, 100, 101, 7, 3, 1234, 4, move);
+            sink.EmitRemoteCharacterMovement(movementReceived);
+        }
+
+        var documents = ParseLines(movement);
+        var exported = documents.Single().RootElement;
+        Assert.Multiple(() =>
+        {
+            Assert.That(exported.GetProperty("type").GetString(), Is.EqualTo("remote_character_movement"));
+            Assert.That(exported.GetProperty("time_ms").GetInt64(), Is.EqualTo(1250));
+            Assert.That(exported.GetProperty("packet_id").GetInt32(), Is.EqualTo(99));
+            Assert.That(exported.GetProperty("shooter_character_net_guid").GetUInt32(), Is.EqualTo(1234));
+            Assert.That(exported.GetProperty("update_index").GetInt32(), Is.EqualTo(3));
+            Assert.That(exported.GetProperty("move_index").GetInt32(), Is.EqualTo(4));
+            Assert.That(exported.GetProperty("position").GetProperty("x").GetDouble(), Is.EqualTo(1.5));
+            Assert.That(exported.GetProperty("velocity").GetProperty("z").GetDouble(), Is.EqualTo(6));
+            Assert.That(exported.GetProperty("yaw").GetDouble(), Is.EqualTo(90));
+            Assert.That(exported.GetProperty("pitch").GetDouble(), Is.EqualTo(45));
+            Assert.That(exported.GetProperty("timestamp").GetUInt32(), Is.EqualTo(42));
+            Assert.That(exported.GetProperty("movement_state").GetByte(), Is.EqualTo(3));
+        });
+
+        Dispose(documents);
+    }
+
+    [Test]
+    public void ManifestWriter_WritesSchemaIdentityAndCounts()
+    {
+        var directory = Path.Combine(Path.GetTempPath(), $"valorant-export-{Guid.NewGuid():N}");
+        Directory.CreateDirectory(directory);
+        try
+        {
+            var result = new ValorantReplayReadResult(
+                new ValorantReplayMetadata(
+                    new ReplayInfo { LengthInMs = 60000 },
+                    new ReplayInfoSerializationMetadata(),
+                    new ReplayHeader(),
+                    new ReplayVersion
+                    {
+                        Major = 13,
+                        Minor = 1,
+                        Patch = 0,
+                        Changelist = 123,
+                        Branch = "++Ares-Core+release-13.01",
+                    },
+                    new UEVersion(),
+                    ValorantReplaySupportStatus.Supported,
+                    null),
+                new ReplayPacketStatistics(0, 0, 0, 0, 0, 0, 0, 0),
+                new ReplayBunchStatistics(
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+                ReplayReadStatus.CompletedWithWarnings,
+                [new ReplayDiagnostic(ReplayDiagnosticCode.PartialSequenceError, "Discarded mismatched continuation.", 4, 9, 12.5f)],
+                1,
+                0,
+                Array.Empty<ReplayExportGroupSummary>());
+            using var events = new MemoryStream();
+            using var movement = new MemoryStream();
+            using var sink = CreateSink(events, movement);
+            sink.Emit(Spawned());
+            sink.Emit(Shot());
+            sink.Emit(FlashCast());
+            sink.Emit(FlashPath());
+            sink.Emit(FlashExplosion());
+            sink.Emit(FlashHit());
+            sink.Emit(Export(wasDecoded: false, payload: null));
+
+            new ReplayExportManifestWriter().Write(
+                directory,
+                "match.replay",
+                new string('a', 64),
+                42,
+                "viewer",
+                result,
+                sink.Statistics);
+
+            using var document = JsonDocument.Parse(File.ReadAllText(Path.Combine(directory, "manifest.json")));
+            var manifest = document.RootElement;
+            Assert.Multiple(() =>
+            {
+                Assert.That(manifest.GetProperty("schema_version").GetInt32(), Is.EqualTo(9));
+                Assert.That(manifest.GetProperty("source_sha256").GetString(), Has.Length.EqualTo(64));
+                Assert.That(manifest.GetProperty("replay_build").GetString(), Does.EndWith("release-13.01"));
+                Assert.That(manifest.GetProperty("duration_ms").GetInt32(), Is.EqualTo(60000));
+                Assert.That(manifest.GetProperty("parse_status").GetString(), Is.EqualTo("completed_with_warnings"));
+                Assert.That(manifest.GetProperty("total_diagnostic_count").GetInt64(), Is.EqualTo(1));
+                Assert.That(manifest.GetProperty("suppressed_diagnostic_count").GetInt64(), Is.Zero);
+                var diagnostic = manifest.GetProperty("diagnostics")[0];
+                Assert.That(diagnostic.GetProperty("code").GetString(), Is.EqualTo("partial_sequence_error"));
+                Assert.That(diagnostic.GetProperty("packet_id").GetInt32(), Is.EqualTo(4));
+                Assert.That(diagnostic.GetProperty("channel_index").GetUInt32(), Is.EqualTo(9));
+                Assert.That(manifest.GetProperty("parse_profile").GetString(), Is.EqualTo("viewer"));
+                Assert.That(manifest.GetProperty("parser_version").GetString(), Is.Not.Empty);
+                Assert.That(manifest.GetProperty("counts").GetProperty("actor_spawned").GetInt32(), Is.EqualTo(1));
+                Assert.That(
+                    manifest.GetProperty("counts").GetProperty("valorant_shot_received").GetInt32(),
+                    Is.EqualTo(1));
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_footstep_received").GetInt32(), Is.Zero);
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_flash_cast").GetInt32(), Is.EqualTo(1));
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_flash_path_updated").GetInt32(), Is.EqualTo(1));
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_flash_exploded").GetInt32(), Is.EqualTo(1));
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_flash_player_hit").GetInt32(), Is.EqualTo(1));
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_nearsight_cast").GetInt32(), Is.Zero);
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_nearsight_path_updated").GetInt32(), Is.Zero);
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_nearsight_activated").GetInt32(), Is.Zero);
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_nearsight_player_hit").GetInt32(), Is.Zero);
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_nearsight_player_effect_ended").GetInt32(), Is.Zero);
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_wall_placed").GetInt32(), Is.Zero);
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_wall_segment_spawned").GetInt32(), Is.Zero);
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_wall_activated").GetInt32(), Is.Zero);
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_wall_segment_destroyed").GetInt32(), Is.Zero);
+                Assert.That(manifest.GetProperty("counts").GetProperty("valorant_wall_destroyed").GetInt32(), Is.Zero);
+                Assert.That(manifest.GetProperty("counts").GetProperty("events").GetInt32(), Is.EqualTo(6));
+                Assert.That(manifest.GetProperty("net_field_export_groups").GetArrayLength(), Is.Zero);
+                Assert.That(
+                    manifest.GetProperty("counts").GetProperty("undecoded_export_groups").GetInt32(),
+                    Is.EqualTo(1));
+                Assert.That(
+                    manifest.GetProperty("filtered_export_group_summary")[0]
+                        .GetProperty("path").GetString(),
+                    Is.EqualTo("/Game/Export"));
+                Assert.That(
+                    manifest.GetProperty("filtered_export_group_summary")[0]
+                        .GetProperty("sample_class_path").GetString(),
+                    Is.EqualTo("/Game/Class"));
+                Assert.That(manifest.GetProperty("limitations").GetArrayLength(), Is.GreaterThan(0));
+            });
+        }
+        finally
+        {
+            Directory.Delete(directory, recursive: true);
+        }
+    }
+
+    private static ReplayExportSink CreateSink(Stream events, Stream movement) =>
+        new(
+            new NdjsonWriter(events),
+            new NdjsonWriter(movement),
+            new ReplayEventJsonWriter(new ReplayJsonNormalizer()));
+
+    private static ActorSpawned Spawned() =>
+        new(
+            1,
+            10,
+            100,
+            7,
+            true,
+            "/Game/Actor",
+            200,
+            "/Game/Archetype",
+            "/Game/Characters/Test/Test_PC",
+            300,
+            new FVector(1, 2, 3),
+            new FRotator(4, 5, 6),
+            new FVector(1, 1, 1),
+            new FVector(7, 8, 9));
+
+    private static ExportGroupReceived Export(bool wasDecoded, object? payload) =>
+        new(
+            2.5f,
+            20,
+            100,
+            101,
+            7,
+            false,
+            false,
+            0,
+            "/Game/Export",
+            ExportGroupKind.Component,
+            ExportCategory.Movement | ExportCategory.Agent,
+            200,
+            100,
+            "/Game/Object",
+            "/Game/Class",
+            "/Game/Outer",
+            64,
+            64,
+            wasDecoded,
+            payload,
+            wasDecoded ? 1 : 0,
+            []);
+
+    private static RpcReceived Rpc(object? payload = null) =>
+        new(
+            3,
+            30,
+            100,
+            101,
+            7,
+            "/Game/Class",
+            "DoThing",
+            "/Game/Class.DoThing",
+            9,
+            ExportCategory.Ability,
+            8,
+            0,
+            payload is not null,
+            payload,
+            payload is null ? 0 : 1,
+            []);
+
+    private static ValorantShotReceived Shot() =>
+        new(
+            4.25f,
+            40,
+            100,
+            101,
+            7,
+            new ValorantShot(
+                EffectId: 99,
+                StartMovementTime: 1.5f,
+                SourceId: "ZoomedFire",
+                IsLocalEffect: true,
+                IsTransient: false,
+                WaitOnReplicationActor: new(200, null),
+                AllianceFilter: EAresAlliance.AllianceEnemy,
+                Location: new FVector(1, 2, 3),
+                Rotation: new FRotator(4, 5, 6),
+                AmmoRemaining: 24,
+                NumProjectiles: 1,
+                RandomSeed: 7,
+                TracerOption: 2,
+                BurstShotNumber: 3,
+                YawSwitch: 0,
+                FiringPlayerState: new(300, null),
+                FiringState: new(400, "ZoomedFiringState"),
+                AttackVectors: [new FVector(7, 8, 9), new FVector(10, 11, 12)],
+                EffectEquippable: new(500, null),
+                Equippable: new ValorantEquippable(500, "Vandal", ValorantEquippableCategory.Rifle, "/Game/Vandal"),
+                FireMode: ValorantShotFireMode.Alternate,
+                FireModeEvidence: "source:ZoomedFire"));
+
+    private static ValorantFlashCast FlashCast() =>
+        new(
+            5,
+            50,
+            600,
+            ValorantFlashKind.KayoFlashDriveUnderhand,
+            100,
+            300,
+            "subject-1",
+            new FVector(1, 2, 3),
+            new FRotator(4, 5, 6),
+            new FVector(7, 8, 9));
+
+    private static ValorantFlashPathUpdated FlashPath() =>
+        new(
+            5.1f,
+            51,
+            600,
+            ValorantFlashKind.KayoFlashDriveUnderhand,
+            2,
+            ValorantFlashPathSampleSource.ReplicatedMovement,
+            new FVector(10, 11, 12),
+            new FRotator(13, 14, 15),
+            new FVector(16, 17, 18),
+            new FVector(19, 20, 21),
+            22);
+
+    private static ValorantFlashExploded FlashExplosion() =>
+        new(
+            5.2f,
+            52,
+            600,
+            ValorantFlashKind.KayoFlashDriveUnderhand,
+            new FVector(10, 11, 12),
+            ValorantFlashExplosionEvidence.StopProjectileRpc,
+            2.25);
+
+    private static ValorantFlashPlayerHit FlashHit() =>
+        new(
+            5.3f,
+            53,
+            600,
+            ValorantFlashKind.KayoFlashDriveUnderhand,
+            100,
+            300,
+            "subject-1",
+            1.4f,
+            null,
+            99,
+            null,
+            600,
+            5.25f,
+            ValorantFlashHitCorrelation.CausingProjectile,
+            ValorantFlashDurationSource.EffectDataGameplayTag);
+
+    private static ValorantNearsightCast NearsightCast() =>
+        new(6, 60, 700, ValorantNearsightKind.ReynaLeer, 100, 300, "subject-1",
+            new FVector(1, 2, 3), new FRotator(4, 5, 6), new FVector(7, 8, 9));
+
+    private static ValorantNearsightPathUpdated NearsightPath() =>
+        new(6.1f, 61, 700, ValorantNearsightKind.ReynaLeer, 2,
+            ValorantNearsightPathSampleSource.ReplicatedMovement, new FVector(10, 11, 12),
+            new FRotator(13, 14, 15), new FVector(16, 17, 18), new FVector(19, 20, 21), 22);
+
+    private static ValorantNearsightActivated NearsightActivation() =>
+        new(6.2f, 62, 700, ValorantNearsightKind.ReynaLeer, 701, new FVector(10, 11, 12),
+            ValorantNearsightActivationEvidence.SourceActorSpawned);
+
+    private static ValorantNearsightPlayerHit NearsightHit() =>
+        new(6.3f, 63, 700, ValorantNearsightKind.ReynaLeer, 101, 301, "subject-2", null, true,
+            99, 702, 701, 6.25f, ValorantNearsightHitCorrelation.EffectContextSource,
+            ValorantNearsightDurationSource.TargetEffectBuffDuration);
+
+    private static ValorantNearsightPlayerEffectEnded NearsightEffectEnded() =>
+        new(6.55f, 64, 700, ValorantNearsightKind.ReynaLeer, 101, 301, "subject-2", 99, 6.3f,
+            6.25f, 6.5f, 0.25f);
+
+    private static ValorantWallPlaced WallPlaced() =>
+        new(7, 70, 800, ValorantWallKind.VyseShear, 100, 300, "subject-1",
+            new FVector(1, 2, 3), new FRotator(4, 5, 6), new FVector(1, 2, 0),
+            new FVector(5, 2, 0), new FVector(1, 2, 3), new FVector(1, 0, 0),
+            ValorantWallPlacementEvidence.VyseTrapAnchorsInitialized);
+
+    private static ValorantWallSegmentSpawned WallSegmentSpawned() =>
+        new(7.1f, 71, 800, 801, 2, new FVector(2, 2, 0), new FRotator(0, 90, 0));
+
+    private static ValorantWallActivated WallActivated() =>
+        new(7.2f, 72, 800, 802, ValorantWallKind.VyseShear, new FVector(1, 2, 0),
+            new FRotator(0, 90, 0), new FVector(1, 2, 0), new FVector(5, 2, 0),
+            new FVector(1, 0, 0), 101, 301, "trigger",
+            ValorantWallActivationEvidence.VyseDynamicCollisionEnabled);
+
+    private static ValorantWallSegmentDestroyed WallSegmentDestroyed() =>
+        new(8, 73, 800, 801, 2, new FVector(2, 2, 0), 0.9f,
+            ValorantWallSegmentDestructionEvidence.DisableCollisionRpc);
+
+    private static ValorantWallDestroyed WallDestroyed() =>
+        new(13.2f, 74, 800, 802, ValorantWallKind.VyseShear, new FVector(1, 2, 0), 6.2f, 6,
+            ValorantWallDestructionEvidence.VyseActiveWallActorDestroyed);
+
+    private static MovementMove Movement() =>
+        new(
+            Marker: 1,
+            MoveType: 1,
+            Position: new FVector(1.5, 2.5, 3.5),
+            Velocity: new FVector(4, 5, 6),
+            RotationInput: new FVector(0.1, 0.2, 0.3),
+            Variant1Vector: new FVector(4, 5, 6),
+            Timestamp: 42,
+            ModeFlags: 3,
+            MovementState: 3,
+            RotationYawMultiplier: 2,
+            UnusedByte: 0,
+            HasOptionalMovementValue: true,
+            OptionalMovementRawByte: 8,
+            OptionalMovementValue: 8,
+            Flag48: false,
+            PackedAngles: 12,
+            RawYaw: 100,
+            RawPitch: 200,
+            Yaw: 90,
+            Pitch: 45,
+            Variant0HasExternalCharacterRef: null,
+            Variant0PackedAngles: null,
+            Variant1Flag: true,
+            ErrorSentinel: false);
+
+    private static List<JsonDocument> ParseLines(MemoryStream stream) =>
+        System.Text.Encoding.UTF8.GetString(stream.ToArray())
+            .Split('\n', StringSplitOptions.RemoveEmptyEntries)
+            .Select(line => JsonDocument.Parse(line))
+            .ToList();
+
+    private static void Dispose(IEnumerable<JsonDocument> documents)
+    {
+        foreach (var document in documents)
+        {
+            document.Dispose();
+        }
+    }
+
+    private sealed class TestPayload : IDecodedPayload
+    {
+        public IReadOnlySet<string> DecodedProperties { get; } = new HashSet<string>
+        {
+            nameof(Health),
+        };
+
+        public int Health { get; } = 87;
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("ReSharper", "UnusedMember.Local",
+            Justification = "Read through reflection by ReplayJsonNormalizer; verifies undecoded properties are excluded.")]
+        public string Ignored { get; } = "not decoded";
+
+        public bool HasDecoded(string propertyName) => DecodedProperties.Contains(propertyName);
+    }
+
+    private sealed class RoundResultPayload
+    {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("ReSharper", "UnusedMember.Local",
+            Justification = "Read through reflection by ReplayJsonNormalizer.")]
+        public AresRoundResult[] RoundResults { get; } =
+        [
+            new(0, "Blue", AresTeamRole.Defender, AresRoundOutcome.Defuse),
+        ];
+    }
+
+    private sealed class ReflectionPayload(byte[] data)
+    {
+        private readonly byte[] _data = data;
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("ReSharper", "UnusedMember.Local",
+            Justification = "Read through reflection to verify memory serialization.")]
+        public ReadOnlyMemory<byte> Data => _data;
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("ReSharper", "UnusedMember.Local",
+            Justification = "Discovered through reflection to verify unsupported span properties serialize as null.")]
+        public ReadOnlySpan<byte> Span => _data;
+    }
+}

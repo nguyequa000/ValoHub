@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Replay.Encoding</RootNamespace>
+        <IsPackable>true</IsPackable>
+        <PackageId>ValorantReplayParser.Encoding</PackageId>
+        <Description>Wire decoding primitives, Unreal archives, and VALORANT payload transforms.</Description>
+    </PropertyGroup>
+
+    <Import Project="$(MSBuildThisFileDirectory)..\..\build\LibraryPackage.props" />
+
+    <ItemGroup>
+      <None Include="..\..\THIRD-PARTY-NOTICES.md" Pack="true" PackagePath="\" />
+      <None Include="..\..\third-party\vrfkit-LICENSE" Pack="true" PackagePath="third-party\" />
+      <None Include="..\..\third-party\ValCoach-LICENSE" Pack="true" PackagePath="third-party\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Replay.Models\Replay.Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="OozSharp" Version="3.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+            <_Parameter1>Replay.Encoding.Tests</_Parameter1>
+        </AssemblyAttribute>
+    </ItemGroup>
+
+</Project>

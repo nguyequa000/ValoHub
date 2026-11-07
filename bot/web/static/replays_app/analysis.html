@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark">
+<title>Match analysis · ValoHub</title>
+<script>
+  window.replayAssetBase = location.pathname.startsWith('/bot/web/static/replays_app/')
+    ? '/bot/web/static/replays_app/' : '/static/replays_app/';
+  const css = document.createElement('link'); css.rel = 'stylesheet';
+  css.href = window.replayAssetBase + 'styles.css'; document.head.append(css);
+  for (const href of ['ui/tokens.css', 'ui/app-shell.css', 'ui/analysis.css']) {
+    const link = document.createElement('link'); link.rel = 'stylesheet';
+    link.href = window.replayAssetBase + href; document.head.append(link);
+  }
+</script></head>
+<body class="analysis-page has-rail">
+<a class="vp-skip" href="#content">Skip to content</a>
+<nav class="app-rail" aria-label="Main navigation">
+  <a class="rail-brand" href="/replays" title="ValoHub">◆</a>
+  <a class="rail-link" href="/replays" title="Replay library" aria-label="Replay library"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="6" rx="1"/><rect x="3" y="14" width="7" height="6" rx="1"/><rect x="14" y="14" width="7" height="6" rx="1"/></svg></a>
+  <a class="rail-link" id="viewer-link" href="/replays" title="2D replay" aria-label="2D replay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5l11 7-11 7z"/></svg></a>
+  <a class="rail-link" href="/replays" title="Match analysis" aria-label="Match analysis" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19V5"/><path d="M4 19h16"/><rect x="7" y="11" width="3" height="5"/><rect x="12" y="8" width="3" height="8"/><rect x="17" y="13" width="3" height="3"/></svg></a>
+  <span class="rail-spacer"></span>
+</nav>
+<header class="app-bar"><a class="brand" href="/replays"><span class="brand-mark" aria-hidden="true">◆</span> VALO<span>PLANT</span></a><div class="app-bar-title"><strong id="match-title">Loading analysis…</strong><small id="match-subtitle">TACTICAL ANALYSIS</small></div><div class="app-bar-actions"><a id="analysis-link" class="secondary nav-link" href="/replays">Library ↗</a></div></header>
+<main class="analysis-layout" id="content">
+  <section class="analysis-map-panel" aria-labelledby="analysis-h1">
+    <div class="an-head"><div><p class="eyebrow">SPATIAL INTELLIGENCE</p><h1 id="analysis-h1">Heatmap</h1></div><span id="heat-count" class="pill">—</span></div>
+    <div class="analysis-filters"><label for="heat-kind">Layer</label><select id="heat-kind"><option value="positions">Player positions</option><option value="deaths">Deaths</option><option value="util">Utility / ultimates</option></select><label for="heat-round">Round</label><select id="heat-round"><option value="all">All rounds</option></select></div>
+    <div id="heat-legend" class="heat-legend" role="group" aria-label="Heatmap legend">
+      <dl class="legend-meta"><div><dt>Layer</dt><dd id="legend-layer">—</dd></div><div><dt>Cell size</dt><dd id="legend-cell">32 × 32 minimap px</dd></div><div><dt>Peak cell</dt><dd id="legend-peak">—</dd></div></dl>
+      <ol id="legend-key" class="legend-key" aria-label="Intensity key, cells per intensity band"></ol>
+    </div>
+    <div class="map-stage analysis-stage" id="analysis-stage"><canvas id="analysis-map" aria-hidden="true"></canvas><canvas id="analysis-heat" role="img" aria-label="Spatial heatmap of replay events"></canvas><div id="map-warning" class="map-warning" role="status" hidden></div></div>
+    <p class="muted an-note">Movement is sampled once per second per player. An empty layer means the replay did not record that data.</p>
+    <section class="round-table-section" aria-labelledby="rounds-h2"><h2 id="rounds-h2">Round outcomes</h2><div class="round-table-scroll" tabindex="0" role="region" aria-labelledby="rounds-h2"><table class="round-table"><thead><tr><th scope="col">Round</th><th scope="col">Side</th><th scope="col">Winner</th><th scope="col">End</th><th scope="col">Confidence</th></tr></thead><tbody id="analysis-rounds"></tbody></table></div></section>
+  </section>
+  <aside class="analysis-aside" aria-label="Inspector">
+    <div class="inspector-tabs" role="tablist" aria-label="Inspector sections">
+      <button type="button" role="tab" id="tab-findings" aria-controls="pane-findings" aria-selected="true" data-pane="findings">Findings <span class="tab-count" id="count-findings"></span></button>
+      <button type="button" role="tab" id="tab-utility" aria-controls="pane-utility" aria-selected="false" tabindex="-1" data-pane="utility">Utility</button>
+      <button type="button" role="tab" id="tab-ai" aria-controls="pane-ai" aria-selected="false" tabindex="-1" data-pane="ai">AI review</button>
+      <button type="button" role="tab" id="tab-players" aria-controls="pane-players" aria-selected="false" tabindex="-1" data-pane="players">Players</button>
+    </div>
+    <div class="inspector-pane" id="pane-findings" role="tabpanel" aria-labelledby="tab-findings">
+      <section class="side-section"><p class="eyebrow">DETERMINISTIC / REPLAY DATA</p><h2>Key moments</h2><div id="findings" class="findings-list" aria-live="polite">Loading…</div></section>
+    </div>
+    <div class="inspector-pane" id="pane-utility" role="tabpanel" aria-labelledby="tab-utility" hidden>
+      <section class="side-section" id="utility-usage-section"><p class="eyebrow">UTILITY USAGE</p><h2>Per-player utility</h2><div id="utility-usage" class="utility-usage"></div></section>
+    </div>
+    <div class="inspector-pane" id="pane-ai" role="tabpanel" aria-labelledby="tab-ai" hidden>
+      <section class="side-section coach-panel" aria-label="Personal coach"><p class="eyebrow">PERSONAL COACH</p><h2>Review my game</h2><label for="coach-player">This is me</label><select id="coach-player"><option value="">Choose your player</option></select><button id="coach-review" type="button" class="primary" disabled>Review my game</button><p id="coach-status" class="muted" role="status">Choose your player to begin.</p><div id="coach-result" class="coach-result" aria-live="polite"></div></section>
+      <section class="side-section ai-review"><p class="eyebrow">LOCAL MODEL / OPTIONAL</p><h2>AI match review</h2><div class="ai-row"><button id="generate-review" class="primary" type="button">Generate review</button><div id="review-status" class="muted" role="status">Checking for an existing review…</div></div><div id="review-result" class="findings-list"></div></section>
+    </div>
+    <div class="inspector-pane" id="pane-players" role="tabpanel" aria-labelledby="tab-players" hidden>
+      <section class="side-section"><p class="eyebrow">IDENTITY ENRICHMENT / OPTIONAL</p><h2>Players</h2><div id="identity-status" class="muted" role="status">Checking identity…</div><div id="identity-players" class="roster"></div></section>
+    </div>
+  </aside>
+</main>
+<script>
+  if (location.pathname.startsWith('/bot/web/static/replays_app/')) document.querySelector('.brand').href = window.replayAssetBase + 'index.html';
+  const app = document.createElement('script'); app.src = window.replayAssetBase + 'analysis.js'; document.body.append(app);
+  const coach = document.createElement('script'); coach.src = window.replayAssetBase + 'coach.js'; document.body.append(coach);
+</script></body></html>

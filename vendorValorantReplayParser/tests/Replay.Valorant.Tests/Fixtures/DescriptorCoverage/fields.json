@@ -1,0 +1,5348 @@
+[
+  {
+    "path": "/Game/GameModes/Bomb/BombPlayerState.BombPlayerState_C",
+    "handle": 20,
+    "field": "UniqueId",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 408,
+    "data": "+AUAAABSaW90ACUAAAA1OWNhODMwZi1lZjcwLTVmYTMtOWFiNS02MDkyY2Q0NDJhNGUA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/BountyHunter/BountyHunter_PC.BountyHunter_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "HEUhQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Deadeye/Deadeye_PC.Deadeye_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "HEUhQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Breach/Breach_PC.Breach_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "HEUhQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Smonk/Smonk_PC.Smonk_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "HEUhQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEnterPlayspace",
+    "handle": 0,
+    "field": "PlayspaceComponent",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "6RA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEnterPlayspace",
+    "handle": 1,
+    "field": "NewPlayspace",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "4yw=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEnterPlayspace",
+    "handle": 2,
+    "field": "bLeaveCurrentPlayspaces",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEnterPlayspace",
+    "handle": 3,
+    "field": "bExecuteOnOwner",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Sequoia/Sequoia_PC.Sequoia_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "HEUhQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Wraith/Wraith_PC.Wraith_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "HEUhQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Nox/Nox_PC.Nox_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "HEUhQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 897,
+    "data": "AgIIQAAAAAAKMwwCAgxAAAAAAA4g4y4QQAAAgL8SQAAAgL8UEP7GEADIIP8oykAC8O9BzEAAAAAAzhAC0AKkAwUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoQcZdrIEAAAB/sYEAAAB/tSH8AQAAAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/BombGameState.BombGameState_C",
+    "handle": 124,
+    "field": "RoundParticipantsInfos",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 80,
+    "data": "AgL8QAAAAAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 0,
+    "field": "EffectContainer",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "Dzg=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 1,
+    "field": "WaitOnReplicationActor",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 10,
+    "field": "ObjectValues",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 96,
+    "data": "AgIYIKUGGiCtKAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 22,
+    "field": "249",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 23,
+    "field": "Translation",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 24,
+    "field": "Scale3D",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 192,
+    "data": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 26,
+    "field": "EffectID",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 64,
+    "data": "FwAAAAAAAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 27,
+    "field": "SourceID",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 297,
+    "data": "OgAAAIjKyNLGwujKyKbK5OzK5K7e5NjIpt7q5MbKkogAAAAAAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 28,
+    "field": "bLocalEffect",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 29,
+    "field": "bTransient",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 30,
+    "field": "ClientControllerThatTriggered",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "uA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 31,
+    "field": "StartMovementTime",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AAD5Pw==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 32,
+    "field": "AllianceFilter",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 3,
+    "data": "Aw==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 2,
+    "field": "FloatValues",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 112,
+    "data": "AgIIIB8ICkCamRk/AAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 0,
+    "field": "EffectContainer",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "6zg=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 1,
+    "field": "WaitOnReplicationActor",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 10,
+    "field": "ObjectValues",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 96,
+    "data": "AgIYIKUGGiBhMAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 22,
+    "field": "249",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 23,
+    "field": "Translation",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 24,
+    "field": "Scale3D",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 192,
+    "data": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 26,
+    "field": "ClientControllerThatTriggered",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "MQI=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 27,
+    "field": "StartMovementTime",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AAD/QA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 28,
+    "field": "AllianceFilter",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 3,
+    "data": "Aw==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 2,
+    "field": "FloatValues",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 112,
+    "data": "AgIIIB8ICkCamRk/AAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.TransformTransitionContext",
+    "handle": 1,
+    "field": "249",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 192,
+    "data": "AAAAAAAAAIAAAAAAAAAAAL6YMTJ6oOa/",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ActorListTransitionContext",
+    "handle": 1,
+    "field": "Actors",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 64,
+    "data": "AgIGIN0yAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 0,
+    "field": "EffectID",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 64,
+    "data": "AgAAAAAAAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 1,
+    "field": "SourceID",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 297,
+    "data": "OgAAAIjKyNLGwujKyKbK5OzK5K7e5NjIpt7q5MbKkogAAAAAAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 2,
+    "field": "bLocalEffect",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 3,
+    "field": "bTransient",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 4,
+    "field": "WaitOnReplicationActor",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 5,
+    "field": "FloatValues",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 208,
+    "data": "BAIOIDMIEEAAAABAAAQOIDcIEEAAAIA/AAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 6,
+    "field": "VectorValues",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 544,
+    "data": "BAIQIP8GEoECAAAAAAC0qUAAAADg+ySsQAAAAKD+/3JAAAQQIMkGEoECAAAAAAC0qUAAACABiaCjQAAAAKD+/3JAAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 0,
+    "field": "EffectContainer",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "Bz4=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 1,
+    "field": "EffectID",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 64,
+    "data": "mgAAAAAAAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 2,
+    "field": "SourceID",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 297,
+    "data": "OgAAAIjKyNLGwujKyKbK5OzK5K7e5NjIpt7q5MbKkogAAAAAAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 3,
+    "field": "bLocalEffect",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 4,
+    "field": "bTransient",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 5,
+    "field": "WaitOnReplicationActor",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 6,
+    "field": "FloatValues",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 112,
+    "data": "AgIQIDkIEkAAAIA/AAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 14,
+    "field": "ObjectValues",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 96,
+    "data": "AgIgIKUGIiCFFgAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 26,
+    "field": "248",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 192,
+    "data": "ZJQRwabWrkAY2VMd/z2nQAAAAAAAYHNA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 27,
+    "field": "249",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 3,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 29,
+    "field": "StartMovementTime",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "jFrBQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 10,
+    "field": "VectorValues",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 280,
+    "data": "AgIYIFMGGoECLwLfc2vx4D8/yzpnxR3rv39Z7BcrfaS/AAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 28,
+    "field": "AllianceFilter",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 3,
+    "data": "Aw==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Breach/S0/Ability_Q/Projectile_Breach_Q_ThroughWalls_Flash.Projectile_Breach_Q_ThroughWalls_Flash_C",
+    "handle": 16,
+    "field": "ExitResults",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 381,
+    "data": "eLh23D1OHYrDaRkCAAAAAQCdOhSH0zI4yyG2hoJwhlIxTsQAsA4E8P////8OFAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 0,
+    "field": "DamageTaken",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AADQQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 1,
+    "field": "DamageDealt",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AADQQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 2,
+    "field": "bDamageKilledTarget",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 3,
+    "field": "bAliveAfterDamage",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 4,
+    "field": "EventInstigator",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "oA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 5,
+    "field": "DamageCauser",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "RUA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 6,
+    "field": "DamageOrigin",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 70,
+    "data": "VSDvFFpetHUB",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 7,
+    "field": "EquippableUsed",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "JRo=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 8,
+    "field": "DamageType",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "u0Q=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 9,
+    "field": "LifeChangeEvents",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 177,
+    "data": "AgIWIJsqGEAAALtDGkAAANDBHAIBAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 15,
+    "field": "EventInstigatorPawn",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "IRA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 16,
+    "field": "DamagerPlayerState",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "UQQ=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 17,
+    "field": "KillCreditPlayerState",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 18,
+    "field": "RegionalDamage",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 19,
+    "field": "Character",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 20,
+    "field": "NetTimestamp",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "//9//w==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 21,
+    "field": "RespawnNumber",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "/////w==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 22,
+    "field": "LifeChangeEventIndex",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AQAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 23,
+    "field": "VictimRespawnNumber",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 24,
+    "field": "bEquippableUsedZoomed",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 25,
+    "field": "bEquippableUsedInFocusMode",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 26,
+    "field": "DamagedComponent",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "w0Q=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 27,
+    "field": "DamagedBone",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 9,
+    "data": "AQA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 28,
+    "field": "bIsWallPenetration",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 29,
+    "field": "FalloffMultiplier",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AACAPw==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 30,
+    "field": "DamageDirection",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 48,
+    "data": "GHjOABt0",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 31,
+    "field": "DamageImpactLocation",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 49,
+    "data": "zoFsYvELAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 32,
+    "field": "DamageImpactNormal",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 48,
+    "data": "MX/+/6t/",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 33,
+    "field": "DamageImpactBoneRelativeLocation",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 31,
+    "data": "yHsIJg==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 40,
+    "field": "KillsForKiller",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 41,
+    "field": "KillsForVictim",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 42,
+    "field": "DeathAnimMontage",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 43,
+    "field": "DeathMontageEffectOverride",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 44,
+    "field": "DeathMontageEffectOverrideContext",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 45,
+    "field": "DeathMontageEffectOverrideIsQueued",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 0,
+    "field": "HandleNumber",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AwAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 1,
+    "field": "ModuleType",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 3,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 3,
+    "field": "SourceLocation",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 4,
+    "field": "Module",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "30Q=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 6,
+    "field": "Character",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "WQ4=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 7,
+    "field": "NetTimestamp",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "ALBHQg==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 8,
+    "field": "RespawnNumber",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1890,
+    "data": "AgIKVRwCAg4gC0AQQLQkvkISQAAAREIUEAQWtRgCAhiRBCUAAABmNGM0YjU4MS1iMDdiLTU2MTEtODQyYy00ZGU2YThmNWE2OGUAGsIIAAAApMrIAAAAAAA4QN6JPEAWgECAaEl8hUSAAACIhEggCEyAAAC4hFCAAgAAAFSAAAAAAFiAAAAAAFwEwCgAGQgAGgE2tQgCAjggC0A6QLQkvkI8QAAAREI+EARAIAtAQkC0JL5CREAAAERCRhAESCDXRFqlAgICXBAAXkABAAAAYEAAAFxCYgLIBJhBAAAAAAAIAwUAAAAAAAAAAAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1898,
+    "data": "AgIKZRwCAg4gC0AQQLQkvkISQAAAREIUEAQWxRgCAhiRBCUAAAA2OGJmMmJiYS0zZjM0LTU1M2EtYjk1Ny1hYzRjMjAyMmM4YzIAGtIKAAAAhNjqygAAAAAAOEDuiTxAFoBAgGhJfIVEgAAAiIRIIAhMgAAAAABQgAAAAABUgAAAuIRYgAIAAABcBMAoABkIABoBfLUIAgJ+IAtAgEC0JL5CgkAAAERChBAEhiALQIhAtCS+QopAAABEQowQBI4g10SgpQICAqIQAKRAAQAAAKZAAABcQqgCVAWwQgAAAAAACAMFAAAAAAAAAAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 2,
+    "field": "Source",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "oUI=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 5,
+    "field": "Duration",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "mpkZPw==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 6,
+    "field": "VectorValues",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 280,
+    "data": "AgIQIMkGEoECAAAAYHAYukAAAAAADIegwAAAAIBSt3VAAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1898,
+    "data": "AgIKZRwCAg4gC0AQQCBmrUISQAAAaEIUEAQWxRgCAhiRBCUAAAA2OGJmMmJiYS0zZjM0LTU1M2EtYjk1Ny1hYzRjMjAyMmM4YzIAGtIKAAAAhNjqygAAAAAAOEDuiTxAFoBAgEDMWoVEgAAA0IRIIAhMgAAA4INQgAIAAABUgAAAAABYgAAAAABcBMAoABkIABoBNrUIAgI4IAtAOkAgZq1CPEAAAGhCPhAEQCALQEJAIGatQkRAAABoQkYQBEgg60papQICAlwQAF5AAQAAAGBAAADwQWICyASYQQAAAAAACAMFAAAAAAAAAAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1834,
+    "data": "AgIK5RoCAhBAIGatQhJAAABoQha1GAQEGJEEJQAAADk5MGVjNDA4LTAzYTUtNTdjZC05NTcwLWMyYmU1NjI4MDhjOQAawggAAACkysgAAAAAADhA5pU8QBaAQIBAzFqFRIAAANCESCAITIAAAAAAUIAAAAAAVIAAAOCDWIACAAAAXATAKAAZCAAaAXy1CAICfiALQIBAIGatQoJAAABoQoQQBIYgC0CIQCBmrUKKQAAAaEKMEASOIOtKoKUCAgKiEACkQAEAAACmQAAA8EGoAlQFsEIAAAAAAAgDBQAAAAAAAAAAAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 835,
+    "data": "AgIKFwwCAhBApi2rQhJAAABsQhbnCAICIECmLatCIkAAAGxCJkAAAAdDKEACAAAALgJtqgkEBISATFtWhYiAAADYhLRKBQgIuCACvIACAAAAwIAAAKSFxASQCTSDAAAAAAAAAAAAAAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1220,
+    "data": "AgIKGRICAhBApi2rQhJAAABsQhbnCAQEIECmLatCIkAAAGxCKkAAAAdDLEACAAAANAL5qgkEBBCBTFtWhRSBAADYhEBLBQgIRCECSIECAAAATIEAAKSFUAWoCmSFAAAAAAAAAIAWKB0oAAAAAIT4+QsEAAAAsubTCAwAAAA0VCQHRA2yAGQNZNqyKoQNBADAJqQNQQAAAAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1890,
+    "data": "AgIKVRwCAg4gC0AQQFw5pkISQAAAdEIUEAQWtRgCAhiRBCUAAAA3MGZlOTBmZC0yYzFhLTU5MzgtYWQ3Zi0wYmFkZTgyZDhlZDgAGsIIAAAApMrIAAAAAAA4QDaZPEAWgECAuHJMhUSAAADohEggCEyAAACgg1CAAgAAAFSAAAAAAFiAAAAAAFwEwCgAGQgAGgE2tQgCAjggC0A6QFw5pkI8QAAAdEI+EARAIAtAQkBcOaZCREAAAHRCRhAESCC7RFqlAgICXBAAXkABAAAAYEAAANBBYgLIBJhBAAAAAAAIAwUAAAAAAAAAAAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1898,
+    "data": "AgIKZRwCAg4gC0AQQFw5pkISQAAAdEIUEAQWxRgCAhiRBCUAAAA4N2ViZjczOC1iYzc2LTVhMzktYTllNy02NjIzNjY4Mjk2NDQAGtIKAAAAhNjqygAAAAAAOEBGmTxAFoBAgLhyTIVEgAAA6IRIIAhMgAAAAABQgAAAAABUgAAAoINYgAIAAABcBMAoABkIABoBfLUIAgJ+IAtAgEBcOaZCgkAAAHRChBAEhiALQIhAXDmmQopAAAB0QowQBI4gu0SgpQICAqIQAKRAAQAAAKZAAADQQagCVAWwQgAAAAAACAMFAAAAAAAAAAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 736,
+    "data": "AgIKUQoCAhBAWr2lQhJAAAB4QhYhCAICIEBavaVCIkAAAHhCKkAAAFBCLEACAAAAfDEEAgKIQFq9pUKKQAAAeEKgAQICAqRAAgAAAKZAAABQQgAAAAAAAAAAAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 736,
+    "data": "AgIKUQoCAhBAWr2lQhJAAAB4QhYhCAICIEBavaVCIkAAAHhCJkAAAFBCKEACAAAANjEEAgJCQFq9pUJEQAAAeEJaAQICAl5AAgAAAGBAAABQQgAAAAAAAAAAAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 962,
+    "data": "AgIKFQ4CAhBAUpWkQhZFDAICIEBSlaRCJkAAABxCKEABAAAANrUIAgI4IAtAOkBSlaRCPEAAAHhCPhAEQCALQEJAUpWkQkRAAAB4QkYQBEggs0xapQICAlwQAF5AAQAAAGBAAAAcQmICyASYQQAAAAAAAAAAAAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 34,
+    "field": "AssistsList",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 149,
+    "data": "AgJICkEJpIqACQLACeb/3wAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/BombGameState.BombGameState_C",
+    "handle": 81,
+    "field": "RoundResults",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 272,
+    "data": "AgKm0goAAACE2OrKAAAAAABQDaSKEKyAAgKuID0EAAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEndRound",
+    "handle": 0,
+    "field": "NewRoundNumber",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AQAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEndRound",
+    "handle": 1,
+    "field": "Type",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 3,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.AresGameStateBase:MulticastResetForRespawn",
+    "handle": 0,
+    "field": "ShooterCharacter",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "uRQ=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.AresGameStateBase:MulticastResetForRespawn",
+    "handle": 1,
+    "field": "249",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.AresGameStateBase:MulticastResetForRespawn",
+    "handle": 2,
+    "field": "Translation",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 192,
+    "data": "AAAAAPxvh0AAAAAAC8ByQAAAAKDJSntA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.AresGameStateBase:MulticastResetForRespawn",
+    "handle": 3,
+    "field": "Scale3D",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 192,
+    "data": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 25,
+    "field": "AttachSocket",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 105,
+    "data": "CgAAAJDKwsgAAAAAAAA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 0,
+    "field": "DamageTaken",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AACwQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 1,
+    "field": "DamageDealt",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "FyRRQg==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 2,
+    "field": "bDamageKilledTarget",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 3,
+    "field": "bAliveAfterDamage",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 4,
+    "field": "EventInstigator",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "oA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 5,
+    "field": "DamageCauser",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "gXI=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 6,
+    "field": "DamageOrigin",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 70,
+    "data": "1bylFe8CMDYB",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 7,
+    "field": "EquippableUsed",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 8,
+    "field": "DamageType",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "t1o=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 9,
+    "field": "LifeChangeEvents",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 338,
+    "data": "BAIWICkOGEAAAAAAGkAAAACAHAIBCCxAShwwgAAAAAA0gAAAYIM5BAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 15,
+    "field": "EventInstigatorPawn",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "IRA=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 16,
+    "field": "DamagerPlayerState",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "UQQ=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 17,
+    "field": "KillCreditPlayerState",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "UQQ=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 18,
+    "field": "RegionalDamage",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "BQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 19,
+    "field": "Character",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "mQw=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 20,
+    "field": "NetTimestamp",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AIBRQg==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 21,
+    "field": "RespawnNumber",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AQAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 22,
+    "field": "LifeChangeEventIndex",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "RAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 23,
+    "field": "VictimRespawnNumber",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AQAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 24,
+    "field": "bEquippableUsedZoomed",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 25,
+    "field": "bEquippableUsedInFocusMode",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 26,
+    "field": "AssistsList",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 149,
+    "data": "AgI4CkEHJImABwLAB+b/3wAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 32,
+    "field": "KillsForKiller",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AgAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 33,
+    "field": "KillsForVictim",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 32,
+    "data": "AQAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 34,
+    "field": "DeathAnimMontage",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "v1o=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 35,
+    "field": "DeathMontageEffectOverride",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 36,
+    "field": "DeathMontageEffectOverrideContext",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 37,
+    "field": "DeathMontageEffectOverrideIsQueued",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 9,
+    "field": "ContextActor",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 16,
+    "data": "WQ4=",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Sequoia/S0/Ability_X/TransitionContext_Sequoia_X_TeleportInfo.TransitionContext_Sequoia_X_TeleportInfo_C",
+    "handle": 1,
+    "field": "249",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAAMw7f2aeoOa/",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Common/BaseReplayPlayerState.BaseReplayPlayerState_C",
+    "handle": 29,
+    "field": "AllPlayersObfuscatedPlayerInformation",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 500,
+    "data": "AgI+MQb4BQAAAFJpb3QAJQAAADk5MGVjNDA4LTAzYTUtNTdjZC05NTcwLWMyYmU1NjI4MDhjOQBAAoQMCAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 25,
+    "field": "AttachSocket",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 161,
+    "data": "GAAAAJrq9PTYyqDe0tzoAAAAAAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 13,
+    "field": "ObjectValues",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 96,
+    "data": "AgIeIJUGICCxBAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEndRound",
+    "handle": 2,
+    "field": "TeamsOnMatchPoint",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 80,
+    "data": "AgIIQAIAAAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/BombPlayerState.BombPlayerState_C",
+    "handle": 20,
+    "field": "UniqueId",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 408,
+    "data": "+AUAAABSaW90ACUAAAA4ZGRmNWQ1Yy0xZWIwLTUwMWYtYTRjYi0xMTRiMmZjZWM4Y2QA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Smonk/Smonk_PC.Smonk_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "Z0whQQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Thorne/Thorne_PC.Thorne_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "Z0whQQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Sarge/Sarge_PC.Sarge_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "Z0whQQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Phoenix/Phoenix_PC.Phoenix_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "Z0whQQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Cable/Cable_PC.Cable_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "Z0whQQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Wushu/Wushu_PC.Wushu_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "Z0whQQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Cashew/Cashew_PC.Cashew_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "Z0whQQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Deadeye/Deadeye_PC.Deadeye_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "Z0whQQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 889,
+    "data": "AgIIQAAAAAAKIwwCAgxAAAAAAA4gUyoQQAAAgL8SQAAAgL8UEP7GEADIEELKQP3v70HMQAAAAADOEALQAqQDBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKhBplSsgQAAAH+xgQAAAH+1IfwBAAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/BombGameState.BombGameState_C",
+    "handle": 124,
+    "field": "RoundParticipantsInfos",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 80,
+    "data": "AgL8QAAAAAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 0,
+    "field": "EffectContainer",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "BzQ=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 1,
+    "field": "EffectID",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 64,
+    "data": "GAAAAAAAAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 2,
+    "field": "SourceID",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 297,
+    "data": "OgAAAIjKyNLGwujKyKbK5OzK5K7e5NjIpt7q5MbKkogAAAAAAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 3,
+    "field": "bLocalEffect",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 4,
+    "field": "bTransient",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 5,
+    "field": "WaitOnReplicationActor",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 6,
+    "field": "FloatValues",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 400,
+    "data": "CAIQIHkGEkAAAEBAAAQQIE8GEkAAABBBAAYQIH0GEkAAAIA/AAgQIHsGEkBXJufOAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 10,
+    "field": "VectorValues",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 808,
+    "data": "BgIYIFMGGoECMvHv25T/779D8fqAUJd1v8I9GCLtqYE/AAQYIGMGGoECAJcdIej3778m0Pvs8niGv/atna98DKa/AAYYIGUGGoECxoE5wOr6778l9ep7egOXP9RKl4hWxZu/AAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 14,
+    "field": "ObjectValues",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 336,
+    "data": "CAIgIHcGIiDdKgAEICB1BiIQYAAGIDD//wYiIA80AAggIKUGIiD9FAAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 26,
+    "field": "248",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "Z2ZmZiaTyECamZmZ2Wm4QDQzMzMzA4JA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 27,
+    "field": "249",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 35,
+    "data": "nf6TAAI=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 28,
+    "field": "AllianceFilter",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 3,
+    "data": "Aw==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 29,
+    "field": "StartMovementTime",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "rzYRQA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 0,
+    "field": "EffectContainer",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "FzQ=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 1,
+    "field": "WaitOnReplicationActor",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 10,
+    "field": "ObjectValues",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 96,
+    "data": "AgIYIKUGGiCxJgAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 22,
+    "field": "249",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 23,
+    "field": "Translation",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 24,
+    "field": "Scale3D",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 26,
+    "field": "EffectID",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 64,
+    "data": "GQAAAAAAAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 27,
+    "field": "SourceID",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 297,
+    "data": "OgAAAIjKyNLGwujKyKbK5OzK5K7e5NjIpt7q5MbKkogAAAAAAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 28,
+    "field": "bLocalEffect",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 29,
+    "field": "bTransient",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 30,
+    "field": "ClientControllerThatTriggered",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "cQI=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 31,
+    "field": "StartMovementTime",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AIARQA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 32,
+    "field": "AllianceFilter",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 3,
+    "data": "Aw==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 2,
+    "field": "FloatValues",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 112,
+    "data": "AgIIIB8ICkCamRk/AAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 0,
+    "field": "EffectID",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 64,
+    "data": "BAAAAAAAAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 1,
+    "field": "SourceID",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 297,
+    "data": "OgAAAIjKyNLGwujKyKbK5OzK5K7e5NjIpt7q5MbKkogAAAAAAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 2,
+    "field": "bLocalEffect",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 3,
+    "field": "bTransient",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 4,
+    "field": "WaitOnReplicationActor",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 5,
+    "field": "FloatValues",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 208,
+    "data": "BAIOIDMIEEAAAABAAAQOIDcIEEAAAIA/AAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 0,
+    "field": "EffectContainer",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "9zQ=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 1,
+    "field": "WaitOnReplicationActor",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 10,
+    "field": "ObjectValues",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 96,
+    "data": "AgIYIKUGGiApMAAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 22,
+    "field": "249",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 23,
+    "field": "Translation",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 24,
+    "field": "Scale3D",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 26,
+    "field": "ClientControllerThatTriggered",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "cQI=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 27,
+    "field": "StartMovementTime",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "ACAcQQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 28,
+    "field": "AllianceFilter",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 3,
+    "data": "Aw==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.TransformTransitionContext",
+    "handle": 1,
+    "field": "249",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAAPdxUJmiAKW/",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ActorListTransitionContext",
+    "handle": 1,
+    "field": "Actors",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 64,
+    "data": "AgIGIDEwAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 2,
+    "field": "FloatValues",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 112,
+    "data": "AgIIIB8ICkAAAEA/AAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 0,
+    "field": "HandleNumber",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "DAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 1,
+    "field": "ModuleType",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 3,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 2,
+    "field": "Source",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "tQo=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 3,
+    "field": "SourceLocation",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "AAAAYN0DvkAAAAAA3oyaQAAAAODMBGlA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 4,
+    "field": "Module",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "9zg=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 6,
+    "field": "Character",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "lQo=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 7,
+    "field": "NetTimestamp",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AFDuQQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 8,
+    "field": "RespawnNumber",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 0,
+    "field": "DamageTaken",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AADQQQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 1,
+    "field": "DamageDealt",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AADQQQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 2,
+    "field": "bDamageKilledTarget",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 3,
+    "field": "bAliveAfterDamage",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 4,
+    "field": "EventInstigator",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "nQI=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 5,
+    "field": "DamageCauser",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "2Tg=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 6,
+    "field": "DamageOrigin",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 70,
+    "data": "1VynBiWCTlYB",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 7,
+    "field": "EquippableUsed",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "2Ro=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 8,
+    "field": "DamageType",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "wzo=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 9,
+    "field": "LifeChangeEvents",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 177,
+    "data": "AgIWIHMmGEAAAMZCGkAAANDBHAIBAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 15,
+    "field": "EventInstigatorPawn",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "zQg=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 16,
+    "field": "DamagerPlayerState",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "WA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 17,
+    "field": "KillCreditPlayerState",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 18,
+    "field": "RegionalDamage",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 19,
+    "field": "Character",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 20,
+    "field": "NetTimestamp",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "//9//w==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 21,
+    "field": "RespawnNumber",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "/////w==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 22,
+    "field": "LifeChangeEventIndex",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AQAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 23,
+    "field": "VictimRespawnNumber",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 24,
+    "field": "bEquippableUsedZoomed",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 25,
+    "field": "bEquippableUsedInFocusMode",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 26,
+    "field": "DamagedComponent",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "yzo=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 27,
+    "field": "DamagedBone",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 9,
+    "data": "AQA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 28,
+    "field": "bIsWallPenetration",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 29,
+    "field": "FalloffMultiplier",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AACAPw==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 30,
+    "field": "DamageDirection",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 48,
+    "data": "sBhwy1eE",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 31,
+    "field": "DamageImpactLocation",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 49,
+    "data": "zjEuH5sPAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 32,
+    "field": "DamageImpactNormal",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 48,
+    "data": "AIABAACA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 33,
+    "field": "DamageImpactBoneRelativeLocation",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 25,
+    "data": "xkL6AQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 40,
+    "field": "KillsForKiller",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 41,
+    "field": "KillsForVictim",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 42,
+    "field": "DeathAnimMontage",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 43,
+    "field": "DeathMontageEffectOverride",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 44,
+    "field": "DeathMontageEffectOverrideContext",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 45,
+    "field": "DeathMontageEffectOverrideIsQueued",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 25,
+    "field": "AttachSocket",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 225,
+    "data": "KAAAAKS+rsrC4N7coN7S3Oim3sbWyugAAAAAAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 6,
+    "field": "VectorValues",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 280,
+    "data": "AgIQIMEGEoECAAAAAAAgfEAAAAAAACB8QAAAAAAAIHxAAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 5,
+    "field": "Duration",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "ZmbmPg==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 0,
+    "field": "DamageTaken",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAPw==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 1,
+    "field": "DamageDealt",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAPw==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 2,
+    "field": "bDamageKilledTarget",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 3,
+    "field": "bAliveAfterDamage",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 4,
+    "field": "EventInstigator",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "QQQ=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 5,
+    "field": "DamageCauser",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "pUA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 6,
+    "field": "DamageOrigin",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 70,
+    "data": "1V3z9FoZbCoB",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 7,
+    "field": "EquippableUsed",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 8,
+    "field": "DamageType",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "F0I=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 9,
+    "field": "LifeChangeEvents",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 177,
+    "data": "AgIWIKU6GEAA4BVEGkAAAAC/HAIBAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 15,
+    "field": "EventInstigatorPawn",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "GQ4=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 16,
+    "field": "DamagerPlayerState",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "ZA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 17,
+    "field": "KillCreditPlayerState",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 18,
+    "field": "RegionalDamage",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "BQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 19,
+    "field": "Character",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 20,
+    "field": "NetTimestamp",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "//9//w==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 21,
+    "field": "RespawnNumber",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "/////w==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 22,
+    "field": "LifeChangeEventIndex",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AQAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 23,
+    "field": "VictimRespawnNumber",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 24,
+    "field": "bEquippableUsedZoomed",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 25,
+    "field": "bEquippableUsedInFocusMode",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 32,
+    "field": "KillsForKiller",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 33,
+    "field": "KillsForVictim",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 34,
+    "field": "DeathAnimMontage",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 35,
+    "field": "DeathMontageEffectOverride",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 36,
+    "field": "DeathMontageEffectOverrideContext",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 37,
+    "field": "DeathMontageEffectOverrideIsQueued",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 9,
+    "field": "ContextActor",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "7Ug=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 34,
+    "field": "AssistsList",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 141,
+    "data": "AgJICkoJgogJZILJCWSEAAAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/BombGameState.BombGameState_C",
+    "handle": 81,
+    "field": "RoundResults",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 256,
+    "data": "AgKmwggAAACkysgAAAAAAFANoooArHACAq4QiAAAAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/GameModes/Common/BaseReplayPlayerState.BaseReplayPlayerState_C",
+    "handle": 29,
+    "field": "AllPlayersObfuscatedPlayerInformation",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 500,
+    "data": "AgI+MQb4BQAAAFJpb3QAJQAAADQ0OWU0YjA2LTM3YWYtNTk4Yy1hZGQyLWI4NjFmMzllOWEwNQBAAoQMBAAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEndRound",
+    "handle": 0,
+    "field": "NewRoundNumber",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AQAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEndRound",
+    "handle": 1,
+    "field": "Type",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 3,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEnterPlayspace",
+    "handle": 0,
+    "field": "PlayspaceComponent",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "+RI=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEnterPlayspace",
+    "handle": 1,
+    "field": "NewPlayspace",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "Gg==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEnterPlayspace",
+    "handle": 2,
+    "field": "bLeaveCurrentPlayspaces",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEnterPlayspace",
+    "handle": 3,
+    "field": "bExecuteOnOwner",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.AresGameStateBase:MulticastResetForRespawn",
+    "handle": 0,
+    "field": "ShooterCharacter",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "cRI=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.AresGameStateBase:MulticastResetForRespawn",
+    "handle": 1,
+    "field": "249",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.AresGameStateBase:MulticastResetForRespawn",
+    "handle": 2,
+    "field": "Translation",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "AAAAAPi/ckAAAAAAAAy3QAAAAGC1v3JA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.AresGameStateBase:MulticastResetForRespawn",
+    "handle": 3,
+    "field": "Scale3D",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 0,
+    "field": "DamagerPlayer",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "YA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 1,
+    "field": "DownedPlayer",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "ZA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 2,
+    "field": "DamageTaken",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AwALQw==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 3,
+    "field": "DamageDealt",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAMQw==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 4,
+    "field": "bDamageKilledTarget",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 5,
+    "field": "bAliveAfterDamage",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 6,
+    "field": "EventInstigator",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "cQI=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 7,
+    "field": "DamageCauser",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "dYI=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 8,
+    "field": "DamageOrigin",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 70,
+    "data": "VQSblpfUTAgB",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 9,
+    "field": "EquippableUsed",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "ZXw=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 10,
+    "field": "DamageType",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "X1o=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 11,
+    "field": "LifeChangeEvents",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 499,
+    "data": "BgIaIK0OHEAAAAAAHkAAAACAIAIBCDRA4uw4gAAAAAA8gJ5UVYRBBAIYaICkOnAAAQAgC3kAeasCC4MIBAAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 17,
+    "field": "EventInstigatorPawn",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "/RQ=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 18,
+    "field": "DamagerPlayerState",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "YA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 19,
+    "field": "KillCreditPlayerState",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 20,
+    "field": "RegionalDamage",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 21,
+    "field": "Character",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "GQ4=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 22,
+    "field": "NetTimestamp",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "ALioQg==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 23,
+    "field": "RespawnNumber",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AgAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 24,
+    "field": "LifeChangeEventIndex",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "agAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 25,
+    "field": "VictimRespawnNumber",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AgAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 26,
+    "field": "bEquippableUsedZoomed",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 27,
+    "field": "bEquippableUsedInFocusMode",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 28,
+    "field": "DamagedComponent",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "iUw=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 29,
+    "field": "DamagedBone",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 121,
+    "data": "DgAAAKbg0tzKZgAAAAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 30,
+    "field": "bIsWallPenetration",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 31,
+    "field": "FalloffMultiplier",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AACAPw==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 32,
+    "field": "DamageDirection",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 48,
+    "data": "shkaM7uB",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 33,
+    "field": "DamageImpactLocation",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 49,
+    "data": "zplO0TMLAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 34,
+    "field": "DamageImpactNormal",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 48,
+    "data": "kqwpu2Po",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 35,
+    "field": "DamageImpactBoneRelativeLocation",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 25,
+    "data": "RmCOAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 36,
+    "field": "EquippableUsed",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "ZXw=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 37,
+    "field": "bRecoversInstantly",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 1,
+    "field": "DownedPlayer",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "ZA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 2,
+    "field": "DamageTaken",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 3,
+    "field": "DamageDealt",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 4,
+    "field": "bDamageKilledTarget",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 5,
+    "field": "bAliveAfterDamage",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 6,
+    "field": "EventInstigator",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 7,
+    "field": "DamageCauser",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 8,
+    "field": "DamageOrigin",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 139,
+    "data": "bAAAAAAA8KPpHKopAAAAAAAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 9,
+    "field": "EquippableUsed",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 10,
+    "field": "DamageType",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 17,
+    "field": "EventInstigatorPawn",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 18,
+    "field": "DamagerPlayerState",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 19,
+    "field": "KillCreditPlayerState",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 20,
+    "field": "RegionalDamage",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "BQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 21,
+    "field": "Character",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 22,
+    "field": "NetTimestamp",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "//9//w==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 23,
+    "field": "RespawnNumber",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "/////w==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 24,
+    "field": "LifeChangeEventIndex",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 25,
+    "field": "VictimRespawnNumber",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 26,
+    "field": "bEquippableUsedZoomed",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 27,
+    "field": "bEquippableUsedInFocusMode",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 29,
+    "field": "bRecoversInstantly",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 0,
+    "field": "SegmentLocation_5_FF06CDF14F98D9DF52A415ABFFED5C1B",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "eAcAgE87vEBH/P9/FLHHQEP+H3BmQnFA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 1,
+    "field": "SegmentEndLocation_27_F527C723412B04D1B7B70DBCA8DB9274",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "TU1498QXv0AKLcLaDETGQBJzH6vx2m9A",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 2,
+    "field": "SegmentForwardVector_6_90F49F23446D7962D7884A81F1216F08",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 192,
+    "data": "oe7nyeGo5j9G4ZKt4ZXmvw/LUXQfGJW/",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 3,
+    "field": "SegmentStartDistance_9_ED00E24742CC7DB00C724D836EB42120",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 4,
+    "field": "SegmentEndDistance_11_E8335B424892D63D3C3299B9A66ACB8E",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 32,
+    "data": "FkyBRA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 5,
+    "field": "IsLastSegment_20_DBF0AF9947207F9934F53EAA579066BD",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 6,
+    "field": "IsBounce_22_32394D8F47B7EDF192B6C1B9F322900F",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 7,
+    "field": "IsTeleport_24_0D166161461A4BCC77B91288D42169BB",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 25,
+    "field": "AttachSocket",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 161,
+    "data": "GAAAAJrq9PTYyqDe0tzoAAAAAAAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_Spline.GameObject_Spline_C:Multicast_InitializeSpline",
+    "handle": 0,
+    "field": "240",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 24,
+    "data": "+RcC",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_Spline.GameObject_Spline_C:Multicast_InitializeSpline",
+    "handle": 1,
+    "field": "PlayerTrajectoryPoints",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 2800,
+    "data": "GAIGgQIAAACACorBQAAAAKBvb8hAAAAAYBiRckAABAaBAi0w5ZtBXMFA/klwtLI5yEA+r5TRvgByQAAGBoEC1qASgij6wEDsacg1j8bHQPAxon52y3BAAAgGgQJ93pFoGpjAQHePoaF4U8dAJZuKo6Esb0AACgaBAnBk1creg8BAQCT1Q7k7x0B9GNEkDa1uQAAMBoECmaeY4z4xwEB2ilyhXunGQJ/v8gujEW9AAA4GgQKTUaOA7Iy/QDJNroPvfsZAEy8PH6KTb0AAEAaBAk1NePfEF79ACi3C2oxExkAScx+r8dpvQAASBoECKoNjvgq7vkDG0Y7isnLGQLzHHPWhGHBAABQGgQLWLH/yB+W9QKCpeDs13cZAjKvi6j58cEAAFgaBArgnN8dFDr1A/QGprBZIx0DIYaXVNOBwQAAYBoECAAAAgE87vEAAAACAFLHHQAAAAHBmQnFAAAA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 0,
+    "field": "DamagerPlayer",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 8,
+    "data": "TA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 11,
+    "field": "LifeChangeEvents",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 507,
+    "data": "BgIaIK0OHEAAAAAAHkAAAACAIAIBCDRgijYFOIAAAAAAPIAAAAAAQQQCGGiApDpwAAEAIAt5AAGXh/uCCAQAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 28,
+    "field": "EquippableUsed",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 16,
+    "data": "CRA=",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 26,
+    "field": "AssistsList",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 141,
+    "data": "AgI4CkEHgokHAsAH5v/fAAAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEndRound",
+    "handle": 2,
+    "field": "TeamsOnMatchPoint",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 80,
+    "data": "AgIIQAEAAAAAAA==",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/Characters/Stealth/Stealth_PC.Stealth_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 32,
+    "data": "R0EhQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Rift/Rift_PC.Rift_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 32,
+    "data": "R0EhQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Wushu/Wushu_PC.Wushu_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 32,
+    "data": "R0EhQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Cable/Cable_PC.Cable_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 32,
+    "data": "R0EhQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Thorne/Thorne_PC.Thorne_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 32,
+    "data": "R0EhQQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 0,
+    "field": "SegmentLocation_5_FF06CDF14F98D9DF52A415ABFFED5C1B",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 192,
+    "data": "2FMAIAqrcUCEMwDgpYWxwID1B8CrmpJA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 1,
+    "field": "SegmentEndLocation_27_F527C723412B04D1B7B70DBCA8DB9274",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 192,
+    "data": "IjdOGavKfkCwV8xn5pW5wPi3SbrjnY5A",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 2,
+    "field": "SegmentForwardVector_6_90F49F23446D7962D7884A81F1216F08",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 192,
+    "data": "uQSraCDGuT/jpWvTJ6zvv7Y/ZI4g5Lm/",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 3,
+    "field": "SegmentStartDistance_9_ED00E24742CC7DB00C724D836EB42120",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 4,
+    "field": "SegmentEndDistance_11_E8335B424892D63D3C3299B9A66ACB8E",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 32,
+    "data": "kVkCRQ==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 5,
+    "field": "IsLastSegment_20_DBF0AF9947207F9934F53EAA579066BD",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 6,
+    "field": "IsBounce_22_32394D8F47B7EDF192B6C1B9F322900F",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_FishingHook_BouncingTrajectoryWarning.GameObject_FishingHook_BouncingTrajectoryWarning_C:Multicast Initialize Segment",
+    "handle": 7,
+    "field": "IsTeleport_24_0D166161461A4BCC77B91288D42169BB",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_Spline.GameObject_Spline_C:Multicast_InitializeSpline",
+    "handle": 0,
+    "field": "240",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 24,
+    "data": "WXsC",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/Characters/Cable/S0/Ability_X/GameObject_Spline.GameObject_Spline_C:Multicast_InitializeSpline",
+    "handle": 1,
+    "field": "PlayerTrajectoryPoints",
+    "replay": "90fdd66e-3d6d-49f8-9dac-ec05d7f18b5b",
+    "bits": 3264,
+    "data": "HAIGgQIAAABAoHiSwAAAAGD/obDAO/ngQ6HlfEAABAaBArhsaCdkwpLAcII21xWJsMCyWuFf4t98QAAGBoECW8rIHsiIlcBQGTM5VzKvwK2LAzyNqHxAAAgGgQIVZgcfPlmYwMwZ6Gu1S63Aeod1Rm9wfEAACgaBAnarQ1OPJ5vAwQVMTYZmq8DO8OMPfDh8QAAMBoECmHrfHehhnMBCCfJSM5KqwAAAAAAAIHxAAA4GgQKYet8d6GGcwEIJ8lIzkqrAAAAAAAAgfEAAEAaBAjv3Pe2J6J3AdY6BbT+Iq8DA2+GHic18QAASBoECjBDm2AtvoMC+PKhwaGWtwAAVFB0UHn5AABQGgQL2ZgQRpuShwEEru70MPK/AAMq9xgVqf0AAFgaBAveH7p+vW6PAUmFs4z+KsMAAltLknluAQAAYBoECgGQX11fTpMDSA+1W3XaxwACK8GGBAoFAABoGgQJAeU7KyUumwAcYddv5Y7LAAIPMfb2pgUAAHAaBAgAAAGDhtqfAAAAAQK1Is8AAAAAAC0uCQAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/BombPlayerState.BombPlayerState_C",
+    "handle": 20,
+    "field": "UniqueId",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 408,
+    "data": "+AUAAABSaW90ACUAAABlZjBhY2MyMS02YjJjLTUyNjQtYjAyYy01NmE4YWE0NDE3YmIA",
+    "release": "13.04"
+  },
+  {
+    "path": "/Game/Characters/Wushu/Wushu_PC.Wushu_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "nUMhQQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Game/Characters/Phoenix/Phoenix_PC.Phoenix_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "nUMhQQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Game/Characters/Vampire/Vampire_PC.Vampire_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "nUMhQQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Game/Characters/Smonk/Smonk_PC.Smonk_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "nUMhQQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Game/Characters/Deadeye/Deadeye_PC.Deadeye_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "nUMhQQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Game/Characters/Hunter/Hunter_PC.Hunter_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "nUMhQQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Game/Characters/Sarge/Sarge_PC.Sarge_PC_C",
+    "handle": 26,
+    "field": "ReplayLastTransformUpdateTimeStamp",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "nUMhQQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 2,
+    "field": "Rounds",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 897,
+    "data": "AgIIQAAAAAAKMwwCAgxAAAAAAA4gmyoQQAAAgL8SQAAAgL8UEP7GEADIICcmykAB8O9BzEAAAAAAzhAC0AKkAwUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoQTZVrIEAAAB/sYEAAAB/tSH8AQAAAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/BombGameState.BombGameState_C",
+    "handle": 120,
+    "field": "RoundParticipantsInfos",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 80,
+    "data": "AgL0QAAAAAAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 0,
+    "field": "EffectContainer",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "SzI=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 1,
+    "field": "WaitOnReplicationActor",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 10,
+    "field": "ObjectValues",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 96,
+    "data": "AgIYIJMGGiAVIgAA",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 22,
+    "field": "249",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 23,
+    "field": "Translation",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 24,
+    "field": "Scale3D",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 192,
+    "data": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 26,
+    "field": "EffectID",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 64,
+    "data": "FgAAAAAAAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 27,
+    "field": "SourceID",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 297,
+    "data": "OgAAAIjKyNLGwujKyKbK5OzK5K7e5NjIpt7q5MbKkogAAAAAAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 28,
+    "field": "bLocalEffect",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 29,
+    "field": "bTransient",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 30,
+    "field": "ClientControllerThatTriggered",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "CQI=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 31,
+    "field": "StartMovementTime",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AACcPw==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 32,
+    "field": "AllianceFilter",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 3,
+    "data": "Aw==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 0,
+    "field": "EffectID",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 64,
+    "data": "BQAAAAAAAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 1,
+    "field": "SourceID",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 297,
+    "data": "OgAAAIjKyNLGwujKyKbK5OzK5K7e5NjIpt7q5MbKkogAAAAAAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 2,
+    "field": "bLocalEffect",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 3,
+    "field": "bTransient",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 4,
+    "field": "WaitOnReplicationActor",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastUpdateContinuousEffect",
+    "handle": 5,
+    "field": "FloatValues",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 208,
+    "data": "BAIOIB8IEEAAAABAAAQOICMIEEAAAIA/AAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 2,
+    "field": "FloatValues",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 112,
+    "data": "AgIIIAsICkCamRk/AAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Game/GameModes/Common/BaseReplayPlayerState.BaseReplayPlayerState_C",
+    "handle": 29,
+    "field": "AllPlayersObfuscatedPlayerInformation",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 500,
+    "data": "AgI+MQb4BQAAAFJpb3QAJQAAADhiNDdmNzU0LTVmMDEtNThkMC05YTRhLWI0MjFiMWIwYzM2NgBAAoQMCAAA",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 0,
+    "field": "EffectContainer",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "YzQ=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 1,
+    "field": "WaitOnReplicationActor",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 10,
+    "field": "ObjectValues",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 96,
+    "data": "AgIYIJMGGiCpMAAA",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 22,
+    "field": "249",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 23,
+    "field": "Translation",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 24,
+    "field": "Scale3D",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 192,
+    "data": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 26,
+    "field": "ClientControllerThatTriggered",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "IQI=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 27,
+    "field": "StartMovementTime",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "ABCBQQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 28,
+    "field": "AllianceFilter",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 3,
+    "data": "Aw==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.TransformTransitionContext",
+    "handle": 1,
+    "field": "249",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAAOqzVnGz6O4/",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ActorListTransitionContext",
+    "handle": 1,
+    "field": "Actors",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 64,
+    "data": "AgIGILEwAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 0,
+    "field": "EffectContainer",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "zzQ=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 1,
+    "field": "EffectID",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 64,
+    "data": "RwAAAAAAAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 2,
+    "field": "SourceID",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 297,
+    "data": "OgAAAIjKyNLGwujKyKbK5OzK5K7e5NjIpt7q5MbKkogAAAAAAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 3,
+    "field": "bLocalEffect",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 4,
+    "field": "bTransient",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 5,
+    "field": "WaitOnReplicationActor",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 6,
+    "field": "FloatValues",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 400,
+    "data": "CAIQIGcGEkAAAIA/AAQQID0GEkAAAEBBAAYQIGsGEkAAAIA/AAgQIGkGEkBf0NlOAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 10,
+    "field": "VectorValues",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 280,
+    "data": "AgIYIEEGGoECqTDtIwx00z/vo9viV3vuv4pZky/hC5C/AAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 14,
+    "field": "ObjectValues",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 344,
+    "data": "CAIgIGUGIiBdMgAEICBjBiIgYQQABiAw//8GIiDXNAAIICCTBiIg7QgAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 26,
+    "field": "248",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 192,
+    "data": "AAAA4BrMkUAAAABAA4imwAAAAGDGxH1A",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 27,
+    "field": "249",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 35,
+    "data": "z/wjNQM=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 28,
+    "field": "AllianceFilter",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 3,
+    "data": "Aw==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ReplayEffectComponent:ReplayPlayContinuousEffectAtLocation",
+    "handle": 29,
+    "field": "StartMovementTime",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "BVWXQQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayOneShotEffect",
+    "handle": 2,
+    "field": "FloatValues",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 112,
+    "data": "AgIIIMMGCkBbEcE+AAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 6,
+    "field": "VectorValues",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 280,
+    "data": "AgIQILUGEoECmoFO49eppMDG/29IGCK9wBuLdw4rhG1AAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 0,
+    "field": "DamageTaken",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AACgQQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 1,
+    "field": "DamageDealt",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AADQQQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 2,
+    "field": "bDamageKilledTarget",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 3,
+    "field": "bAliveAfterDamage",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 4,
+    "field": "EventInstigator",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "qA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 5,
+    "field": "DamageCauser",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "QUA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 6,
+    "field": "DamageOrigin",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 70,
+    "data": "VVugvvkXIVAC",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 7,
+    "field": "EquippableUsed",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "aRo=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 8,
+    "field": "DamageType",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "tz4=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 9,
+    "field": "LifeChangeEvents",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 177,
+    "data": "AgIWIN0+GEAAAAAAGkAAAKDBHAIAAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 15,
+    "field": "EventInstigatorPawn",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "ERA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 16,
+    "field": "DamagerPlayerState",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "VQQ=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 17,
+    "field": "KillCreditPlayerState",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "VQQ=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 18,
+    "field": "RegionalDamage",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 19,
+    "field": "Character",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 20,
+    "field": "NetTimestamp",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "//9//w==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 21,
+    "field": "RespawnNumber",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "/////w==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 22,
+    "field": "LifeChangeEventIndex",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AQAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 23,
+    "field": "VictimRespawnNumber",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 24,
+    "field": "bEquippableUsedZoomed",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 25,
+    "field": "bEquippableUsedInFocusMode",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 26,
+    "field": "DamagedComponent",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "RUA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 27,
+    "field": "DamagedBone",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 9,
+    "data": "AQA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 28,
+    "field": "bIsWallPenetration",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 29,
+    "field": "FalloffMultiplier",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AACAPw==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 30,
+    "field": "DamageDirection",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 48,
+    "data": "jHj6A7+e",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 31,
+    "field": "DamageImpactLocation",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 52,
+    "data": "T2O86XV4AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 32,
+    "field": "DamageImpactNormal",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 48,
+    "data": "AID//wCA",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 33,
+    "field": "DamageImpactBoneRelativeLocation",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 25,
+    "data": "RopDAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 40,
+    "field": "KillsForKiller",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 41,
+    "field": "KillsForVictim",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 42,
+    "field": "DeathAnimMontage",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 43,
+    "field": "DeathMontageEffectOverride",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 44,
+    "field": "DeathMontageEffectOverrideContext",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 45,
+    "field": "DeathMontageEffectOverrideIsQueued",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.EffectManagerComponent:MulticastPlayContinuousEffect",
+    "handle": 25,
+    "field": "AttachSocket",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 105,
+    "data": "CgAAAKTe3ugAAAAAAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 0,
+    "field": "HandleNumber",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "GAAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 1,
+    "field": "ModuleType",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 3,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 3,
+    "field": "SourceLocation",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 192,
+    "data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 4,
+    "field": "Module",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "Z0A=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 6,
+    "field": "Character",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "YRQ=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 7,
+    "field": "NetTimestamp",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "APhSQg==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 8,
+    "field": "RespawnNumber",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Point",
+    "handle": 34,
+    "field": "AssistsList",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 149,
+    "data": "AgJICkoJpIiACeRAyAlkggAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 5,
+    "field": "Duration",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "q6qqPw==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 2,
+    "field": "Source",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "dUQ=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/BombGameState.BombGameState_C",
+    "handle": 81,
+    "field": "RoundResults",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 272,
+    "data": "AgKm0goAAACE2OrKAAAAAABQDaSKEKyAAgKuIHUEAAAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEndRound",
+    "handle": 0,
+    "field": "NewRoundNumber",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AQAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEnterPlayspace",
+    "handle": 0,
+    "field": "PlayspaceComponent",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "ZRI=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEnterPlayspace",
+    "handle": 1,
+    "field": "NewPlayspace",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "Gg==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEnterPlayspace",
+    "handle": 2,
+    "field": "bLeaveCurrentPlayspaces",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastEnterPlayspace",
+    "handle": 3,
+    "field": "bExecuteOnOwner",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.AresGameStateBase:MulticastResetForRespawn",
+    "handle": 0,
+    "field": "ShooterCharacter",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "2RA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.AresGameStateBase:MulticastResetForRespawn",
+    "handle": 1,
+    "field": "249",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 192,
+    "data": "AAAAAAAAAIAAAAAAAAAAAKJxn+GfoOa/",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.AresGameStateBase:MulticastResetForRespawn",
+    "handle": 2,
+    "field": "Translation",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 192,
+    "data": "AAAAQP2/kkAAAACA/q+dwAAAAAAAAHlA",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.AresGameStateBase:MulticastResetForRespawn",
+    "handle": 3,
+    "field": "Scale3D",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 192,
+    "data": "AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 0,
+    "field": "DamageTaken",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AACAPw==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 1,
+    "field": "DamageDealt",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AACAPw==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 2,
+    "field": "bDamageKilledTarget",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 3,
+    "field": "bAliveAfterDamage",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 4,
+    "field": "EventInstigator",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "eA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 5,
+    "field": "DamageCauser",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "FYQ=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 6,
+    "field": "DamageOrigin",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 70,
+    "data": "VTLC5PodQ+sA",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 7,
+    "field": "EquippableUsed",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "VRY=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 8,
+    "field": "DamageType",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "f1Y=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 9,
+    "field": "LifeChangeEvents",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 660,
+    "data": "CAIWIAkQGEAAAAAAGkAAAACAHAIBCCxAuh0wgAAAAAA0gAAAAAA5BAIYWIAkumEANVUVCWkAabOq/HIIBECwAMl2wADSqjoW0gBiMlX15RAIAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 15,
+    "field": "EventInstigatorPawn",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "LRY=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 16,
+    "field": "DamagerPlayerState",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "SQQ=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 17,
+    "field": "KillCreditPlayerState",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 18,
+    "field": "RegionalDamage",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "BQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 19,
+    "field": "Character",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "RQ4=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 20,
+    "field": "NetTimestamp",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AMBeQg==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 21,
+    "field": "RespawnNumber",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AgAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 22,
+    "field": "LifeChangeEventIndex",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "agAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 23,
+    "field": "VictimRespawnNumber",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AgAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 24,
+    "field": "bEquippableUsedZoomed",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 25,
+    "field": "bEquippableUsedInFocusMode",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 32,
+    "field": "KillsForKiller",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 33,
+    "field": "KillsForVictim",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 34,
+    "field": "DeathAnimMontage",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 35,
+    "field": "DeathMontageEffectOverride",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 36,
+    "field": "DeathMontageEffectOverrideContext",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 37,
+    "field": "DeathMontageEffectOverrideIsQueued",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ForceModuleManagerComponent:NetMulticastApplyForceModule",
+    "handle": 9,
+    "field": "ContextActor",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "RQ4=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 1,
+    "field": "DownedPlayer",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "UQQ=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 2,
+    "field": "DamageTaken",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 3,
+    "field": "DamageDealt",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 4,
+    "field": "bDamageKilledTarget",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 5,
+    "field": "bAliveAfterDamage",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 6,
+    "field": "EventInstigator",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 7,
+    "field": "DamageCauser",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 8,
+    "field": "DamageOrigin",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 10,
+    "data": "QQA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 9,
+    "field": "EquippableUsed",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 10,
+    "field": "DamageType",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 17,
+    "field": "EventInstigatorPawn",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 18,
+    "field": "DamagerPlayerState",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 19,
+    "field": "KillCreditPlayerState",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 20,
+    "field": "RegionalDamage",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "BQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 21,
+    "field": "Character",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 22,
+    "field": "NetTimestamp",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "//9//w==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 23,
+    "field": "RespawnNumber",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "/////w==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 24,
+    "field": "LifeChangeEventIndex",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 25,
+    "field": "VictimRespawnNumber",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AAAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 26,
+    "field": "bEquippableUsedZoomed",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 27,
+    "field": "bEquippableUsedInFocusMode",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Base",
+    "handle": 29,
+    "field": "bRecoversInstantly",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Game/GameModes/Components/Comp_BombEvents.Comp_BombEvents_C:BombExplodedRPC",
+    "handle": 0,
+    "field": "PlantSite",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 2,
+    "data": "Ag==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.DamageableComponent:MulticastNotifyDamage_Base",
+    "handle": 26,
+    "field": "AssistsList",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 149,
+    "data": "AgI4CkEHJImABwLAB+b/3wAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 0,
+    "field": "DamagerPlayer",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "SQQ=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 1,
+    "field": "DownedPlayer",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "UQQ=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 2,
+    "field": "DamageTaken",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "a27PQg==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 3,
+    "field": "DamageDealt",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AAAgQw==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 4,
+    "field": "bDamageKilledTarget",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 5,
+    "field": "bAliveAfterDamage",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 6,
+    "field": "EventInstigator",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "eA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 7,
+    "field": "DamageCauser",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 24,
+    "data": "AVsC",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 8,
+    "field": "DamageOrigin",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 73,
+    "data": "VleDY9nVfSwGAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 9,
+    "field": "EquippableUsed",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 24,
+    "data": "+UkC",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 10,
+    "field": "DamageType",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "Y1A=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 11,
+    "field": "LifeChangeEvents",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 507,
+    "data": "BgIaMEUzAhxAAAAAAB5A4aoQwSACAQg0QJIYOIAAAAAAPIAAAAAAQQQCGGiAFDFwAAEAIAt5AD1k9QqDCAQAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 17,
+    "field": "EventInstigatorPawn",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "LRY=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 18,
+    "field": "DamagerPlayerState",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "SQQ=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 19,
+    "field": "KillCreditPlayerState",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 20,
+    "field": "RegionalDamage",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 8,
+    "data": "AQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 21,
+    "field": "Character",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "tQo=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 22,
+    "field": "NetTimestamp",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "ACicQg==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 23,
+    "field": "RespawnNumber",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "CQAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 24,
+    "field": "LifeChangeEventIndex",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "hwEAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 25,
+    "field": "VictimRespawnNumber",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "CQAAAA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 26,
+    "field": "bEquippableUsedZoomed",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 27,
+    "field": "bEquippableUsedInFocusMode",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 28,
+    "field": "DamagedComponent",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 16,
+    "data": "TUI=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 29,
+    "field": "DamagedBone",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 105,
+    "data": "CgAAAJDKwsgAAAAAAAA=",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 30,
+    "field": "bIsWallPenetration",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 31,
+    "field": "FalloffMultiplier",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 32,
+    "data": "AACAQA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 32,
+    "field": "DamageDirection",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 48,
+    "data": "fXWH/wR9",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 33,
+    "field": "DamageImpactLocation",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 52,
+    "data": "T83IFdY7AA==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 34,
+    "field": "DamageImpactNormal",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 48,
+    "data": "6zRfHidd",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 35,
+    "field": "DamageImpactBoneRelativeLocation",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 22,
+    "data": "xToM",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 36,
+    "field": "EquippableUsed",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 24,
+    "data": "+UkC",
+    "release": "13.04"
+  },
+  {
+    "path": "/Script/ShooterGame.ShooterGameState:MulticastReceivePlayerTemporaryDeathEvent_Point",
+    "handle": 37,
+    "field": "bRecoversInstantly",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 1,
+    "data": "AQ==",
+    "release": "13.04"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 4,
+    "field": "Reports",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 793,
+    "data": "AgIMQAAAAAAOIOMuEEAAAIC/EkAAAIC/FBD+xhAAyCD/KMpAAvDvQcxAAAAAAM4QAtACpAMFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqEHGXayBAAAAf7GBAAAAf7Uh/AEAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 10,
+    "field": "Interactions",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 1626,
+    "data": "AgIYkQQlAAAAZjRjNGI1ODEtYjA3Yi01NjExLTg0MmMtNGRlNmE4ZjVhNjhlABrCCAAAAKTKyAAAAAAAOEDeiTxAFoBAgGhJfIVEgAAAiIRIIAhMgAAAuIRQgAIAAABUgAAAAABYgAAAAABcBMAoABkIABoBNrUIAgI4IAtAOkC0JL5CPEAAAERCPhAEQCALQEJAtCS+QkRAAABEQkYQBEgg10RapQICAlwQAF5AAQAAAGBAAABcQmICyASYQQAAAAAACAMFAAAAAAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 26,
+    "field": "DealtIteractions",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 602,
+    "data": "AgI4IAtAOkC0JL5CPEAAAERCPhAEQCALQEJAtCS+QkRAAABEQkYQBEgg10RapQICAlwQAF5AAQAAAGBAAABcQmICyASYQQAAAAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 44,
+    "field": "RegionalDamageInteractions",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 210,
+    "data": "AgJcEABeQAEAAABgQAAAXEJiAsgEmEEAAAAA",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 61,
+    "field": "ReceivedInteractions",
+    "replay": "09ba929f-0fd6-4960-962e-83f085ba5095",
+    "bits": 602,
+    "data": "AgJ+IAtAgEC0JL5CgkAAAERChBAEhiALQIhAtCS+QopAAABEQowQBI4g10SgpQICAqIQAKRAAQAAAKZAAABcQqgCVAWwQgAAAAAAAA==",
+    "release": "13.06"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 4,
+    "field": "Reports",
+    "replay": "b01cdf7e-7a25-4dc9-a8a8-37a44cf01d8e",
+    "bits": 785,
+    "data": "AgIMQAAAAAAOIFMqEEAAAIC/EkAAAIC/FBD+xhAAyBBCykD97+9BzEAAAAAAzhAC0AKkAwUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoQaZUrIEAAAB/sYEAAAB/tSH8AQAA",
+    "release": "13.05"
+  },
+  {
+    "path": "/Game/GameModes/Bomb/Bomb_CombatReportComponent.Bomb_CombatReportComponent_C",
+    "handle": 4,
+    "field": "Reports",
+    "replay": "029617e3-a886-419e-aed0-1bccdd7ef53d",
+    "bits": 793,
+    "data": "AgIMQAAAAAAOIJsqEEAAAIC/EkAAAIC/FBD+xhAAyCAnJspAAfDvQcxAAAAAAM4QAtACpAMFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqEE2VayBAAAAf7GBAAAAf7Uh/AEAAA==",
+    "release": "13.04"
+  }
+]

@@ -1,0 +1,20 @@
+/* Lane A: identity only; the shell continues to own chrome layout. */
+.titlebar__mark,
+.about__mark {
+  display: inline-block;
+  flex: none;
+  -webkit-mask: url("../brand/mark.svg") center/contain no-repeat;
+  mask: url("../brand/mark.svg") center/contain no-repeat;
+  background: currentColor;
+}
+.titlebar__mark {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border: 0;
+  border-radius: 0;
+}
+.titlebar__brand { font-weight: 600; letter-spacing: -0.02em; }
+.about__identity { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; }
+.about__mark { width: 40px; height: 40px; }
+.about__name { font-size: 20px; line-height: 28px; font-weight: 600; letter-spacing: -0.02em; }
